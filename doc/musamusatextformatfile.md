@@ -1,14 +1,20 @@
-=============================
-= Musamusa text format file =
-=============================
+Musamusa text format file
+=========================
 
--------------------------------
-- (default format, version 1) -
--------------------------------
-The first real line (nonwithstanding comments or white lines) must be a
-"format_name_and_version" line, see above.
+summary
+-------
 
-Some symbols have a special meaning at the very beginning of a line:
+* [A] default format, version 1
+
+
+[A] default format, version 1
+-----------------------------
+
+The first real line (nonwithstanding comments or white lines) must be a `format_name_and_version` line, see above.
+
+**Some symbols have a special meaning at the very beginning of a line:**
+
+```
 #              | comment
 +++            | nested file
 :abbreviation: | abbreviation definition    
@@ -20,7 +26,11 @@ Some symbols have a special meaning at the very beginning of a line:
 ==             | text segment : translation
 ~~             | text segment : transcription
 -              | text segment : glossary line
+```
+
+**Format details:**
     
+```
 ###  -  utf8 encoded
 ###
 ###  -  empty lines        : lines made of spaces are discarded
@@ -103,3 +113,4 @@ Some symbols have a special meaning at the very beginning of a line:
 -ᴷ⁴'ᵃ                   úmbrwésènde   : <umbor-wesende▨étant un enfant> ◖strong.A.sg.masculin◗ ⬂
                                         On attendait plutôt la forme úmbọrwésèndne,⬂
                                         cf <non accord entre un adjectif et le mot qu'il qualifie>
+```
