@@ -1,0 +1,47 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+################################################################################
+#    musamusa Copyright (C) 2020 Suizokukan
+#    Contact: suizokukan _A.T._ orange dot fr
+#
+#    This file is part of musamusa.
+#    musamusa is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    musamusa is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with musamusa.  If not, see <http://www.gnu.org/licenses/>.
+################################################################################
+"""
+        musamusa project : bin/musamusa
+"""
+import os
+import sys
+import subprocess
+
+with open(os.devnull, 'wb') as devnull:
+    try:
+        res = subprocess.check_call(['musamusa', '--version'],
+                                    stdout=devnull,
+                                    stderr=subprocess.STDOUT)
+    except FileNotFoundError:
+        res = -1
+
+    if res == 0:
+        print("\nError !\n"
+              "musamusa being already installed on this system, you CAN'T call bin/musamusa_bin; "
+              "please uninstall musamusa before launching such a script; "
+              "\ntry :"
+              "\n  $sudo pip uninstall musamusa")
+        sys.exit(-999)
+
+sys.path.append(os.path.join("..", "musamusa"))
+
+from musamusa.main import entrypoint
+entrypoint()
