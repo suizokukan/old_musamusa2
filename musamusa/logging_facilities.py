@@ -30,7 +30,8 @@
 import datetime
 import time
 
-import musamusa.global_logger
+from .global_logger import LOGGER
+import musamusa.global_maincfgini
 
 
 def first_log():
@@ -39,8 +40,10 @@ def first_log():
 
         Log the first log message.
     """
-    musamusa.global_logger.LOGGER.info("{name} v. {version}".format(
+    LOGGER.info("{name} v. {version}".format(
         name=musamusa.aboutproject.__projectname__,
         version=musamusa.aboutproject.__version__))
-    musamusa.global_logger.LOGGER.info("=== new start === at {timestamp}".format(
+    LOGGER.info("=== new start === at {timestamp}".format(
         timestamp=datetime.datetime.fromtimestamp(time.time())))
+
+    LOGGER.debug("Read orders in main config file : "+str(musamusa.global_maincfgini.ORDERS))

@@ -21,10 +21,22 @@
 """
    MusaMusa project : musamusa/global_maincfgini.py
 
-   This file only contains the MAINCFGINI variable.
+   This file only contains the MAINCFGINI and the ORDERS variables.
 
    ____________________________________________________________________________
 
-   * MAINCFGINI constant
+   * MAINCFGINI variable
+   * ORDERS variable
 """
+# MAINCFGINI is a configparser.ConfigParser object.
+# to be set by maincfgfile.py:read()
 MAINCFGINI = None
+
+# ORDERS is CommandLineOrders object
+# a subset of MAINCFGINI
+#    (str)               cfgini[orders_category]["orders"]
+#    becomes
+#    (CommandLineOrders) ORDERS[orders_category]
+#
+# ORDERS is filled by read_main_cfg_file()
+ORDERS = {}

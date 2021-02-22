@@ -39,11 +39,22 @@ def read_command_line_arguments():
         Read the command line arguments.
 
         (pimydoc)command line options
-        ⋅ -h, --help  show this help message and exit
-        ⋅ --version   show version number and exit (default: False)
-        ⋅ --about     show informations about the version, license, author and exit
-        ⋅             (default: False)
-        ⋅ --interface Interface to be used
+        ⋅   -h, --help            show this help message and exit
+        ⋅   --interface {Linux/CLI}
+        ⋅                         choose interface
+        ⋅                         (default: linux/cli)
+        ⋅   --version             show version number and exit
+        ⋅                         (default: False)
+        ⋅   --about               show informations about the version, license, author and exit
+        ⋅                         (default: False)
+        ⋅   --maincfgfile MAINCFGFILE
+        ⋅                         name of the main configuration file to be read
+        ⋅                         (default: mainconfig.ini)
+        ⋅   --logcfgfile LOGCFGFILE
+        ⋅                         name of the logging configuration file to be read
+        ⋅                         (default: logging.ini)
+        ⋅   --checkenv            check Python version and third party packages
+        ⋅                         (default: False)
         ⋅
 
         RETURNED VALUE
@@ -65,36 +76,40 @@ def read_command_line_arguments():
         formatter_class=argparse.ArgumentDefaultsHelpFormatter,
     )
 
-    parser.add_argument(
-        "--interface",
-        action="store",
-        default="linux/cli",
-        choices=('Linux/CLI',),
-        help="Choose interface",
-    )
-
-    parser.add_argument(
-        "--version", action="store_true", help="show version number and exit"
-    )
-
+    # -------------------------------------------------------------------------
+    # ---- please notice that the arguments are sorted alphabetically ---------
+    # -------------------------------------------------------------------------    
     parser.add_argument(
         "--about",
         action="store_true",
         help="show informations about the version, license, author and exit",
     )
 
-    parser.add_argument("--maincfgfile",
-                        type=str,
-                        default="mainconfig.ini",
-                        help="name of the main configuration file to be read")
-    
+    parser.add_argument("--checkenv",
+                        action="store_true",
+                        help="check Python version and third party packages")
+        
+    parser.add_argument(
+        "--interface",
+        action="store",
+        default="linux/cli",
+        choices=('Linux/CLI',),
+        help="choose interface",
+    )
+
     parser.add_argument("--logcfgfile",
                         type=str,
                         default="logging.ini",
                         help="name of the logging configuration file to be read")
-    
-    parser.add_argument("--checkenv",
-                        action="store_true",
-                        help="check Python version and third party packages")
 
+    
+    parser.add_argument("--maincfgfile",
+                        type=str,
+                        default="mainconfig.ini",
+                        help="name of the main configuration file to be read")
+        
+    parser.add_argument(
+        "--version", action="store_true", help="show version number and exit"
+    )
+    
     return parser.parse_args()

@@ -20,7 +20,13 @@ PROJECT' VERSIONS
     Documentation about the future versions
 [DONE] task-11
     Documentation about the future versions
-    
+[TODO] task-12
+    * new entry in `mainconfig.ini` : [orders:cli]orders    
+    * improved doc: pimydoc:command line options
+    * improved lisibility of the code in
+      `cmdlineargs.py::read_command_line_arguments()`
+    * read_main_cfg_file() now belongs to maincfgfile.py
+    * new file: musamusa/cmdlineorders.py
 ```    
     
 [DONE] v. 0.0.1

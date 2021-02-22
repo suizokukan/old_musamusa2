@@ -25,10 +25,18 @@
 
     ___________________________________________________________________________
 
-    * read() : read the main configuration file.
+    * read()               : wrapper around read_main_cfg_file(),
+                             initializing global_maincfgini:MAINCFGINI
+    * read_main_cfg_file() : read the main configuration file.
 """
+import sys
+
+from musamusa.global_logger import LOGGER
 import musamusa.global_maincfgini
 import musamusa.cfgini
+
+from musamusa.cfgini import read_cfg_file
+from musamusa.cmdlineorders import CommandLineOrders
 
 
 def read(maincfgfile):
@@ -50,14 +58,67 @@ def read(maincfgfile):
     """
     (maincfgini_success,
      maincfgerrors,
-     musamusa.global_maincfgini.MAINCFGINI) = musamusa.cfgini.read_main_cfg_file(maincfgfile)
+     musamusa.global_maincfgini.MAINCFGINI,
+     musamusa.global_maincfgini.ORDERS) = read_main_cfg_file(maincfgfile)
 
     if not maincfgini_success:
-        print("[ERRID004] problem with the main config file '{maincfgfile}'; "
-              "errors={maincfgerrors}".format(
-                  maincfgfile=maincfgfile,
-                  maincfgerrors=maincfgerrors))
+        sys.stdout.write("[ERRID004] problem with the main config file '{maincfgfile}'; "
+                         "errors={maincfgerrors}\n".format(
+                             maincfgfile=maincfgfile,
+                             maincfgerrors=maincfgerrors))
         return False
 
     return True
 
+
+def read_main_cfg_file(filename):
+    """
+        read_main_cfg_file()
+
+        Read the config file <filename>.
+
+        pimydoc:main config file format
+        _______________________________________________________________________
+
+        PARAMETER : (str)filename
+
+        RETURNED VALUE : (bool_success, 
+                          (list of str)errors, 
+                          configparser.ConfigParser object,
+                          CommandLineOrders)
+    """
+    success, errors, cfgini = read_cfg_file(filename)
+
+    if success:
+        # let's check the presence of some values :
+        try:
+            if cfgini["logging"].getboolean("authorize logging") is None:
+                raise KeyError("[logging][authorize logging]")  # missing key.
+
+            orders = cfgini["orders:cli"]["orders"]
+            orders = CommandLineOrders(orders_category="orders:cli",
+                                       source_string=orders)
+
+            if orders.errors:
+                success = False
+                errors.append("[ERRID005] Problem with command line orders "
+                              "read in '{string}' : "
+                              "{errors}.".format(
+                                  string=cfgini["orders:cli"]["orders"],
+                                  errors=orders.errors))
+
+        except KeyError as err:
+            success = False
+            errors.append("[ERRID001] Ill-formed config file '{filename}' : "
+                          "missing key '{err}'.".format(
+                              filename=filename,
+                              err=err))
+
+        except ValueError as err:
+            success = False
+            errors.append("[ERRID003] Ill-formed config file '{filename}' : "
+                          "{err}".format(
+                              filename=filename,
+                              err=err))
+
+    return success, errors, cfgini, orders

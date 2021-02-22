@@ -26,7 +26,6 @@
    ____________________________________________________________________________
 
    * read_cfg_file()      : read a .ini file
-   * read_main_cfg_file() : read the main configuration file
 """
 
 import os.path
@@ -69,41 +68,4 @@ def read_cfg_file(filename):
 
     return success, errors, cfgini
 
-
-def read_main_cfg_file(filename):
-    """
-        read_main_cfg_file()
-
-        Read the config file <filename>.
-
-        pimydoc:main config file format
-        _______________________________________________________________________
-
-        PARAMETER : (str)filename
-
-        RETURNED VALUE : (bool_success, (list of str)errors, configparser.ConfigParser object)
-    """
-    success, errors, cfgini = read_cfg_file(filename)
-
-    if success:
-        # let's check the presence of some values :
-        try:
-            if cfgini["logging"].getboolean("authorize logging") is None:
-                raise KeyError("[logging][authorize logging]")  # missing key.
-
-        except KeyError as err:
-            success = False
-            errors.append("[ERRID001] Ill-formed config file '{filename}' : "
-                          "missing key '{err}'.".format(
-                              filename=filename,
-                              err=err))
-
-        except ValueError as err:
-            success = False
-            errors.append("[ERRID003] Ill-formed config file '{filename}' : "
-                          "{err}".format(
-                              filename=filename,
-                              err=err))
-
-    return success, errors, cfgini
 

@@ -51,7 +51,7 @@ def cmdline_checkenv():
         RETURNED VALUE :
             (bool) success
     """
-    print("* Python version is {major}.{minor}.{release}".format(
+    sys.stdout.write("* Python version is {major}.{minor}.{release}\n".format(
         major=sys.version_info[0],
         minor=sys.version_info[1],
         release=sys.version_info[2]))
@@ -62,7 +62,7 @@ def cmdline_checkenv():
             importlib.import_module(module)
         except ModuleNotFoundError:
             res = "[NOT OK]"
-        print("* {res} third party module '{module}'".format(
+        sys.stdout.write("* {res} third party module '{module}'\n".format(
             res=res,
             module=module))
 

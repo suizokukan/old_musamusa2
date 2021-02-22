@@ -35,10 +35,10 @@ import sys
 
 from musamusa.cmdlineargs import read_command_line_arguments
 from musamusa.cmdline_checkenv import cmdline_checkenv
-import musamusa.global_logger
-import musamusa.aboutproject
-import musamusa.maincfgfile
-import musamusa.logging_facilities
+import musamusa.global_logger as global_logger
+import musamusa.global_maincfgini as global_maincfgini
+import musamusa.aboutproject as aboutproject
+import musamusa.maincfgfile as maincfgfile
 
 
 def entrypoint():
@@ -60,7 +60,7 @@ def entrypoint():
     # ---- (2/4) --version, --about, checkenv ----
     # --------------------------------------------  
     if args.version:
-        sys.stdout.write(musamusa.aboutproject.__version__ + "\n")
+        sys.stdout.write(aboutproject.__version__ + "\n")
         # (pimydoc)exit codes
         # ⋅ -1  : (error) missing main configuration file
         # ⋅ -2  : (error) missing logging configuration file
@@ -74,11 +74,11 @@ def entrypoint():
     if args.about:
         sys.stdout.write(
             "{0} v. {1} by {2} : see {3}; a {4} project".format(
-                musamusa.aboutproject.__projectname__,
-                musamusa.aboutproject.__version__,
-                musamusa.aboutproject.__author__,
-                musamusa.aboutproject.__location__,
-                musamusa.aboutproject.__license__,
+                aboutproject.__projectname__,
+                aboutproject.__version__,
+                aboutproject.__author__,
+                aboutproject.__location__,
+                aboutproject.__license__,
             )
         )
         # (pimydoc)exit codes
@@ -106,7 +106,7 @@ def entrypoint():
     # ----------------------------------
     # ---- (3/4) configuration file ----
     # ----------------------------------
-    if not musamusa.maincfgfile.read(args.maincfgfile):
+    if not maincfgfile.read(args.maincfgfile):
         # (pimydoc)exit codes
         # ⋅ -1  : (error) missing main configuration file
         # ⋅ -2  : (error) missing logging configuration file
@@ -131,17 +131,18 @@ def entrypoint():
         # ⋅  2  : (success) print about informations and exit
         # ⋅  3  : (success) print checkenv informations and exit
         # ⋅
-        print("Error, can't read logging config file : "
-              "where is '{logcfgfile}', namely {fullname} ?".format(
-                  logcfgfile=logcfgfile,
-                  fullname=normpath(logcfgfile)))
+        sys.stdout.write("Error, can't read logging config file : "
+                         "where is '{logcfgfile}', namely {fullname} ?\n".format(
+                             logcfgfile=logcfgfile,
+                             fullname=normpath(logcfgfile)))
         return -2
 
     logging.config.fileConfig(logcfgfile)
-    musamusa.global_logger.LOGGER = logging.getLogger("activity")
+    global_logger.LOGGER = logging.getLogger("activity")
 
-    if not musamusa.global_maincfgini.MAINCFGINI["logging"].getboolean("authorize logging"):
+    if not global_maincfgini.MAINCFGINI["logging"].getboolean("authorize logging"):
         logging.disable(sys.maxsize)
-
+        
+    import musamusa.logging_facilities
     musamusa.logging_facilities.first_log()
     
