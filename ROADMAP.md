@@ -35,7 +35,7 @@
     - improved doc
     - code has been pylinted
 
-[TODO] task-7
+[DONE] task-7
     - --logcfgfile argument
     - pimydoc:exit codes are now:
          1 : (success) print version and exit
@@ -54,11 +54,18 @@
       musamusa/global_maincfgini.py
       musamusa/maincfgfile.py
       musamusa/logging_facilities.py
-   
+
+[TODO] task-8
+    - fix the headers of all .py files (i.e. licence and shebang)
+    - each error has its number (ERRIDXXX)
+    - new files:
+      err_codes.sh
+      codesearch_in_codedirectory.sh
+    - the doc has been improved
+       
 
 TODO:
     * fixer les headers (0.0.1)
-    * numéroter les erreurs (pour 0.0.1) :ERRID & Co
     * nettoyer TODO (0.0.1)
     * (0.0.1) mainconfig.ini : dans le header il manque le pimydoc
     * essayer l'installation via pip
