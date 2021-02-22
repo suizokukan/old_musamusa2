@@ -14,3 +14,12 @@
     - musamusa/aboutproject.py::__version__
     - automatically update pyproject.toml via propagate_versionnumber.py
 
+[DONE] task-4
+    - header for .py files
+    - improved documentation (README.md, in various .py files)
+    - code pylinted
+
+
+
+TODO:
+    * essayer l'installation via pip
