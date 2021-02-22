@@ -6,7 +6,11 @@
 [DONE] task-1
   - doc/musamusatextformatfile.md must be an easy to read .md file.
 
-[TODO] task-2
+[DONE] task-2
   - poetry stuff
   - project version: 0.0.1
-    
+
+[DONE] task-3
+    - musamusa/aboutproject.py::__version__
+    - automatically update pyproject.toml via propagate_versionnumber.py
+
