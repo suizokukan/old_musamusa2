@@ -1,4 +1,26 @@
-v. 0.0.1
+ROADMAP
+=======
+
+[DONE] v. 0.0.1 : Basic structure: poetry/logging/config file/command line args
+[TODO] v. 0.0.2 : level0 (=most basic features of the musamusa text format)
+[TODO] v. ?.?.?
+  * level1 (=glossary lines)
+  * essayer l'installation via pip
+
+PROJECT' VERSIONS
+=================
+
+[STILL IN DEVELOPMENT] v. 0.0.2
+-------------------------------
+
+[TODO] task-10
+    Documentation about the future versions
+    
+[DONE] v. 0.0.1
+---------------
+
+```
+[DONE] v. 0.0.1
     Basic structure: poetry/logging/config file/command line args
 
     task-0, task-1, task-2, task-3, task-4, task-5, task-6, task-7,
@@ -72,10 +94,5 @@ v. 0.0.1
 [DONE] task-9
     - improved doc in mainconfig.ini
     - no more TODOs
-
-
-
-
     
-TODO:
-    * essayer l'installation via pip
+```
