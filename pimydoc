@@ -36,5 +36,10 @@ REMOVE_FINAL_SPACES_IN_NEW_DOCLINES : True
 
 ###############################################################################
 [(pimydoc)exit codes]
-1 : (success) print version and exit
-2 : (success) print about informations and exit
+-1  : (error) missing main configuration file
+-2  : (error) missing logging configuration file
+
+ 1  : (success) print version and exit
+ 2  : (success) print about informations and exit
+ 3  : (success) print checkenv informations and exit
+

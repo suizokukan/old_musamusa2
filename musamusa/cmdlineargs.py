@@ -83,4 +83,18 @@ def read_command_line_arguments():
         help="show informations about the version, license, author and exit",
     )
 
+    parser.add_argument("--maincfgfile",
+                        type=str,
+                        default="mainconfig.ini",
+                        help="name of the main configuration file to be read")
+    
+    parser.add_argument("--logcfgfile",
+                        type=str,
+                        default="logging.ini",
+                        help="name of the logging configuration file to be read")
+    
+    parser.add_argument("--checkenv",
+                        action="store_true",
+                        help="check Python version and third party packages")
+
     return parser.parse_args()

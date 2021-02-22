@@ -27,10 +27,18 @@
 
    * entrypoint() : main entrypoint into the project
 """
+import datetime
+import logging
+import logging.config
+import os.path
 import sys
 
 from musamusa.cmdlineargs import read_command_line_arguments
+from musamusa.cmdline_checkenv import cmdline_checkenv
+import musamusa.global_logger
 import musamusa.aboutproject
+import musamusa.maincfgfile
+import musamusa.logging_facilities
 
 
 def entrypoint():
@@ -43,13 +51,24 @@ def entrypoint():
 
         no ARGS, no RETURNED VALUE
     """
+    # --------------------------------------
+    # ---- (1/4) command line arguments ----
+    # --------------------------------------    
     args = read_command_line_arguments()
 
+    # --------------------------------------------
+    # ---- (2/4) --version, --about, checkenv ----
+    # --------------------------------------------  
     if args.version:
         sys.stdout.write(musamusa.aboutproject.__version__ + "\n")
         # (pimydoc)exit codes
-        # ⋅ 1 : (success) print version and exit
-        # ⋅ 2 : (success) print about informations and exit
+        # ⋅ -1  : (error) missing main configuration file
+        # ⋅ -2  : (error) missing logging configuration file
+        # ⋅
+        # ⋅  1  : (success) print version and exit
+        # ⋅  2  : (success) print about informations and exit
+        # ⋅  3  : (success) print checkenv informations and exit
+        # ⋅
         return 1
 
     if args.about:
@@ -63,6 +82,66 @@ def entrypoint():
             )
         )
         # (pimydoc)exit codes
-        # ⋅ 1 : (success) print version and exit
-        # ⋅ 2 : (success) print about informations and exit
+        # ⋅ -1  : (error) missing main configuration file
+        # ⋅ -2  : (error) missing logging configuration file
+        # ⋅
+        # ⋅  1  : (success) print version and exit
+        # ⋅  2  : (success) print about informations and exit
+        # ⋅  3  : (success) print checkenv informations and exit
+        # ⋅
         return 2
+
+    if args.checkenv:
+        cmdline_checkenv()
+        # (pimydoc)exit codes        
+        # ⋅ -1  : (error) missing main configuration file
+        # ⋅ -2  : (error) missing logging configuration file
+        # ⋅
+        # ⋅  1  : (success) print version and exit
+        # ⋅  2  : (success) print about informations and exit
+        # ⋅  3  : (success) print checkenv informations and exit
+        # ⋅
+        return 3
+
+    # ----------------------------------
+    # ---- (3/4) configuration file ----
+    # ----------------------------------
+    if not musamusa.maincfgfile.read(args.maincfgfile):
+        # (pimydoc)exit codes
+        # ⋅ -1  : (error) missing main configuration file
+        # ⋅ -2  : (error) missing logging configuration file
+        # ⋅
+        # ⋅  1  : (success) print version and exit
+        # ⋅  2  : (success) print about informations and exit
+        # ⋅  3  : (success) print checkenv informations and exit
+        # ⋅
+        return -1
+    
+    # -----------------------
+    # ---- (4/4) logging ----
+    # -----------------------
+    logcfgfile = args.logcfgfile
+
+    if not os.path.exists(logcfgfile):
+        # (pimydoc)exit codes        
+        # ⋅ -1  : (error) missing main configuration file
+        # ⋅ -2  : (error) missing logging configuration file
+        # ⋅
+        # ⋅  1  : (success) print version and exit
+        # ⋅  2  : (success) print about informations and exit
+        # ⋅  3  : (success) print checkenv informations and exit
+        # ⋅
+        print("Error, can't read logging config file : "
+              "where is '{logcfgfile}', namely {fullname} ?".format(
+                  logcfgfile=logcfgfile,
+                  fullname=normpath(logcfgfile)))
+        return -2
+
+    logging.config.fileConfig(logcfgfile)
+    musamusa.global_logger.LOGGER = logging.getLogger("activity")
+
+    if not musamusa.global_maincfgini.MAINCFGINI["logging"].getboolean("authorize logging"):
+        logging.disable(sys.maxsize)
+
+    musamusa.logging_facilities.first_log()
+    

@@ -28,7 +28,37 @@
       command line arguments : --help / -h / --about / --version
     - pimydoc file
 
+[DONE] task-6
+    - --checkenv command line option
+      musamusa/cmdline_checkenv.py
+      musamusa.aboutproject::THIRDPARTIES_DEPENDENCIES
+    - improved doc
+    - code has been pylinted
+
+[TODO] task-7
+    - --logcfgfile argument
+    - pimydoc:exit codes are now:
+         1 : (success) print version and exit
+         2 : (success) print about informations and exit
+         3 : (success) print checkenv informations and exit
+        -1 : (error) missing main configuration file    
+        -2 : (error) missing logging configuration file
+    - logging facilities
+      logging.ini
+      musamusa/global_logger.py
+    - --maincfgfile option
+    - new files:
+      logging.ini
+      mainconfig.ini    
+      musamusa/global_logger.py
+      musamusa/global_maincfgini.py
+      musamusa/maincfgfile.py
+      musamusa/logging_facilities.py
+   
 
 TODO:
-    * logging : 0.0.1
+    * fixer les headers (0.0.1)
+    * numéroter les erreurs (pour 0.0.1) :ERRID & Co
+    * nettoyer TODO (0.0.1)
+    * (0.0.1) mainconfig.ini : dans le header il manque le pimydoc
     * essayer l'installation via pip
