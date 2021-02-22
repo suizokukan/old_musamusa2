@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "musamusa"
-version = "0.0.1-dev5"
+version = "0.0.1"
 description = "Tool to display annotated texts."
 authors = ["suizokukan <suizokukan@orange.fr>"]
 license = "GPLv3"

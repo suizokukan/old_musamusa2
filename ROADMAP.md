@@ -1,4 +1,10 @@
+v. 0.0.1
+    Basic structure: poetry/logging/config file/command line args
 
+    task-0, task-1, task-2, task-3, task-4, task-5, task-6, task-7,
+    task-8, task-9
+
+    
 [DONE] task-0
   - basic file hierarchy
   - documentation
@@ -63,7 +69,7 @@
       codesearch_in_codedirectory.sh
     - the doc has been improved
 
-[TODO] task-9
+[DONE] task-9
     - improved doc in mainconfig.ini
     - no more TODOs
 

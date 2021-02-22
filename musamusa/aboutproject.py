@@ -43,6 +43,6 @@ __email__ = "suizokukan@orange.fr"
 __license__ = "GPL-3.0"
 __location__ = "github.com/suizokukan/musamusa"
 __projectname__ = "MusaMusa"
-__version__ = "0.0.1-dev5"
+__version__ = "0.0.1"
 
 THIRDPARTIES_DEPENDENCIES = ("rich",)
