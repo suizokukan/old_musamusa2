@@ -19,10 +19,9 @@
 #    along with MusaMusa.  If not, see <http://www.gnu.org/licenses/>.
 ################################################################################
 """
-   TODO : pas de main.py !!!
-   MusaMusa project : musamusa/main.py
-   TODO constant > variable
-   This file only contains the LOGGER constant.
+   MusaMusa project : musamusa/global_logger.py
+
+   This file only contains the LOGGER variable.
 
    ____________________________________________________________________________
 

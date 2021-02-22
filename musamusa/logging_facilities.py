@@ -18,16 +18,26 @@
 #    You should have received a copy of the GNU General Public License
 #    along with MusaMusa.  If not, see <http://www.gnu.org/licenses/>.
 ################################################################################
+"""
+    MusaMusa project : musamusa/logging_facilities.py
 
-# TODO
+    Some functions related to logging.
+
+    ___________________________________________________________________________
+
+    * first_log() : first log message
+"""
 import datetime
 import time
 
 import musamusa.global_logger
 
+
 def first_log():
     """
-    TODO
+        first_log()
+
+        Log the first log message.
     """
     musamusa.global_logger.LOGGER.info("{name} v. {version}".format(
         name=musamusa.aboutproject.__projectname__,

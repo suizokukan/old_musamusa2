@@ -18,16 +18,25 @@
 #    You should have received a copy of the GNU General Public License
 #    along with MusaMusa.  If not, see <http://www.gnu.org/licenses/>.
 ################################################################################
+"""
+    MusaMusa project : musamusa/maincfgfile.py
 
-# TODO
+    Read the main configuration file.
+
+    ___________________________________________________________________________
+
+    * read() : read the main configuration file.
+"""
 import musamusa.global_maincfgini
 import musamusa.cfgini
+
 
 def read(maincfgfile):
     """
         read()
 
-        Read the configuration file and initialize nikw.cfgini.MAINCFGINI
+        Read the main configuration file and initialize 
+        musamusa.global_maincfgini.MAINCFGINI
 
         This function is what executes the --maincfgfile command line option.
 

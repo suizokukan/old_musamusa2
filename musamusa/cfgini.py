@@ -18,7 +18,17 @@
 #    You should have received a copy of the GNU General Public License
 #    along with MusaMusa.  If not, see <http://www.gnu.org/licenses/>.
 ################################################################################
-# TODO
+"""
+   MusaMusa project : musamusa/cfgini.py
+
+   Some utilities to read .ini files.
+
+   ____________________________________________________________________________
+
+   * read_cfg_file()      : read a .ini file
+   * read_main_cfg_file() : read the main configuration file
+"""
+
 import os.path
 import configparser
 

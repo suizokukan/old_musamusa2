@@ -55,17 +55,21 @@
       musamusa/maincfgfile.py
       musamusa/logging_facilities.py
 
-[TODO] task-8
+[DONE] task-8
     - fix the headers of all .py files (i.e. licence and shebang)
     - each error has its number (ERRIDXXX)
     - new files:
       err_codes.sh
       codesearch_in_codedirectory.sh
     - the doc has been improved
-       
 
+[TODO] task-9
+    - improved doc in mainconfig.ini
+    - no more TODOs
+
+
+
+
+    
 TODO:
-    * fixer les headers (0.0.1)
-    * nettoyer TODO (0.0.1)
-    * (0.0.1) mainconfig.ini : dans le header il manque le pimydoc
     * essayer l'installation via pip

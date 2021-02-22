@@ -18,52 +18,17 @@
 #    You should have received a copy of the GNU General Public License
 #    along with MusaMusa.  If not, see <http://www.gnu.org/licenses/>.
 ################################################################################
-
-# TODO
 """
-        nikw project
+    MusaMusa project : musamusa/utils.py
 
-        utils.py : various functions
-        _______________________________________________________________________
+    Various functions.
 
-        * add_prefix_to_strlines()
-        * invertdict()
-        * normpath()
+    ___________________________________________________________________________
+
+    * normpath() : return an extended, human readable version of a path.
 """
 import os
 import os.path
-
-
-def add_prefix_to_strlines(_lines, _prefix):
-    """
-        add_prefix_to_strlines()
-
-        Add a (str)_prefix at the beginning of a bunch of _lines.
-
-        PARAMETERS:
-            * (str)_lines : several lines separared by \n
-            * (str)_prefix : the to be added prefix
-
-        RETURNED VALUE : (str)several lines separared by \n
-    """
-    res = []
-    for line in _lines.split("\n"):
-        res.append(_prefix+line)
-    return "\n".join(res)
-
-
-def invertdict(src):
-    """
-        invertdict()
-
-        Return the inverse of (dict)src, each key becoming a value and vice versa.
-        _______________________________________________________________________
-
-        PARAMETER: (dict)src, the dict to be inversed
-
-        RETURNED VALUE : (dict)the reversed dictionary
-    """
-    return {v: k for k, v in src.items()}
 
 
 def normpath(path):
