@@ -19,7 +19,16 @@
     - improved documentation (README.md, in various .py files)
     - code pylinted
 
+[DONE] task-5
+    - musamusa/aboutprojects.py:
+    __author__, __projectname__,  __version__, __email__,  __license__,
+    __location__
+    - doc/code.md : how to write code
+    - musamusa/cmdlineargs.py
+      command line arguments : --help / -h / --about / --version
+    - pimydoc file
 
 
 TODO:
+    * logging : 0.0.1
     * essayer l'installation via pip

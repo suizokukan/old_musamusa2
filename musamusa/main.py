@@ -27,7 +27,10 @@
 
    * entrypoint() : main entrypoint into the project
 """
-from musamusa.aboutproject import __version__
+import sys
+
+from musamusa.cmdlineargs import read_command_line_arguments
+import musamusa.aboutproject
 
 
 def entrypoint():
@@ -40,4 +43,26 @@ def entrypoint():
 
         no ARGS, no RETURNED VALUE
     """
-    print(f"musamusa {__version__}")
+    args = read_command_line_arguments()
+
+    if args.version:
+        sys.stdout.write(musamusa.aboutproject.__version__ + "\n")
+        # (pimydoc)exit codes
+        # ⋅ 1 : (success) print version and exit
+        # ⋅ 2 : (success) print about informations and exit
+        return 1
+
+    if args.about:
+        sys.stdout.write(
+            "{0} v. {1} by {2} : see {3}; a {4} project".format(
+                musamusa.aboutproject.__projectname__,
+                musamusa.aboutproject.__version__,
+                musamusa.aboutproject.__author__,
+                musamusa.aboutproject.__location__,
+                musamusa.aboutproject.__license__,
+            )
+        )
+        # (pimydoc)exit codes
+        # ⋅ 1 : (success) print version and exit
+        # ⋅ 2 : (success) print about informations and exit
+        return 2

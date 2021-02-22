@@ -25,9 +25,20 @@
 
    ____________________________________________________________________________
 
-   * __version__ : (str) project's version
-                   To propagate the project's version across all the project,
-                   see the propagate_versionnumber.py script.
+
+   * __author__      : (str) project's initial author
+   * __email__       : (str) project's official email
+   * __license__     : (str) project's license
+   * __location__    : (str) project's official site
+   * __projectname__ : (str) Official project's name
+   * __version__     : (str) project's version
+                       To propagate the project's version across all the 
+                       project, see the propagate_versionnumber.py script.
 """
 
-__version__ = "0.0.1-dev2"
+__author__ = "Xavier Faure (suizokukan)"
+__email__ = "suizokukan@orange.fr"
+__license__ = "GPL-3.0"
+__location__ = "github.com/suizokukan/musamusa"
+__projectname__ = "MusaMusa"
+__version__ = "0.0.1-dev3"
