@@ -1,11 +1,13 @@
 ROADMAP
 =======
 
+```
 [DONE] v. 0.0.1 : Basic structure: poetry/logging/config file/command line args
 [TODO] v. 0.0.2 : level0 (=most basic features of the musamusa text format)
 [TODO] v. ?.?.?
   * level1 (=glossary lines)
   * essayer l'installation via pip
+```
 
 PROJECT' VERSIONS
 =================
@@ -13,8 +15,13 @@ PROJECT' VERSIONS
 [STILL IN DEVELOPMENT] v. 0.0.2
 -------------------------------
 
-[TODO] task-10
+```
+[DONE] task-10
     Documentation about the future versions
+[DONE] task-11
+    Documentation about the future versions
+    
+```    
     
 [DONE] v. 0.0.1
 ---------------
