@@ -1,12 +1,16 @@
 [CURRENT] v. 0.0.2
 ------------------
 
-[CURRENT] task-13 (doc)
+[DONE] task-14 (doc)
+
+    * updated project.md
+
+[DONE] task-13 (doc)
 
     * improved ROADMAP.md
     * new doc file: project.md
 
-[TODO] task-12
+[DONE] task-12
 
     * new entry in `mainconfig.ini` : [orders:cli]orders
     * improved doc: pimydoc:command line options

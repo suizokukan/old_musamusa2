@@ -23,7 +23,7 @@
 
 ## TODO/musamusa_textref
 
-Il faut pouvoir l'utiliser comme clé d'un dict.
+Il faut définir ref1 <= ref2 <= ref3
 
 
 
