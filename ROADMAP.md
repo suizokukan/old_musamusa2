@@ -1,6 +1,10 @@
 [CURRENT] v. 0.0.2
 ------------------
 
+[DONE] task-15 (doc)
+
+    * updated project.md
+
 [DONE] task-14 (doc)
 
     * updated project.md

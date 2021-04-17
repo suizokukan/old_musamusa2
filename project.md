@@ -6,6 +6,7 @@
 
 # TODO pour tous les projets musamusa*:
 
+    * README.md: "what's the problem solved by this module ?"
     * # [1] à la place de ## [1]
     * CLI/GPLv3/Python ... avec un lien vers LICENSE
     * vérifier les liens de tous les fichiers README.md
