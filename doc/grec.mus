@@ -1,0 +1,781 @@
+##############################################################################
+# grec.mus
+#
+# ============================================================================
+# =============================== SOMMAIRE ===================================
+# ============================================================================
+# (0) à propos de ce fichier
+# (1) principes guidant ce fichier
+#   (1.1) les natures grammaticales
+#   (1.2) les élisions
+#   (1.3) particularités des textes poétiques
+#     (1.3.1) coupes dans les hexamètres dactyliques : le symbole '|'
+#   (1.4) morphologie
+#     (1.4.1) le nom
+#       (1.4.1.1) déclinaison thématique
+#       (1.4.1.2) déclinaison en -a
+#     (1.4.2) l'adjectif
+#     (1.4.3) les pronoms
+#     (1.4.4) les verbes
+#   (1.5) les marqueurs spéciaux
+# ============================================================================
+#
+# (0) à propos de ce fichier
+#
+# (1) principes guidant ce fichier
+#
+# (1.1) les natures grammaticales
+#   - noms
+#   - verbes
+#   - adjectifs
+#   - adverbe,
+#   - ὁ : déterminant article défini
+#   - conjonction : ἐπεὶ,
+#
+# (1.2) les élisions
+# Toutes les élisions sont résolues à l'aide des symboles 『 et 』.
+# les deux mots (élidé/non élidé) sont séparés par '='. Par exemple :『ἅμ᾽=ἅμα』.
+#
+# (1.3) particularités des textes poétiques
+#
+# (1.3.1) coupes dans les hexamètres dactyliques : le symbole '|'
+# Les remarques suivantes suivent Kirk, The Iliad : A commentary (p.17 sqq)
+#
+# Les seules coupes marquées par le symbole '|' sont :
+#
+#          2   3       5   5½    7     8
+#    - u u | - | u u - | u | u - | u u | - u u - x
+#
+# (1.4) morphologie
+#
+# (1.4.1) le nom
+#
+# (1.4.1.1) déclinaison thématique
+#
+# Les types possibles sont : ἵππος/δόρπον
+#
+#           singulier                             duel                        pluriel
+#
+#  N.       ἵππος                                 ἵππω                        ἵπποι
+#  V.       ἵππε                                  ἵππω                        ἵπποι
+#  Acc.     ἵππον                                 ἵππω                        ἵππους
+#  G.       ἵππου [ἵπποιο : Gsg_οιο]              ἵπποιν [ἵπποιιν : GDd_οιιν] ἵππων
+#  D.       ἵππῳ                                  ἵπποιν [ἵπποιιν : GDd_οιιν] ἵπποις [ἵπποισι : Gpl_οισι]
+#
+#  N.       δόρπον                                δόρπω                       δόρπα
+#  V.       δόρπον                                δόρπω                       δόρπα
+#  Acc.     δόρπον                                δόρπω                       δόρπα
+#  G.       δόρπου [δόρποιο : Gsg_οιο]            δόρποιιν                    δόρπων
+#  D.       δόρπῳ                                 δόρποιιν                    δόρποις [δόρποισι : Dpl_οισι]
+#
+# (1.4.1.2) déclinaison en -a
+#
+# Les types possibles sont : θεά/κεφαλή/ἕδρα/γλῶσσα/πότνια/Ἀτρεΐδης
+#
+#           singulier                             duel                        pluriel
+#
+#  N.       θεά=θεᾱ́                               θεα=θεᾱ                     θεαί
+#  V.       θεά=θεᾱ́                               θεα=θεᾱ                     θεαί
+#  Acc.     θεάν=θεᾱ́ν                             θεα=θεᾱ                     θεάς=θεᾱ́ς
+#  G.       θεᾶς                                  θεα=θεᾱ                     θεῶν [θεάων=θεᾱ́ων : Gpl_ᾱων; θεέων : Gpl_εων]
+#  D.       θεᾷ                                   θεα=θεᾱ                     θεαῖς [θεῇς : Dpl_ῃς; θεῇσι : Dpl_ῃσι]
+#
+#  N.       κεφαλή                                κεφαλά=κεφαλᾱ́               κεφαλαί
+#  V.       κεφαλή                                κεφαλά=κεφαλᾱ́               κεφαλαί
+#  Acc.     κεφαλήν                               κεφαλά=κεφαλᾱ́               κεφαλάς=κεφαλᾱ́ς
+#  G.       κεφαλῆς                               κεφαλά=κεφαλᾱ́               κεφαλῶν [κεφαλάων=κεφαλᾱ́ων : Gpl_ᾱων; κεφαλέων : Gpl_εων]
+#  D.       κεφαλῇ                                κεφαλά=κεφαλᾱ́               κεφαλαῖς [κεφαλῇς : Dpl_ῃς; κεφαλῇσι : Dpl_ῃσι]
+#
+#  N.       ἕδρα=ἕδρᾱ   / ἕδρη  [ᾱ_>_η]           ἕδρα=ἕδρᾱ                   ἕδραι
+#  V.       ἕδρα=ἕδρᾱ   / ἕδρη  [ᾱ_>_η]           ἕδρα=ἕδρᾱ                   ἕδραι
+#  Acc.     ἕδραν=ἕδρᾱν / ἕδρην [ᾱ_>_η]           ἕδρα=ἕδρᾱ                   ἕδρας=ἕδρᾱς
+#  G.       ἕδρας=ἕδρᾱς / ἕδρης [ᾱ_>_η]           ἕδρα=ἕδρᾱ                   ἑδρῶν [ἑδράων=ἑδρᾱ́ων : Gpl_ᾱων; ἕδραέων : Gpl_εων]
+#  D.       ἕδρᾳ        / ἕδρῃ  [ᾱ_>_η]           ἕδρα=ἕδρᾱ                   ἕδραις [ἕδρῃς : Dpl_ῃς; ἕδρῃσι : Dpl_ῃσι]
+#
+#  N.       γλῶσσα                                γλώσσα=γλώσσᾱ               γλῶσσαι
+#  V.       γλῶσσα                                γλώσσα=γλώσσᾱ               γλῶσσαι
+#  Acc.     γλῶσσαν                               γλώσσα=γλώσσᾱ               γλώσσας=γλώσσᾱς
+#  G.       γλώσσης                               γλώσσα=γλώσσᾱ               γλωσσῶν [γλωσσάων=γλωσσᾱ́ων : Gpl_ᾱων; γλωσσέων : Gpl_εων]
+#  D.       γλώσσῃ                                γλώσσα=γλώσσᾱ               γλῶσσαις [γλώσσῃς : Dpl_ῃς; γλώσσῃσι : Dpl_ῃσι]
+#
+#  N.       πότνια                                ποτνία=ποτνίᾱ               πότνιαι
+#  V.       πότνια                                ποτνία=ποτνίᾱ               πότνιαι
+#  Acc.     πότνιαν                               ποτνία=ποτνίᾱ               ποτνίας=ποτνίᾱς
+#  G.       πότνιας                               ποτνία=ποτνίᾱ               ποτνιῶν [ποτνιάων=ποτνιᾱ́ων : Gpl_ᾱων; ποτνιέων : Gpl_εων]
+#  D.       ποτνίᾳ                                ποτνία=ποτνίᾱ               ποτνίαις
+#
+#  N.       Ἀτρεΐδης                              Ἀτρεΐδα=Ἀτρεΐδᾱ             Ἀτρεΐδαι
+#  V.       Ἀτρεΐδη                               Ἀτρεΐδα=Ἀτρεΐδᾱ             Ἀτρεΐδαι
+#  Acc.     Ἀτρεΐδην                              Ἀτρεΐδα=Ἀτρεΐδᾱ             Ἀτρεΐδας=Ἀτρεΐδᾱς
+#  G.       Ἀτρεΐδεω [Ἀτρεΐδαο=Ἀτρεΐδᾱο : Gsg_αο] Ἀτρεΐδα=Ἀτρεΐδᾱ             Ἀτρεϊδῶν [Ἀτρεϊδάων=Ἀτρεϊδᾱ́ων : Gpl_ᾱων; Ἀτρεϊδέων : Gpl_εων]
+#  D.       Ἀτρεΐδῃ                               Ἀτρεΐδα=Ἀτρεΐδᾱ             Ἀτρεΐδαις [Ἀτρεΐδῃς : Dpl_ῃς; Ἀτρεΐδῃσι : Dpl_ῃσι]
+#
+#  N.       Ἑρμείας=Ἑρμείᾱς                       Ἑρμεία=Ἑρμείᾱ               Ἑρμείαι
+#  V.       Ἑρμεία=Ἑρμείᾱ                         Ἑρμεία=Ἑρμείᾱ               Ἑρμείαι
+#  Acc.     Ἑρμείαν=Ἑρμείᾱν                       Ἑρμεία=Ἑρμείᾱ               Ἑρμείας=Ἑρμείᾱς
+#  G.       Ἑρμείω [Ἑρμείαο=Ἑρμείᾱο : Gsg_αο]     Ἑρμεία=Ἑρμείᾱ               Ἑρμείων [Ἑρμειάων=Ἑρμειᾱ́ων : Gpl_ᾱων; Ἑρμειέων : Gpl_εων]
+#  D.       Ἑρμείᾳ                                Ἑρμεία=Ἑρμείᾱ               Ἑρμείαις [Ἑρμείῃς : Dpl_ῃς; Ἑρμείῃσι : Dpl_ῃσι]
+#
+#  (1.4.2) l'adjectif
+#  (1.4.3) les pronoms
+#  (1.4.4) les verbes
+#   infinitif_en_μεν
+#
+# (1.5) les marqueurs spéciaux
+# Ils sont utilisés dans la définition d'un mot de vocabulaire (pas dans le dictionnaire)
+# à l'aide du symbole ×.
+# marqueurs spéciaux connus:
+#   ×forme_impersonnelle
+#
+##############################################################################
+
+[[grcxf]]
+
+# http://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:Greco-Roman
+# http://pseudw.herokuapp.com/iliad/books/3 [belle présentation !]
+
+# ā
+# ε̄
+# ΐ
+
+# --- VOCABULARY : ! ---------------------------------------------------------
+o <exemple de mot singulier avec un sens pluriel> 
+  cf e.g. ▶Il.3.004
+
+o <valeur des cas : le génitif> 
+  (a) sens local du génitif, chez Homère, surtout avec des génitifs en -οιο et 
+  en fin de vers : cf e.g. ▶Il.3.014 
+  Confer Chantraine, Grammaire Homérique, tome II (Syntaxe), chapitre VI, p. 76, §72
+
+o <valeurs des temps:l'aoriste> 
+  (1) exemple d'aoriste n'ayant aucune valeur temporelle : "φύγον" dans cf e.g. ▶Il.3.004 
+  (2) aoriste gnomique : cf e.g. ▶Il.3.010
+
+o <valeurs des temps:le subjonctif présent> 
+  Chez Homère peut encore avoir sa valeur archaïque de futur (cf e.g. ▶Od.5.465). Voir à ce sujet Odyssée de Bérard, p. 425
+
+o <le système conditionnel> 
+  (1) expression de l'éventuel 
+  (1.1) chez Homère, κέ (▶<κέ@particule modale>) + subjonctif, cf e.g. ▶Od.2.213
+
+# --- VOCABULARY : α ---------------------------------------------------------
+# --- VOCABULARY : alpha -----------------------------------------------------
+o <ἀείδω@chanter> [verbe] 
+  "chanter", cf e.g. ▶Il.1.001
+
+o <ἀλέξω@protéger> [verbe] 
+  "protéger", cf e.g. ▶Il.3.009
+
+o <ἀλλήλων@les uns les autres> [pronom] 
+ "les uns, les autres". Ce mot n'existe au génitif et au datif pluriel.
+
+o <ἀολλὴς*ἀολλὴς, ἀολλὴς, ἀολλὲς@compact> [adjectif] "compact, serré" 
+  En Il.03.013 se trouve la forme éolienne ἀελλὴς : 
+  Confer Kirk, The Iliad: A Commentary, volume I, p.266, à propos de ce vers.
+
+o <Ἀχαιός*Ἀχαιός, Ἀχαιά, Ἀχαιόν@achéen> [adjectif] 
+  "achéen" 
+  notamment comme substantif, cf e.g. ▶Il.3.008
+
+o <ἀθέσφατος*ἀθέσφατος, ἀθέσφατος, ἀθέσφατον@inexprimable> [adjectif] 
+  "inexprimable" cf e.g. ▶Il.3.004
+
+o <ἅμα@ensemble> [adverbe]
+
+o <ἀνήρ*ἀνήρ, ἀνδρός@l'homme> [nom commun|masculin|3D] 
+  (1) "un homme" 
+  (1.1) utilisé avec le nom d'un peuple, cf e.g. ▶Il.3.006
+
+o <ἄρα@particule> 
+  (1) exprime la conséquence : "ainsi"; cf e.g. ▶Il.3.007
+
+o <αὐτάρ@cependant> [adverbe] 
+  (1) opposition 
+  (2) succession : "d'autre part, ensuite" cf e.g. ▶Il.3.001
+
+o <Ἀχιλλεύς*Ἀχιλλεύς, Ἀχιλλέως@Achille> 
+  "Achille", cf e.g. ▶Il.1.001
+
+# --- VOCABULARY : γ ---------------------------------------------------------
+# --- VOCABULARY : gamma -----------------------------------------------------
+o <γε@particule> 
+  (1) renforce le mot précédent 
+  (1.1) renforce un pronom, cf e.g. ▶Il.3.005 ~"ce sont elles qui..."
+
+o <γέρανος*γέρανος, γεράνου@une grue> [nom commun|masculin ou féminin|2D.ἵππος]
+
+o <γίγνομαι@devenir> 
+  (1) arriver à (+datif) cf e.g. ▶Od.5.465
+
+# --- VOCABULARY : d ---------------------------------------------------------
+# --- VOCABULARY : delta -----------------------------------------------------
+o <δέ@particule> 
+  (1) particule utilisée seule 
+  (1.0) simple transition, ne se traduit pas : cf e.g. ▶Il.3.014
+  (1.1) ajoute une information "et..." cf e.g. ▶Il.3.007 
+  (1.2) chez Homère peut avoir une valeur subordonnante et non coordonnante (parataxe). 
+        "mais que/qui..." cf e.g. ▶Il.3.011 
+        "où..." cf e.g. ▶Od.1.051 
+  (2) sur l'opposition μὲν/δέ, cf ▶<μὲν@particule>
+
+o <δίδωμι@donner> [verbe] 
+  "donner", cf e.g. ▶Od.2.212
+
+o <δενδρήεις, δενδρήεσσα, δενδρήεν@boisé> [adjectif] 
+  "boisé", cf e.g. ▶Od.1.051
+
+o <διαπράσσω@accomplir> [verbe] 
+  "achever, accomplir"
+  (1) en particulier un trajet (κέλευθον) comme en ▶Od.2.213 d'où absolument 
+      "traverser" dans ▶Il.3.014
+
+o <δῶμα*δῶμα, δώματος@une demeure> [nom commun|neutre|3D] 
+  "une demeure", cf e.g. ▶Od.1.051
+
+# --- VOCABULARY : ε ---------------------------------------------------------
+# --- VOCABULARY : epsilon ---------------------------------------------------
+o <ἐγώ@pronom personnel> [pronom personnel]
+
+o <εἴκοσι@vingt> [déterminant numéral cardinal] 
+  "vingt", cf e.g. ▶Od.2.212
+
+o <εἶμι@aller> [verbe] "aller"
+
+o <ἕκαστος@chacun> [adjectif]
+
+o <ἐν@dans> [préposition] 
+  (1) préposition + datif 
+  (1.1) "dans", cf e.g. ▶Il.3.008
+  (2) préverbe, avec tmèse, cf e.g. ▶Od.1.051
+
+o <ἔνθα@là> [adverbe]  
+  (1) sens géographique
+  (2) avec mouvement : cf e.g. ▶Od.2.213 "ἔνθα καὶ ἔνθα" ~ "en divers lieux"
+
+o <ἐνναίω@habiter dans> [verbe] 
+  "habiter dans, résider", ▶Od.1.051
+
+o <ἐνοπή*ἐνοπή, ἐνοπῆς@le cri> [nom commun|féminin|1D] 
+  Le mot, au singulier, peut avoir un sens pluriel, cf e.g. ▶Il.3.002 
+  (1) cri poussé par des êtres humains, cf e.g. ▶Il.3.002
+
+o <ἐπεὶ@conjonction de subordination> 
+  (1) "après que" 
+  (1.1) suivi de l'indicatif, cf e.g. ▶Il.3.001
+
+o <ἐπί@adverbe_préposition> [adverbe_ou_préposition] "contre" 
+  (0) préverbe : 
+  avec tmèse, cf e.g. ▶Il.3.012 
+  (1) adverbe 
+  (2) préposition 
+  (2.1) + génitif 
+  (2.1.a) "vers", cf e.g. ▶Il.3.005
+
+o <ἐπιλεύσσω@voir devant> [verbe] 
+  "regarder devant" cf ▶Il.3.012
+
+o <ἔρις*ἔρις, ἔριδος@le combat> [nom commun|féminin|3D] "le combat"
+
+o <ἔρχομαι@aller> [verbe] 
+  "aller", cf e.g. ▶Il.3.014
+
+o <ἑταῖρος*ἑταῖρος, ἑταίρου@le compagnon> [nom commun|masculin|2D_ἵππος] 
+  "le compagnon", cf e.g. ▶Od.2.212
+
+o <εὖτε@lorsque> [conjonction de subordination] 
+  (1) εὖτε + indicatif indique un fait accompli : "lorsque" 
+      cf e.g. ▶Il.3.010
+
+o <ἐφίημι@lancer> [verbe] 
+  "lancer contre", cf e.g. ▶Il.3.012
+
+
+# --- VOCABULARY : η ---------------------------------------------------------
+# --- VOCABULARY : eta -------------------------------------------------------
+o <ἠέριος*ἠέριος, ἠέρίη, ἠέριον@aérien> [adjectif] "aérien"
+
+o <ἡγεμών*ἡγεμών, ἡγεμόνος@le chef> [nom commun|masculin ou féminin|3D]
+
+o <ἠΰτε@comme> [adverbe_ou_conjonction] 
+  (1) adverbe "comme" 
+  (2) conjonction avec l'indicatif, cf e.g. ▶Il.3.001
+
+# --- VOCABULARY : θ ---------------------------------------------------------
+# --- VOCABULARY : theta -----------------------------------------------------
+o <θεά*θεά, θεᾶς@la déesse> [nom commun|féminin|1D_???] 
+  "une déesse", cf e.g. ▶Od.1.051
+
+o <θοός*θοός, θοή, θοόν@rapide> [adjectif] 
+  "rapide", cf e.g. ▶Od.2.212
+
+o <θῡμός*θῡμός, θῡμοῦ@un esprit> "un coeur, un esprit" 
+  ἐν θῡμῷ, "dans son coeur", cf e.g. ▶Il.3.009
+
+# --- VOCABULARY : ι ---------------------------------------------------------
+# --- VOCABULARY : iota ------------------------------------------------------
+o <ἵημι@envoyer> [verbe]  "lancer"
+
+# --- VOCABULARY : κ ---------------------------------------------------------
+# --- VOCABULARY : kappa -----------------------------------------------------
+o <καὶ@et> [adverbe_ou_conjonction] 
+  (1) "et", conjonction de coordination unissant deux groupes nominaux, cf e.g. ▶Il.3.004
+  (1) "et", conjonction de coordination unissant deux adverbes, cf e.g. ▶Od.2.213
+
+o <κακός*κακός, κάκη, κάκη@mauvais> [adjectif] 
+  (1) "mauvais" 
+  (1.1) "qui apporte le malheur" cf e.g. ▶Il.3.007
+
+o <καταχέω@déverser> [verbe] 
+  "déverser" cf e.g. ▶Il.3.010
+
+o <κέ@particule modale> [particule_modale] 
+  κέ devant consonne (cf e.g. ▶Od.2.213) et κέν devant voyelle. 
+  Particule enclitique cf e.g. ▶Od.2.213 
+  (1) Chez Homère, avec le subjonctif pour exprimer l'éventuel, cf e.g. ▶Od.2.213
+
+o <κέλευθος*κέλευθος, κελεύθου@un chemin> [nom commun|féminin|2D_ἵππος] 
+  (1) un chemin 
+  (2) un voyage, cf e.g. ▶Od.2.213
+
+o <κήρ*κήρ, -@la mort> [nom commun|féminin|3D] 
+  (1) "la mort" cf e.g. ▶Il.3.006
+
+o <κλαγγή*κλαγγή, κλαγγῆς@le cri> [nom commun|féminin|1D_κεφαλή] 
+  Le mot, au singulier, peut avoir un sens pluriel, cf e.g. ▶Il.3.002 
+  (1) cri poussé par des êtres humains, cf e.g. ▶Il.3.002
+
+o <κλέπτης*κλέπτης, κλέπτου@un voleur> [nom commun|masculin|2D_???] 
+  "un voleur", cf e.g. ▶Il.3.011
+
+o <κονῑ́σαλος*κονῑ́σαλος, κονῑσάλου@la poussière> [nom commun|masculin|2D_ἵππος] 
+  "la fumée", cf e.g. ▶Il.3.013
+
+o <κορυφή*κορυφή, κορυφής@le sommet> [nom commun|féminin|1D_κεφαλή]
+  "le sommet" cf e.g. ▶Il.3.010
+
+o <κοσμέω@ordonner, arranger> [verbe|] 
+  (1) "ordonner", en parlant d'une armée, cf e.g. ▶Il.3.001
+
+# --- VOCABULARY : λ ---------------------------------------------------------
+# --- VOCABULARY : lambda ----------------------------------------------------
+o <λᾶας*λᾶας, λᾶος@une pierre> [nom commun|masculin|3D] 
+  "une pierre", cf e.g. ▶Il.3.012
+
+# --- VOCABULARY : μ ---------------------------------------------------------
+# --- VOCABULARY : mu --------------------------------------------------------
+o <μάλα@très> [adverbe] "très" 
+  modifie un adverbe : "μάλα ὦκα" ~ "en toute hâte", cf ▶Il.3.014
+
+o <μέμονα@désirer> [verbe] 
+  Parfait de sens présent.
+
+o <μὲν@particule> 
+  (1) opposition μὲν...δέ cf e.g. ▶Il.3.002-008 (Les Troyens... mais les Achéens, eux, ...)
+
+o <μένος*μένος, μένεος@la force> 
+  "la force", cf e.g. ▶Il.3.008
+
+o <μήκιστος*μήκιστος, μηκίστη, μήκιστον> 
+  (1) "très grand" 
+  (2) au neutre, sens adverbial :
+  (2a) "très loin/le plus loin" 
+  (2b) "enfin", "à la fin" cf e.g. ▶Od.5.465
+
+o <μῆνις*μῆνις, μήνιος@la colère> 
+  "la colère", cf e.g. ▶Il.1.001
+
+# --- VOCABULARY : ν ---------------------------------------------------------
+# --- VOCABULARY : nu --------------------------------------------------------
+o <ναίω@habiter> [verbe] 
+  "habiter", cf e.g. ▶Od.2.212
+
+o <ναῦς*ναῦς, νεώς@un navire> 
+  "un navire"
+
+o <νῆσος*νῆσος, νήσου@une île> [nom commun|féminin|2D_ἵππος] 
+  "une île", cf e.g. ▶Od.1.051
+
+o <νότος*νότος, νότου@le vent du Sud> 
+  (1) le vent du Sud 
+  (2) "Notos", le vent du Sud personnifié 
+      cf e.g. ▶Il.3.010
+
+o <νύν@particule> 
+  Particule d'ordinaire enclitique, s'écrit νυ devant consonne (cf e.g. ▶Od.5.465)
+  (1) marque la suite d'un raisonnement 
+  (2) renforce une affirmation 
+      cf e.g. ▶Od.5.465
+
+o <νύξ*νύξ, νυκτὸς@la nuit> 
+  "la nuit", cf e.g. ▶Il.3.011
+
+# --- VOCABULARY : ο ---------------------------------------------------------
+# --- VOCABULARY : omicron ---------------------------------------------------
+o <ὁ@déterminant article défini> [déterminant] 
+  (1) "celui-ci", sens homérique du pronom démonstratif cf e.g. ▶Il.3.004
+
+o <ὄμβρος*ὄμβρος, ὄμβρου@la pluie> [nom commun|masculin|2D.ἵππος] 
+  "la pluie", cf e.g. ▶Il.3.004
+
+o <ὀμίχλη*ὀμίχλη, ὀμίχλης@le brouillard> 
+  "le brouillard", cf e.g. ▶Il.3.010
+
+o <ὄρνις*ὄρνις, ὄρνῑθος@un oiseau> [nom commun|masculin ou féminin|3D]
+
+o <ὄρνῡμι@faire se lever> [verbe] 
+  (1) à l'actif, "faire se lever"
+  (2) au moyen "se lever" 
+  cf e.g. ▶Il.3.013
+
+o <ὄρος*ὄρος, ὄρεος@la montagne> [nom commun|neutre|??] 
+  "une montagne", cf e.g. ▶Il.3.010
+
+o <ὅσος*ὅσος, ὅση, ὅσον@autant que> [adjectif]
+  Sur τόσον...ὅσον, cf ▶<τόσος*τόσος, τόση, τόσον@tel>
+
+o <οὐ@négation> 
+  négation d'un mot, cf e.g. ▶Il.3.011
+
+o <οὖν@particule> 
+  (1) "donc" 
+  (1.1) en renforcement de "ἐπεὶ" : "ἐπεὶ οὖν" ~ "lors donc que", cf e.g. ▶Il.3.004
+
+o <οὐράνοθι@dans le ciel> [adverbe]
+
+# --- VOCABULARY : π ---------------------------------------------------------
+# --- VOCABULARY : pi --------------------------------------------------------
+o <πάσχω@subir> [verbe] 
+  "endurer", cf e.g. ▶Od.5.465
+
+o <πέλω@se mouvoir> [verbe] 
+  (1) "bouger, se mouvoir" cf e.g. ▶Il.3.003
+
+o <πέρ@particule adverbiale> 
+  (1) enclitique "περ" cf e.g. ▶Il.3.003 
+  (1.1) joint à "ἠΰτε", cf e.g. ▶Il.3.003
+
+o <πέτομαι@voler> [verbe] 
+  (1) "voler" cf e.g. ▶Il.3.005
+
+o <πνέω@respirer> [verbe] 
+  (1) "respirer" 
+  (2) au sens figuré, "μένεα πνείοντες" ~ "respirer la force", cf e.g. ▶Il.3.008
+
+o <Πηλεΐδης*Πηλεΐδης, Πηλεΐδου@le Péléide> [nom propre|masculin|1D]
+  "le Péléide", "le fils de Pelée", c'est-à-dire "Achille", cf e.g. ▶Il.1.001
+
+o <Πηληϊάδης*Πηληϊάδης, ???@le Péléide> 
+  forme ionienne pour <Πηλεΐδης*ὁ Πηλεΐδης, τοῦ Πηλεΐδου@le Péléide>
+
+o <ποιμήν*ποιμήν, ποιμένος@le berger> 
+  "un berger", cf e.g. ▶Il.3.011
+
+o <πούς*πούς, ποδός@le pied> [nom commun|masculin|3D] 
+  "le pied", cf e.g. ▶Il.3.013
+
+o <πρὸ@devant> [préposition|adverbe] 
+  Ce mot peut être post-posée, ▶Il.3.003 
+  (1) "devant" cf e.g. ▶Il.3.003
+
+o <προφέρω@offrir> [verbe] "offrir"
+
+o <πυγμαῖος*πυγμαῖος, πυγμαῖα, πυγμαῖον@nain> 
+  (1) "nain" 
+  (2) "les Pygmées", nom d'un peuple cf e.g. ▶Il.3.006
+
+# --- VOCABULARY : ρ ---------------------------------------------------------
+# --- VOCABULARY : rho -------------------------------------------------------
+o <ῥοή*ῥοή, ῥοῆς@le courant> 
+  "le courant", cf e.g. ▶Il.3.005
+
+# --- VOCABULARY : s ---------------------------------------------------------
+# --- VOCABULARY : sigma -----------------------------------------------------
+o <σῑγή*σῑγή, σῑγῆς@le silence> 
+  "le courant", cf e.g. ▶Il.3.008
+
+# --- VOCABULARY : τ ---------------------------------------------------------
+# --- VOCABULARY : tau -------------------------------------------------------
+o <τε@particule> 
+  (1) τε...τε... 
+  (1a) sens corrélatif "et...et", cf e.g. ▶Il.3.002 
+  Par exemple utilisés avec la construction τόσσον...ὅσον dans ▶Il.3.012 
+  (Confer Kirk, The Iliad: A Commentary, volume I, p.266 à propos de ce vers)
+  (1b) simple jutaxposition, cf e.g. ▶Il.3.012
+  (2) sens généralisant : "en général"
+  (2a) sens généralisant de "δέ τε", cf e.g. ▶Il.3.011. 
+       Sur cette valeur, cf Chantraine, Grammaire Homérique, chapitre XXV, tome II (Syntaxe), §500, p 391
+
+o <τις@quelque> 
+  (1) τι, emploi adverbial 
+  (1.1) "en quelque manière", manière d'insister, cf e.g. ▶Il.3.011 
+  (2) neutre : pronom interrogatif cf e.g. ▶Od.5.465
+
+o <τόσος*τόσος, τόση, τόσον@tel> [adjectif] 
+  τόσον...ὅσον : "autant... autant..." cf e.g. ▶Il.3.012
+
+o <Τρώς*Τρώς, Τρωός@Trôs> [nom commun|masculin|3D] 
+  (1) "Trôs" 
+  (2) en particulier au pluriel, "οἱ Τρῶες, τῶν Τρώων" : les "Troyens" cf e.g. ▶Il.3.002
+
+# --- VOCABULARY : υ ---------------------------------------------------------
+# --- VOCABULARY : upsilon ---------------------------------------------------
+o <ὑπὸ@sous> [adverbe_préposition] 
+  (1) "sous" + datif, cf e.g. ▶Il.3.013
+
+# --- VOCABULARY : φ ---------------------------------------------------------
+# --- VOCABULARY : phi -------------------------------------------------------
+o <φεύγω@fuir> [verbe] 
+  (1) "fuir" cf e.g. ▶Il.3.003
+
+o <φίλος*φίλος, φίλην, φίλον@ami> [adjectif] "ami" 
+  (1) adjectif 
+  "ami", cf e.g. ▶Il.3.011
+
+o <φόνος*φόνος, φόνου@le massacre> [nom commun|masculin|2D.ἵππος] 
+  (1) "un massacre" cf e.g. ▶Il.3.006
+
+# --- VOCABULARY : χ ---------------------------------------------------------
+# --- VOCABULARY : khi -------------------------------------------------------
+o <χειμών*χειμών, χειῶνος@l'hiver> [nom commun|masculin|3D] 
+  "l'hiver" cf e.g. ▶Il.3.004
+
+# --- VOCABULARY : ω ---------------------------------------------------------
+# --- VOCABULARY : omega -----------------------------------------------------
+o <ὤ@particule exclamative>
+
+o <Ὠκεανός*Ὠκεανός, Ὠκεανοῦ@Océan> [nom commun|masculin|2D.ἵππος] 
+  (1) "Océan", zone géographique cf e.g. ▶Il.3.005
+
+o <ὠκύς*ὠκύς, ὠκεῖα, ὠκύ@rapide> [adjectif] "rapide" 
+  "ὦκα" employé comme adverbe : "rapidement", cf e.g. ▶Il.3.014
+
+o <ὡς@préposition> [préposition] 
+  Cette préposition peut être post-posée, cf e.g. ▶Il.3.002 
+  (1) "semblable à", cf e.g. ▶Il.3.002
+
+##############################################################################
+################################### TEXTE ####################################
+##############################################################################
+
+:ᵃ      Il.1.001        μῆνιν ἄειδε θεὰ̄  | Πηληϊάδε͡ω Ἀχιλῆος
+=                       Chante la colère, déesse, d'Achille fils de Pelée
+-                       μῆνιν            : <μῆνις*ἡ μῆνις, τῆς μήνιος@la colère> ◖A.sg◗
+-                       ἄειδε            : <ἀείδω@chanter> ◖actif.impératif.présent.2S◗
+-                       θεὰ̄              : <θεά*ἡ θεά, τῆς θεᾶς@la déesse> ◖V.sg◗
+-                       Πηληϊάδε͡ω        : <Πηληϊάδης*ὁ Πηληϊάδης, τοῦ ???@le Péléide> ◖G.sg◗
+-                       Ἀχιλῆος          : <Ἀχιλλεύς*ὁ Ἀχιλλεύς, τοῦ Ἀχιλλέως@Achille> ◖G.sg.??◗
+
+#:ᵃ      Il.1.002       οὐλομένην | ἣ μῡρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε,
+#:ᵃ      Il.1.003       πολλὰς δ᾽ ἰφθί̄μους ψῡχὰς Ἄϊδι προΐαψεν
+#:ᵃ      Il.1.004       ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν
+#:ᵃ      Il.1.005       οἰωνοῖσί τε πᾶσι, Διὸς δ᾽ ἐτελείετο βουλή,
+#:ᵃ      Il.1.006       ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε
+#:ᵃ      Il.1.007       Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.
+
+:ᵃ      Il.3.001        Αὐτὰρ ἐπεὶ κόσμηθεν | ἅμ᾽ ἡγεμόνεσσιν ἕκαστοι,
+=                       Puis, après qu'ils se furent tous rangés, chaque troupe avec son chef,
+-                       Αὐτὰρ            : <αὐτάρ@cependant>
+-                       ἐπεὶ              : <ἐπεὶ@conjonction de subordination>
+-                       κόσμηθεν         : <κοσμέω@ordonner, arranger> ◖passif.indicatif.aoriste.3P.sans_augment◗
+-                       ἅμ᾽              : <ἅμα@ensemble>  『ἅμ᾽=ἅμα』
+-                       ἡγεμόνεσσιν      : <ἡγεμών*ὁ,ἡ ἡγεμών, τοῦ ἡγεμόνος@le chef> ◖D.pl.finale_en_εσσιν◗
+-                       ἕκαστοι          : <ἕκαστος@chacun> ◖N.pl.masculin◗
+
+:ᵃ      Il.3.002        Τρῶες μὲν | κλαγγῇ τ᾽ ἐνοπῇ τ᾽ ἴσαν,| ὄρνῑθε̄ς ὣς,
+=                       les Troyens, poussant des cris et des hurlements, allaient, semblables à des oiseaux;
+-                       Τρῶες            : <Τρώς*ὁ Τρώς, τοῦ Τρωός@Trôs> ◖N.pl◗
+-                       μὲν              : <μὲν@particule>
+-                       κλαγγῇ           : <κλαγγή*ἡ κλαγγή, τῆς κλαγγῆς@le cri> ◖D.pl◗
+-                       τ᾽               : <τε@particule> 『τ᾽=τε』
+-                       ἐνοπῇ            : <ἐνοπή*ἡ ἐνοπή, τῆς ἐνοπῆς@le cri> ◖D.pl◗
+-                       τ᾽               : <τε@particule> 『τ᾽=τε』
+-                       ἴσαν             : <εἶμι@aller> ◖actif.indicatif.imparfait.3S.pas_d_augment◗
+-                       ὄρνῑθε̄ς          : <ὄρνις*ὁ,ἡ ὄρνις, τοῦ,τῆς ὄρνῑθος@un oiseau> ◖N.pl.allongement_metrī_causā◗
+-                       ὣς               : <ὡς@préposition> ×postposé
+
+:ᵃ      Il.3.003        ἠΰτε περ | κλαγγὴ γεράνων | πέλει οὐρανόθι πρό,
+=                       tout comme les cris des grues passe devant le ciel
+-                       ἠΰτε             : <ἠΰτε@comme>
+-                       περ              : <πέρ@particule adverbiale> ◖forme_enclitique◗
+-                       κλαγγὴ           : <κλαγγή*ἡ κλαγγή, τῆς κλαγγῆς@le cri> ◖N.sg◗
+-                       γεράνων          : <γέρανος*ὁ,ἡ γέρανος, τοῦ,τῆς γεράνου@une grue> ◖G.pl◗
+-                       πέλει            : <πέλω@se mouvoir> ◖actif.indicatif.présent.3S◗
+-                       οὐρανόθι         : <οὐράνοθι@dans le ciel>
+-                       πρό              : <πρὸ@devant> ×postposé
+
+:ᵃ      Il.3.004        αἵ τ᾽ ἐπεὶ͡ οὖν χειμῶνα φύγον | καὶ ἀθέσφατον ὄμβρον,
+=                       lors donc que celles-ci fuient l'hiver et ses pluies innombrables,
+**                      "χειμῶνα φύγον καὶ ἀθέσφατον ὄμβρον" : peut-être un hendiadys ("les pluies innombrables de l'hiver")
+-                       αἵ               : <ὁ@déterminant article défini> ◖N.pl.féminin.forme_tonique◗
+-                       τ᾽               : <τε@particule> 『τ᾽=τε』
+-                       ἐπεὶ͡            : <ἐπεὶ@conjonction de subordination> ◖abrégement_metrī_causā◗
+-                       οὖν              : <οὖν@particule>
+-                       χειμῶνα          : <χειμών*ὁ χειμών, τοῦ χειῶνος@l'hiver> ◖A.sg◗
+-                       φύγον            : <φεύγω@fuir> ◖actif.indicatif.aoriste.3P.sans_augment◗
+-                       καὶ              : <καὶ@et>
+-                       ἀθέσφατον        : <ἀθέσφατος*ἀθέσφατος, ἀθέσφατος, ἀθέσφατον@inexprimable> ◖A.sg.masculin◗
+-                       ὄμβρον           : <ὄμβρος*ὁ ὄμβρος, τοῦ ὄμβρου@la pluie> ◖A.sg◗
+
+:ᵃ      Il.3.005        κλαγγῇ ταί γε πέτονται | ἐπ᾽ Ὠκεανοῖο ῥοάων,
+=                       elles qui, en poussant des cris, volent vers les courants de l'Océan,
+**                      je traduis le γε en plaçant de début de proposition le "elles qui".
+-                       κλαγγῇ           : <κλαγγή*ἡ κλαγγή, τῆς κλαγγῆς@le cri> ◖D.pl◗
+-                       ταί              : <ὁ@déterminant article défini> ◖N.pl.féminin.forme_éolienne◗
+-                       γε               : <γε@particule>
+-                       πέτονται         : <πέτομαι@voler> ◖moyen-passif.indicatif.présent.3P◗
+-                       ἐπ᾽              : <ἐπί@adverbe_préposition>  『ἐπ᾽=ἐπὶ』
+-                       Ὠκεανοῖο         : <Ὠκεανός*ὁ Ὠκεανός, τοῦ Ὠκεανοῦ@Océan> ◖G.sg.Gsg_οιο◗
+-                       ῥοάων            : <ῥοή*ἡ ῥοή, τῆς ῥοῆς@le courant> ◖G.pl.forme_éolienne◗
+ 
+:ᵃ      Il.3.006        ἀνδράσι Πυγμαίοισι | φόνον καὶ κῆρα φέρουσαι·
+=                       apportant aux Pygmées le massacre et la mort.
+-                       ἀνδράσι          : <ἀνήρ*ὁ ἀνήρ, τοῦ ἀνδρός@l'homme> ◖D.pl◗
+-                       Πυγμαίοισι       : <πυγμαῖος*πυγμαῖος, πυγμαῖα, πυγμαῖον@nain> ◖D.pl.masculin◗
+-                       φόνον            : <φόνος*ὁ φόνος, τοῦ φόνου@le massacre> ◖A.sg◗
+-                       καὶ              : <καὶ@et>
+-                       κῆρα             : <κήρ*ἡ κήρ, τῆς -@la mort> ◖A.sg◗
+-                       φέρουσαι         : <φέρω@je porte> ◖actif.participe.présent.nominatif.pluriel.féminin◗
+
+:ᵃ      Il.3.007       ἠέριαι δ᾽ ἄρα ταί γε | κακὴν ἔριδα προφέρονται·
+=                      - ainsi, à travers les airs ce sont elles qui offrent le combat qui fera leur malheur.
+-                       ἠέριαι           : <ἠέριος*ἠέριος, ἠέρίη, ἠέριον@aérien> ◖N.pluriel.féminin◗
+-                       δ᾽               : <δέ@particule> 『δ᾽=δέ』
+-                       ἄρα              : <ἄρα@particule>
+-                       ταί              : <ὁ@déterminant article défini> ◖N.pl.féminin.forme_éolienne◗
+-                       γε               : <γε@particule>
+-                       κακὴν            : <κακός*κακός, κάκη, κάκη@mauvais> ◖N.sg.féminin◗
+-                       ἔριδα            : <ἔρις*ἡ ἔρις, τῆς ἔριδος@le combat> ◖A.sg◗
+-                       προφέρονται      : <προφέρω@offrir> ◖moyen-passif.indicatif.présent.3P◗
+
+:ᵃ      Il.3.008       [N]οἱ δ᾽ ἄρ᾽ [v]ἴσαν [D]σῑγῇ | [A]μένεα [v_part][A]πνείοντες [N]Ἀχαιοί,
+=                      Mais les Achéens, eux, allaient en silence, respirant la force,
+-                       οἱ               : <ὁ@déterminant article défini> ◖N.pl.masculin◗
+-                       δ᾽               : <δέ@particule> 『δ᾽=δέ』
+-                       ἄρ᾽              : <ἄρα@particule> 『ἄρ᾽=ἄρα』
+-                       ἴσαν             : <εἶμι@aller> ◖actif.indicatif.imparfait.3S.pas_d_augment◗
+-                       σιγῇ             : <σῑγή*σῑγή, σῑγῆς@le silence> ◖D.sg◗
+-                       μένεα            : <μένος*μένος, μένεος@la force> ◖A.pl◗
+-                       πνείοντες        : <πνέω@respirer> ◖actif.indicatif.présent.masculin.pluriel◗
+-                       Ἀχαιοί           : <Ἀχαιός*Ἀχαιός, Ἀχαιά, Ἀχαιόν@achéen> ◖N.pl.masculin◗
+
+:ᵃ      Il.3.009       {gp}ἐν [D]θῡμῷ{/gp} [A]μεμαῶτες | [v_infinitif]ἀλεξέμεν [D]ἀλλήλοισιν.
+=                      désirant dans leur coeur se protéger les uns les autres.
+-                       ἐν               : <ἐν@dans>
+-                       θῡμῷ            : <θῡμός*θῡμός, θῡμοῦ@un esprit> ◖D.sg◗
+-                       μεμαῶτες         : <μέμονα@désirer> ◖A.participe.parfait.nominatif.masculin.pluriel◗
+-                       ἀλεξέμεν         : <ἀλέξω@protéger> ◖A.indicatif.présent.infinitif_en_μεν◗
+-                       ἀλλήλοισιν       : <ἀλλήλων@les uns les autres> ◖D.pl.masculin.nu_éphelcystique◗
+
+:ᵃ      Il.3.010       Εὖτ᾽ [G]ὄρεος [D]κορυφῇσι | [N]Νότος [v]κατέχευεν [A]ὀμίχλην
+=                      Quand du haut de la montagne Notos déverse du brouillard
+-                       Εὖτ᾽             : <εὖτε@lorsque>『εὖτ᾽=εὖτε』
+-                       ὄρεος            : <ὄρος*ὄρος, ὄρεος@la montagne> ◖G.sg◗
+-                       κορυφῇσι         : <κορυφή*κορυφή, κορυφής@le sommet> ◖D.pl.Dpl_ῃσι◗
+-                       Νότος            : <νότος*νότος, νότου@le vent du Sud> ◖N.sg◗
+-                       κατέχευεν        : <καταχέω@déverser> ◖actif.indicatif.aoriste.3S.nu_éphelcystique◗
+-                       ὀμίχλην          : <ὀμίχλη*ὀμίχλη, ὀμίχλης@le brouillard> ◖A.sg◗
+
+:ᵃ      Il.3.011       [D]ποιμέσιν οὔ τι [A]φίλην, | [D]κλέπτῃ δέ τε [G]νυκτὸς [A]ἀμείνω,
+=                      - qui n'est en rien l'ami des bergers mais qui, pour le voleur, vaut souvent mieux que la nuit -
+-                       ποιμέσιν         : <ποιμήν*ποιμήν, ποιμένος@le berger> ◖D.pl.???.nu_éphelcystique◗
+-                       οὔ               : <οὐ@négation> ◖avant_enclitique◗
+-                       τι               : <τις@quelque> ◖A.sg◗
+-                       φίλην            : <φίλος*φίλος, φίλην, φίλον@ami> ◖A.sg.féminin◗
+-                       κλέπτῃ           : <κλέπτης*κλέπτης, κλέπτου@un voleur> ◖D.sg◗
+-                       δέ               : <δέ@particule> Ici la particule a une valeur adversative et subordonnante.
+-                       τε               : <τε@particule> τε exprime ici une idée de généralité
+-                       νυκτὸς           : <νύξ*νύξ, νυκτὸς@la nuit> ◖G.sg◗
+-                       ἀμείνω           : <ἀμείνων*ἀμείνων, ἀμείνων, ἀμείνον@meilleur> ◖A.sg.féminin◗ 
+                                           L'adjectif s'accorde avec ὀμίχλην, au vers précédent.
+
+:ᵃ      Il.3.012       τόσσον τίς τ᾽ ἐπιλεύσσει | ὅσον τ᾽ ἐπὶ λᾶαν ἵησιν·
+=                      = (on voit devant [add]soi aussi loin que la pierre qu'on lance)
+-                       τόσσον           : <τόσος*τόσος, τόση, τόσον@tel> ◖forme_épique_avec_σσ.A.sg◗ ×emploi_adverbial
+-                       τίς              : <τις@quelque> ◖N.sg◗ ◖devant_un_enclitique◗
+-                       τ᾽               : <τε@particule> 『τ᾽=τε』
+                                           Les deux τε de ce vers font partie de la construction τόσσον...ὅσον 
+                                           Confer Kirk, The Iliad: A Commentary, volume I, p.266, à propos de ce vers.
+-                       ἐπιλεύσσει       : <ἐπιλεύσσω@voir devant> ◖actif.indicatif.présent.3S◗
+-                       ὅσον             : <ὅσος*ὅσος, ὅση, ὅσον@autant que> ×emploi_adverbial
+-                       τ᾽               : <τε@particule> 『τ᾽=τε』
+                                           Les deux τε de ce vers font partie de la construction τόσσον...ὅσον 
+                                           Confer Kirk, The Iliad: A Commentary, volume I, p.266, à propos de ce vers.
+-                       ἐπὶ              : <ἐπὶ@préposition> 
+                                           tmèse pour ▶ <ἐφίημι@lancer>
+-                       λᾶαν             : <λᾶας*λᾶας, λᾶος@une pierre> ◖A.sg◗
+-                       ἵησιν            : <ἵημι@envoyer> ◖actif.indicatif.présent.3S.nu_éphelcystique◗ 
+                                           tmèse pour ▶ <ἐφίημι@lancer>
+
+:ᵃ     Il.3.013        ὣς ἄρα τῶν ὑπὸ ποσσὶ | κονῑ́σαλος ὄρνυτ᾽ ἀελλὴς
+=                       Telle se levait une poussière compacte sous les pieds
+-                       ὣς               : <ὡς@préposition>
+-                       ἄρα              : <ἄρα@particule>
+-                       τῶν              : <ὁ@déterminant article défini> ◖G.pl◗
+-                       ὑπὸ              : <ὑπὸ@sous>
+-                       ποσσὶ            : <πούς*πούς, ποδός@le pied> ◖D.pl.datif_pluriel_en_σσι◗
+-                       κονῑ́σαλος        : <κονῑ́σαλος*κονῑ́σαλος, κονῑσάλου@la poussière>
+-                       ὄρνυτ᾽           : <ὄρνῡμι@faire se lever> ◖MP.indicatif.imparfait.3S.sans_augment◗ 『ὄρνυτ᾽=ὄρνυτο』
+-                       ἀελλὴς           : <ἀολλὴς*ἀολλὴς, ἀολλὴς, ἀολλὲς@compact> ◖N.sg.forme_éolienne◗ 
+                                           Le mot est étrange et ne se trouve qu'en ce passage. 
+                                           Confer Kirk, The Iliad: A Commentary, volume I, p.266, à propos de ce vers.
+
+:ᵃ     Il.3.014        ἐρχομένων· | μάλα δ᾽ ὦκα | διέπρησσον πεδίοιο.
+=                      des [add]hommes qui avançaient : en toute hâte, ils traversaient la plaine.
+-                       ἐρχομένων        : <ἔρχομαι@aller> ◖MP.participe.présent.génitif.pluriel◗
+-                       μάλα             : <μάλα@très>
+-                       δ᾽               : <δέ@particule> 『δ᾽=δέ』
+-                       ὦκα              : <ὠκύς*ὠκύς, ὠκεῖα, ὠκύ@rapide> ◖neutre.pluriel.accusatif◗ ×emploi_adverbial
+-                       διέπρησσον       : <διαπράσσω@accomplir> ◖actif.indicatif.imparfait.1S=3P◗
+-                       πεδίοιο          : <πεδίον*πεδίον, πεδίου@la plaine> ◖génitif.singulier.Gsg_οιο◗ 
+                                           πεδίοιο signifie ici "dans la plaine". Sur le sens local de ce génitif, 
+                                           ▶ <valeur des cas : le génitif>
+
+:ᵃ      Od.1.051       [N]νῆσος [N]δενδρήεσσα, | [N]θεὰ̄  δ' ἐν [A]δώματα [v]ναίει,
+=                      une île boisée où la déesse réside dans sa demeure,
+-                       νῆσος            : <νῆσος*νῆσος, νήσου@une île> ◖N.sg◗
+-                       δενδρήεσσα       : <δενδρήεις, δενδρήεσσα, δενδρήεν@boisé> ◖N.sg.féminin◗
+-                       θεὰ              : <θεά*θεά, θεᾶς@la déesse> ◖N.sg◗
+-                       δ᾽               : <δέ@particule> 『δ᾽=δέ』
+                                           emploi paratactique de δέ : la coordination exprime en fait la subordination.
+-                       ἐν               : <ἐν@dans> 
+                                           tmèse pour ἐνναίει (▶ <ἐνναίω@habiter dans>)
+-                       δώματα           : <δῶμα*δῶμα, δώματος@une demeure> ◖A.pl.◗
+-                       ναίει            : <ναίω@habiter> ◖actif.indicatif.présent.3S◗ 
+                                           tmèse pour ἐνναίει (▶ <ἐνναίω@habiter dans>)
+
+:ᵃ      Od.2.212       ἀλλ' ἄγε μοι δότε νῆα θοὴν | καὶ εἴκοσ' ἑταίρους,
+=                      Mais allez ! Donnez-moi une nef rapide et vingt compagnons
+-                       ἀλλ'             : <ἀλλά@mais> 『ἀλλ=ἀλλά』
+-                       μοι              : <ἐγώ@pronom personnel> ◖1S.forme_atone.D.sg◗
+-                       δότε             : <δίδωμι@donner> ◖actif.impératif.aoriste.2P◗
+-                       νῆα              : <ναῦς*ναῦς, νεώς@un navire> ◖accusatif.singulier.forme_avec_η◗
+-                       θοὴν             : <θοός*θοός, θοή, θοόν@rapide> ◖accusatif.singulier.féminin◗
+-                       καὶ              : <καὶ@et>
+-                       εἴκοσ'           : <εἴκοσι@vingt> 『εἴκοσ'=εἴκοσι』
+-                       ἑταίρους         : <ἑταῖρος*ἑταῖρος, ἑταίρου@le compagnon> ◖accusatif.pluriel◗
+
+:ᵃ      Od.2.213       οἵ κέ μοι | ἔνθα καὶ ἔνθα | διαπρήσσωσι κέλευθον.
+=                      qui pourraient [add]venir avec moi en divers lieux achever le voyage.
+-                       οἵ               : <ὁ@déterminant article défini> ◖3P.masculin.avant_enclitique.forme_atone.N.pl.◗
+-                       κέ               : <κέ@particule modale>
+-                       μοι              : <ἐγώ@pronom personnel> ◖1S.forme_atone.D.sg◗
+-                       ἔνθα             : <ἔνθα@là>
+-                       καὶ              : <καὶ@et>
+-                       ἔνθα             : <ἔνθα@là>
+-                       διαπρήσσωσι      : <διαπράσσω@accomplir> ◖actif.subjonctif.présent.3P◗
+-                       κέλευθον         : <κέλευθος*κέλευθος, κελεύθου@un chemin> ◖accusatif.singulier◗
+
+:ᵃ      Od.5.465       ὤ [D]μοι [N]ἐγώ, | τί [v]πάθω; | τί νύ [D]μοι μήκιστα [v]γένηται;
+=                      Malheureux ! Que vais-je endurer ? Que va-t-il donc m'arriver à la fin ?
+-                       ὤ                : <ὤ@particule exclamative> ◖devant_un_enclitique◗
+-                       μοι              : <ἐγώ@pronom personnel> ◖1S.forme_atone.D.sg◗
+-                       ἐγώ              : <ἐγώ@pronom personnel> ◖1S.forme_tonique.N.sg◗
+-                       τί               : <τις@quelque> ◖A.sg.neutre◗
+-                       πάθω             : <πάσχω@subir> <actif.subjonctif.présent.1S> 
+                                           Sens futur du subjonctif.
+-                       τί               : <τις@quelque> ◖A.sg.neutre◗ ◖devant_un_enclitique◗
+-                       νύ               : <νύν@particule> ◖devant_un_enclitique◗
+-                       μοι              : <ἐγώ@pronom personnel> ◖1S.forme_atone.D.sg◗
+-                       μήκιστα          : <μήκιστος*μήκιστος, μηκίστη, μήκιστον> ◖accusatif.pluriel.neutre◗ ×emploi_adverbial
+-                       γένηται          : <γίγνομαι@devenir> ◖MP.subjonctif.présent.3S◗ 
+                                           Sens futur du subjonctif.

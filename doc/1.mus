@@ -1,0 +1,2314 @@
+/context/ Old English poetry
+
+# textes connus:
+# ᴷ⁴ᵃ  : texte de Klaeber's Beowulf, 4e édition + accentuation de Xavier Faure d'après Kendalls
+# ᴷ⁴'ᵃ : texte de Klaeber's Beowulf, 4e édition, TEXTE SIMPLIFIE + accentuation de Xavier Faure d'après Kendalls
+# ˣᶠ¹, ˣᶠ², ˣᶠ³
+
+# ajout de ᴷ⁴ᵃ: ❲❳ comme dans ❲te❳
+
+
+# ???
+# [add]
+
+# Cette édition est destinée à des étudiants, non à des spécialistes du texte.
+# Elle est basée sur Klaeber.4
+# à propos de la traduction :
+# 2 systèmes de temps utilisés:
+# ----
+# Un exemple d'ambiguïté de la construction : ▶ᴷ⁴ᵃBe0030b-Be0033
+#  fǽr (Be0033) peut aussi bien être un nominatif sujet de (Be0032)stṓd qu'un accusatif objet de ā́hte.
+#
+# Un exemple montrant que la séparation entre deux half-verses n'empêche pas l'accord:▶ᴷ⁴ᵃBe0043
+#
+# Un exemple montrat que deux propositions existent au sein du même demi-vers : ▶ᴷ⁴ᵃBe0057 ❰hḗold ❰þenden lífde
+#
+# litote : ▶ᴷ⁴ᵃBe0055b
+#
+# exemple montrant que les deux demi-vers peuvent être remplis par deux mots : ▶ᴷ⁴ᵃBe0063
+#
+# (accord par proximité) exemple montrant qu'un verbe singulier a un double sujet ; ▶ᴷ⁴ᵃBe0064-0065a
+#
+# exemple montrant que le verbe wæs peut être sous-entendue : ▶ᴷ⁴ᵃBe0127
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ============================================================================
+# =============================== SOMMAIRE ===================================
+# ============================================================================
+# (0) à propos de ce fichier
+# (1) principes guidant ce fichier
+#   (1.1) les natures grammaticales
+#   (1.2) les élisions
+#   (1.3) particularités des textes poétiques
+#   (1.4) morphologie
+#     (1.4.1) le nom
+#     (1.4.2) l'adjectif
+#     (1.4.3) les pronoms
+#     (1.4.4) les verbes
+#   (1.5) les marqueurs spéciaux
+# ============================================================================
+#
+# (0) à propos de ce fichier
+#
+# (1) principes guidant ce fichier
+#
+# (1.1) les natures grammaticales
+#
+# (1.2) les élisions
+# Toutes les élisions sont résolues à l'aide des symboles 『 et 』.
+# les deux mots (élidé/non élidé) sont séparés par '='.
+#
+# (1.3) particularités des textes poétiques
+##
+# (1.4) morphologie
+#
+# (1.4.1) le nom
+#
+#  (1.4.2) l'adjectif
+#  (1.4.3) les pronoms
+#  (1.4.4) les verbes
+#
+# (1.5) les marqueurs spéciaux
+# Ils sont utilisés dans la définition d'un mot de vocabulaire (pas dans le dictionnaire)
+# à l'aide du symbole ×.
+# marqueurs spéciaux connus:
+#   ×forme_impersonnelle
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ============================================================================
+
+# ------------------------------- ABBREVIATIONS ------------------------------
+% ᵛ : [v]
+% ᵛⁱ : [vi]
+% ᴺ : [N]
+% ᴬ : [A]
+% ᴳ : [G]
+% ᴰ : [D]
+
+# ----------------------------------- MARKERS ---------------------------------
+# NB : lines immune to abbreviations resolutions
+& v
+& vi
+& N
+& A
+& G
+& D
+& gp
+& halfverse_separator |
+
+# ----------------------------------------------------------------------------
+# -------------------------------------- OUTPUT ------------------------------
+# ----------------------------------------------------------------------------
+# NB : lines immune to abbreviations resolutions
+! colorama    : N                   foreground_red+style_bright
+! colorama    : A                   foreground_red+style_bright
+! colorama    : G                   foreground_red+style_bright
+! colorama    : D                   foreground_red+style_bright
+! colorama    : v                   foreground_red+style_bright
+! colorama    : vi                  foreground_red+style_bright
+! colorama    : halfverse_separator foreground_red+style_bright
+#! linuxconsole
+#! libreoffice
+#! html1p
+#! html2D
+#! latex
+
+# -----------------------------------------------------------------------------
+# ---------------------------------- DICTIONARY -------------------------------
+# -----------------------------------------------------------------------------
+
+# ----- ! -----
+o <expressions et mots latins empruntés par le vieil anglais> 
+  Liste assez complète donnée par Klaeber4, p. ccxi.
+  * yldo bearn (▶ᴷ⁴ᵃBe0070) : "filii hominum", cf eg.g. Psaumes.4.3 (Fílii hóminum, úsquequo gravi corde ? * ut quid dilígitis vanitátem, et quǽritis mendácium ?)  (בְּנֵ֥י אִ֡ישׁ עַד־﻿מֶ֬ה כְבֹודִ֣י לִ֭כְלִמָּה תֶּאֱהָב֣וּן רִ֑יק תְּבַקְשׁ֖וּ כָזָ֣ב סֶֽלָה׃)
+
+o <objet de ġefrǽġn modifié par un adverbe> 
+  Les locutions prépositionnelles et les adverbes de temps et de lieu modifiant l'objet de ġefrǽġn 
+  ou une proposition dépendant de ce verbe sont placées AVANT ġefrǽġn. Cf ▶ᴷ⁴ᵃBe0074, ▶ᴷ⁴ᵃBe2484,
+  ▶ᴷ⁴ᵃBe2694, ▶ᴷ⁴ᵃBe2752, ▶ᴷ⁴ᵃBe2773 (confer Klaber's Beowulf, p. 154, à propos du vers 575)
+
+o <Be0025 ġehwǣ́re/ġehwǣ́m> 
+  Le manuscript a la forme féminine tardive ġehwǣ́re; mais les vers de type A avec anacrusis ont 
+  habituellement une double allitération. Le scribe a peut-être remplacé la forme non-marquée ġehwǣ́m 
+  par la forme féminine, plus récente, sous l'influence de mǣ́ġþa. Consulter à ce sujet les vers ▶ᴷ⁴ᵃBe0800, 
+  ▶ᴷ⁴ᵃBe1365 et ▶ᴷ⁴ᵃBe2838. ġehwǣre altère le vers de ▶And.630 et de ▶Prec.74. Le professeur Fulk, contacté 
+  par mail, explique ainsi le passage : """if it is assumed that ġehwǣre is a late substitution for 
+  original ġehwǣm, the alliteration is improved because the metrical pattern x / x x / x usually appears 
+  only when the verse contains two alliterating staves. In the metrical pattern x / x x /, on the other 
+  hand, it may be that just one of the staves alliterates. And so substituting original ġehwǣm for 
+  ġehwǣre does not alter the alliteration, but it does convert the metrical pattern to one in which 
+  double alliteration is not required."""
+
+o <accusatif de durée>
+  L'accusatif peut avoir le sens d'une durée temporelle cf e.g. ▶ᴷ⁴ᵃBe0014b-Be0016a
+
+o <cheville> 
+  La liste des chevilles poétiques suivante est donnée dans Dans Klaeber's Beowulf (p. cxiv) : 
+  in/on burgum, ġeardum, wīcum, under wolcnum, heofenum, roderum, sweġle, mid yldum.
+
+o <e glide> Old English Grammar (Campbell), §§ 170-188.
+
+o <hendiadys> c.f. ▶ᴷ⁴ᵃBe0104a
+
+o <la relative contient le sujet de la phrase et suit son prédicat> 
+  Ceci apparaît aux vers ▶ᴷ⁴ᵃBe0090, ▶ᴷ⁴ᵃBe0138, ▶ᴷ⁴ᵃBe0143, ▶ᴷ⁴ᵃBe0809, ▶ᴷ⁴ᵃBe0825, ▶ᴷ⁴ᵃBe1497, ▶ᴷ⁴ᵃBe1618 
+  (cf Klaeber's Beowulf, p. 120, note à propos du vers 79.)
+
+o <mid yldum> 
+  L'expression est formulaïque, cf. e.g. ▶GenA2288. Dans Klaeber's Beowulf (p. cxiv), 
+  l'expression est appelée une cheville (cf <cheville>)
+
+o <non accord entre un adjectif et le mot qu'il qualifie> 
+  ▶ᴷ⁴ᵃBe0046b, ▶ᴷ⁴ᵃBe0048a, ▶ᴷ⁴ᵃBe0372b, ▶ᴷ⁴ᵃBe1126a, ▶ᴷ⁴ᵃBe2704a, ▶ᴷ⁴ᵃBe2841a, 2869b et 3139a
+
+o <sens de l'infinitif> 
+  l'infinitif peut avoir le sens d'un infinitif passif (cf Klaeber.4.p.140 à propos de 0386b-sqq); 
+  cf ▶ᴷ⁴ᵃBe0038. Peut-être confer ▶ᴷ⁴ᵃBe0068 : tant qu'on ne lit pas 0069, la construction avec un
+  sens passif reste possible.
+
+o <sens particulier de þæs quand il est au G.sg.neutre> 
+  "en échange de quoi", cf. e.g. ▶ᴷ⁴ᵃBe0007b 
+  peut former une locution conjonctive avec "þe", cf. e.g. ▶ᴷ⁴ᵃBe0108b
+
+# ----- A -----
+o <Ābel@Abel> [nom propre|m.] "Abel"
+o <ac@ne pas...mais> [conjonctive de subordination] "mais" 
+  Presque toujours précédée d'une proposition négative.
+o <āgan@posséder> [verbe|prp.]  "détenir, posséder"
+o <ā-hebban@monter> [verbe|6.] 
+  (1) "monter (en l'air)", cf e.g. ▶ᴷ⁴ᵃBe0128
+o <ālecgan@allonger> [verbe|I.]  "allonger"
+o <ān@un> [déterminant|adjectif] 
+  (1) "un" 
+  (1.1) "un certan" 
+  ān peut introduire une personne ou un objet qui a été annoncé auparavant : cf ▶ᴷ⁴ᵃBe0100b, ▶ᴷ⁴ᵃBe2210b, ▶ᴷ⁴ᵃBe2280b et ▶ᴷ⁴ᵃBe2399b. 
+  (2) "seul" e.g. ▶ᴷ⁴ᵃBe0046, ▶ᴷ⁴ᵃBe0135
+o <ār@un honneur> [nom commun|f.]  "honneur, bénéfice, aide"
+o <āsettan@placer> [verbe|I]  "placer"
+o <āþum@un gendre> [nom commun|m.]  "un gendre"
+o <āþum-swēoras@un gendre et un beau-père> [nom commun|m.p.] "un gendre et un beau-père" 
+  ⊲ <āþum@un gendre> ＋ <swēor@un beau-père>
+
+# ----- Æ -----
+o <ǣdre@rapidement> [adverbe] "rapidement"
+o <æfter@après> 
+  (1) [préposition] préposition + dat. 
+  (2) adverbe "après quoi"
+o <ǣġ-hwylċ@chacun> [adjectif] "chacun"
+o <ǣht@une possession> [nom commun|fi.] "une possession"
+o <æl-mihtiġ@tout puissant> [adjectif] "tout puissant" 
+  ⊲ <eal(l)@tout> ＋ <mihtiġ@puissant>
+o <æþeling@un noble> [nom commun|m.] 
+  (1) "noble, prince, héros" 
+  (2) "homme"
+o <ǣr@auparavant> [adverbe] I) adverbe. "auparavant" 
+  Combiné à un verbe au prétérit peut marquer l'antériorité (e.g. ▶ᴷ⁴ᵃBe0014b-Be0016a). 
+  superlatif ǣrest "tout d'abord" : cf <syððan ǣrest@sitôt que>.
+o <ǣr-dæġ@un point du jour> [nom commun|m.] "le point du jour" 
+  ⊲ <ǣr@auparavant> ＋ <dæġ@un jour>
+o <ǣr-gōd@bon comme autrefois> [adjectif] "bon comme autrefois, éprouvé"  
+  ⊲ <ǣr@auparavant> ＋ <gōd@bon>
+o <ærn@une maison> [nom commun|n.] "une maison"
+o <æt@près de> [préposition] préposition + datif : "à, près de"
+o <æt-beran@emporter> [verbe|4] "porter, emporter au loin"
+o <ǣfre@n'importe quand> [adverbe] "à tout moment, n'importe quand"
+
+# ----- B -----
+o <be, bī@à côté de> [préposition] préposition + D.
+o <bēag, bēah@un anneau> [nom commun|m.] "anneau"
+o <bealo, bealu@agression> [nom commun|neutre] "agression, attaque"
+o <bearm@une étreinte> [nom commun|m.] 
+  (1) "sein, étreinte" 
+  (2) "possession" cf ▶ᴷ⁴ᵃBe0021b
+o <bearn@un enfant> [nom commun|n.] "un enfant"
+o <be-būgan@entourer> [verbe|2] "entourer"
+o <be-cuman@venir> [verbe|4.] "venir"
+o <be-irnan@courir> [verbe|7] "courir"
+o <bēor@une bière> [nom commun|f.] "une bière"
+o <beorht@resplendissant> [adjectif] "resplendissant"
+o <bēor-þegu@le fait de consommer de la bière> [nom commun|f.] 
+  ⊲ <bēor@une bière> ＋ <þicgan@consommer>
+o <bēot@une promesse> [nom commun|n.] "une promesse, un voeu"
+o <Bēow@Bēow> [nom propre|m.] "Bēow", nom propre
+o <beran@porter> [verbe|4] "porter"
+o <biddan@demander> [verbe|5] "demander"
+o <bi(l)@une épée> [nom commun|n.] "une épée"
+o <bīdan@attendre> [verbe|I] "demeurer, attendre"
+o <blǣd@le pouvoir> [nom commun|masculin] "pouvoir, vigueur, gloire"
+o <blīðe@joyeux> [adjectif|(i.)ja.] "joyeux"
+o <brēme@célèbre> [adjectif] "célèbre"
+o <brim@une mer> [nom commun|n.] "la mer"
+o <brytta@le dispensateur> [nom commun|m.] "le distributeur, le dispensateur"
+o <burh@une place forte> [nom commun|fc.] 
+  "une place forte" Le pluriel de ce mot a un sens singulier, cf e.g. ▶ᴷ⁴ᵃBe0053
+o <burnan@brûler> [verbe|3] "brûler"
+o <būton@sauf> [préposition] 
+  (1) préposition, "à l'exception de" + datif 
+  (2) conjonction de subordination
+o <byrne@une cotte de mailles> [nom commun|wk.f.] "une cotte de mailles"
+
+# ----- C -----
+o <Cāin@Caïn> [nom propre|m.] "Caïn"
+o <cennan@donner naissance> [verbe|I] "donner naissance"
+o <ċēol@un bateau> [nom commun|m.] "un bateau"
+o <cræft@un puissance> [nom commun|m.] "une puissance, un pouvoir"
+o <cuman@venir> [verbe|4] 
+  (1) "venir" 
+  (2) "arriver" e.g. in ▶ᴷ⁴ᵃBe0023b
+o <cunnan@savoir> [verbe|prp.] "savoir"
+o <cȳm-līċe@splendidement> [adverbe] "bellement, splendidement"; 
+  comparatif "cymlicor", cf e.g. ▶ᴷ⁴ᵃBe0038a
+o <cyning@un roi> [nom commun|m.] "roi"
+o <cyn(n)@une race> [nom commun|nja.] 
+  (1) "une race", cf ▶ᴷ⁴ᵃBe0098a
+o <cwealm@un crime> [nom commun|m.] "un crime"
+o <cweðan@parler> [verbe|5] "parler"
+o <cwēn@une reine> [nom commun|fi.] 
+  (1) "épouse d'un roi" 
+  (2) "une reine"
+o <cwico@vivant> [adjectif|adj.u.] "vivant"
+
+# ----- D -----
+o <dǣd@une action> [nom commun|fi.] "action"
+o <dæġ@un jour> [nom commun|m.] "un jour"
+o <dælan@distribuer> [verbe|I] "distribuer"
+o <Dene@des Danois> [nom commun|mi.p.] "les Danois"
+o <dōgor@un jour> [nom commun|n.] "un jour"
+o <dōn@faire> [verbe|anv.] "faire" 
+  (1) "faire" 
+  (2) "placer" 
+  (3) "faire=reprise d'un précédent verbe" e.g. cf ▶ᴷ⁴ᵃBe0043-Be0046
+o <drēam@une réjouissance> [nom commun|m.] 
+  (1) "une joie" 
+  (2) "un festin, une festivité", cf e.g. ▶ᴷ⁴ᵃBe0088b
+o <drēogan@supporter> [verbe|2] "supporter endurer"
+o <dryht-guma@un serviteur> [nom commun|wk.m.] "un serviteur, un guerrier" 
+  ⊲ <dryhten@un seigneur> ＋ <guma@un homme>
+o <dryhten@un seigneur> [nom commun|m.] "un seigneur" 
+  peut désigner "Dieu" comme en ▶ᴷ⁴ᵃBe0108a
+o <dyrne@secret> [adjectif ja.] "caché, secret"
+
+# ----- E -----
+o <ēac@de plus> [adverbe] "de plus"
+o <ēadiġ@prospère> [adjectif] "prospère, fortuné"
+o <ēadiġ-līċe@joyeusement> [adverbe] 
+  ⊲ <ēadiġ@prospère> ＋ <līċe@de manière semblable à>
+o <eafora, eafera@un descendant> [nom commun|wk.m.] "descendant"
+o <eal(l)@tout> [adjectif+substantif] "tout"
+o <eald@vieux> [adjectif] "vieux"
+o <ealdor, aldor@un seigneur> [nom commun|m.] "un seigneur, un prince, un chef"
+o <ealdor-lēas@sans chef> [adjectif] "sans seigneur" ⊲ <ealdor, aldor@un chef> ＋ <lēas@privé de>
+o <eard@une contrée> [nom commun|m.] "une contrée"
+o <earfoðe@des détresses> [nom commun|n.] "des détresses"
+o <earfoð-līċe@avec peine> [adverbe] "avec peine" 
+  ⊲ <earfoðe@des détresses> ＋ <līċe@de manière semblable à>
+o <ēċe@éternel> [adjectif|ja.] "éternel"
+o <ecg@une épée> [nom commun|fjō.] "une épée"
+o <ecg-hete@un conflit à couteaux tirés> [nom commun|mi.] "un conflit à couteaux tirés" 
+  ⊲ <ecg@une épée> ＋ <hete@une haine>
+o <eft@en retour> [adverbe] "en retour, à nouveau"
+o <eġsian@terrifier> [verbe|II] "terrifier"
+o <ellen@un courage> n. 
+  (1) "courage, valeur, force" 
+  (2) action de valeur 
+  (3) en préfixe a le sens de "puissant"; cf e.g. <ellen-gǣst@un puissant démon>
+o <ellen-gǣst@un puissant démon> [nom commun|mi.] "un puissant démon" 
+  ⊲ <ellen@un courage> ＋ <gāst, gǣst@un démon>
+o <ellor@vers un autre lieu> [adverbe]
+o <eorl@un guerrier> [nom commun|m.] "homme, guerrier, héros"
+o <eoten@un géant> [nom commun|m.] "un géant"
+o <eorðe@une terre> [nom commun[wk.f.] "une terre"
+
+# ----- F -----
+o <faroð@un courant> [nom commun|m. ou n.] "courant, mer"
+o <fæder@un père> [nom commun|mc.] "le père"
+o <fæsten@une place-forte> [nom commun|nja.] "une place forte"
+o <fær@un vaisseau> [nom commun|n.] "vaisseau, bateau"
+o <fæst@attaché> [adjectif] 
+  "attaché à" + on + datif, cf e.g. ▶ᴷ⁴ᵃBe0137b
+o <fǣhð(o)@une hostilité> [nom commun|f.] "une hostilité"
+o <faran@aller> [verbe|6.] "aller"
+o <fēa-sceaft@pauvre> [adjectif] "pauvre, misérable"; 
+  ??? origine ＋ <sceaft>
+o <fela@un grand nombre de> [indéclinable|nu.] 
+  (1)"nombreux"; 
+  (2) en préfixe, "très", cf <fela-hrōr@très vigoureux>; 
+  grammaticalement, "fela" est un singulier : cf. e.g. ▶ᴷ⁴ᵃBe0036b-Be0037
+o <fela-hrōr@très vigoureux> [adjectif] "très vigoureux, fort" 
+  ⊲ <fela@un grand nombre de> ＋ <hrōr@agile>
+o <fen(n)@un marais> [nom commun|nja.] "un marais"
+o <feoh@une monnaie> [nom commun|n.] 
+  (1) "monnaie, richesse" 
+  (2) en préfixe : "coûteux" comme dans <feoh-ġift@un coûteux cadeau>
+o <feoh-ġift@un coûteux cadeau> [nom commun|fi.] "coûteux cadeau" ⊲ <feoh@une monnaie> ＋ <ġift@une dot>
+o <fēond@un ennemi> [nom commun|mc.] "un ennemi"
+o <feor, feorr@loin> [adverbe] "loin"
+o <feorh@une vie> [nom commun|m. n.] "une vie"
+o <feorran@depuis fort longtemps> [adverbe] "depuis fort longtemps"
+o <feor-weġ@un lointain> [nom commun|m.] "le lointain"; 
+  nom utilisé au pluriel, cf e.g. ▶ᴷ⁴ᵃBe0037 
+  ⊲ <feor, feorr@loin> ＋ <weġ@un chemin>
+o <fēower@quatre> [déterminant numéral] "quatre"
+o <fēran@aller> [verbe|I] "aller"
+o <fīfel@un monstre> [nom commun|n. ?] "un monstre"
+o <fīfel-cyn(n)@une race de monstres> 
+  ⊲ <fīfel@un monstre> ＋ <cyn(n)@une race>
+o <findan@trouver> [verbe|3] "trouver"
+o <fīras@un peuple> [nom commun|mja.p.] "une humanité, un peuple"
+o <flōd@un flot> [nom commun|m.] "un flot"
+o <folc@un peuple> [nom commun|n.] (1) "peuple, nation" (2) "armée"
+o <folc-scaru@un partage du peuple> [nom commun|n.] "partage, division du peuple" : "? nation" 
+  ⊲ <folc@un peuple> ＋ <scearu@un partage>
+o <folc-stede@une demeure pour le peuple> [nom commun|mi.] "une demeure pour le peuple" 
+  ⊲ <folc@un peuple> ＋ <stede@un endroit>
+o <folde@un sol> [nom commun|wk. f.] "une terre, un sol"
+o <for@pour> [préposition] 
+  (1) + datif 
+  (1.1) "devant" 
+  (1.2) "à cause de", cf. e.g. ▶ᴷ⁴ᵃBe0110a 
+  (2) + acc. "pour"
+o <fore@pour ça> 
+  (1) "pour ça", cf ▶ᴷ⁴ᵃBe0136b
+o <for-ġifan@accorder> [verbe|5] "donner, accorder"
+o <for-scrīfan@condamner> [verbe|I.] "condamner +D."
+o <forð@en avant> [adverbe] 
+  (1) "en avant, au loin" 
+  (2) "totalement" dans <forð-ġerīmed@compté en tout>
+o <forð-ġerīmed@compté en tout> [adjectif] "compté en tout" 
+  ⊲ <forð@en avant> ＋ <ġe-rīman@compter>; cette expression est une variation de ġeteled rīme(s).
+o <for-wrecan@bannir> [verbe|5.] "bannir"
+o <fram, from@de> [préposition+adverbe] 
+  (1) préposition + datif 
+  (2) adverbe
+o <frætwan@décorer> [verbe|I] "décorer"
+o <frætwe@armes ornées> [nom commun|fwō.p]. "ornements" d'où "armures ornées, armes ornées"
+o <frēa@un seigneur> [nom commun|wk. m.] "seigneur, roi"
+o <fremman@accomplir> [verbe|I] "accomplir"
+o <frōfor@une consolation> [nom commun|f.] "consolation, soulagement"
+o <from@brave> [adjectif] 
+  (1) "brave, courageux" 
+  (2) "splendide" : cf ▶ᴷ⁴ᵃBe0021a
+o <fruma@un commencement> [nom commun|wk. m.] "commencement", d'où le sens de "chef"
+o <frum-sceaft@une origine> [nom commun|fi.] "une origine"; 
+  ⊲ <fruma@un commencement> ＋ <sceaft>
+o <ful(l)@plein> [adjectif] "plein de"
+o <fūs@prêt à> [adjectif] "prêt à, en hâte de"
+o <fyren, firen@une souffrance> [nom commun|f.] 
+  (1) "souffrance, violence" 
+  (2) fyren- a le sens d'un intensif, cf fyren-ðearf
+o <fyren-ðearf@une terrible détresse> [nom commun|fi.] "terrible détresse" 
+  ⊲ <fyren, firen@une souffrance> ＋ <ðearf>
+o <fyrst@un espace de temps> [nom commun|mi.] "un espace de temps"
+
+# ----- G -----
+o <gamol@âgé> [adjectif] "âgé"
+o <gāst, gǣst@un démon> [nom commun|ma. mi.] "un démon"
+o <gār@une lance> [nom commun|m.] (1) "lance", (2) "projectile"
+o <Gār-Dene@Danois à la lance> [adjectif] "Danois à la lance"; 
+  ⊲ <gār@une lance> ＋ <Dene@des Danois>
+o <gārsecg@un océan> [nom commun|mja.] "un océan, une mer"
+o <ġe-@préfixe> [pas de catégorie grammaticale]
+o <ġēap@spacieux> [adjectif] 
+  (1) "incurvé" 
+  (2) "spacieux" comme dans <horn-ġēap@aux pignons bien espacés>
+o <ġeard@un habitat> [nom commun|m.] 
+  (1) "un endroit habité" 
+  (2) "la cour"; le pluriel a un sens singulier, cf ▶ᴷ⁴ᵃBe0013a
+o <ġēar-dagas@des années d'antan> [nom commun|m.p.] "années d'antan"
+o <ġearo, ġearu@prêt> [adjectif|wa.] "prêt, préparé"
+o <ġe-dryht, ġe-driht@une troupe> [nom commun|fi.] "une troupe"
+o <ġebánnan@ordonner> [verbe|7] "ordonner à (+datif)"
+o <ġebīdan@expérimenter> [verbe|1] "expérimenter, vivre avec"
+o <ġe-būan@prendre possession de> "prendre possession de, s'établir" 
+  se construit avec l'accusatif, cf ▶ᴷ⁴ᵃBe0116b-Be0117
+o <ġedǣlan@distribuer> [verbe|I.] "distribuer"
+o <ġe-fēon@se réjouir> [verbe|5.] "se réjouir" + G./D.
+o <ġefrǣġe@renommé> [adjectif|ja.] "renommé"; 
+  construit avec le datif en ▶ᴷ⁴ᵃBe0055a (comme pour foremǣrost ▶ᴷ⁴ᵃBe0309)
+o <ġe-frætwian@décorer> [verbe|II.] "décorer"
+o <ġe-fremman@accomplir> [verbe|I.]
+  "commettre, accomplir", cf e.g. ▶ᴷ⁴ᵃBe0135 
+  ⊲ <ġe-@préfixe> ＋ <fremman@accomplir>
+o <ġe-friġnan@apprendre> [verbe|3] "apprendre, (à l'origine "par enquête", "entendre parler de")
+o <ġe-ġyrwan@équiper> [verbe|I.] "équiper, apprêter"
+o <ġe-hȳdan@entendre> [verbe I] "entendre"
+o <ġehwā@chaque> [déterminant] "chaque", précédé d'un génitif distributif (cf e.g. ▶ᴷ⁴ᵃBe0088a)
+o <ġelǣstan@servir qqn> [verbe|I.] "servir + acc"
+o <ġe-limpan@advenir> [verbe|3] "advenir, survenir"
+o <ġēn@encore, davantage> [adverbe] 
+  (1) "encore, davantage" 
+  (2) construit négativement : "ne… pas encore" cf e.g. ▶ᴷ⁴ᵃBe0083b
+o <ġe-niman@s'emparer> [verbe|4.] "s'emparer" 
+  se construit avec l'accusatif, cf e.g. ▶ᴷ⁴ᵃBe0122b-0123a
+o <ġeond@à travers> [préposition] "à travers, par + accusatif"
+o <ġeogoð@une jeunesse> [nom commun|f. (fi. originellement)] 
+  (1) "la jeunesse" 
+  (2) "de jeunes guerriers" comme en ▶ᴷ⁴ᵃBe0066b
+o <ġeōmor@triste> [adjectif] "triste"
+o <ġeong@jeune> [adjectif] "jeune"
+o <ġeorne@volontiers> [adverbe] "volontiers"
+o <ġe-þolian@souffrir> [verbe|II] "souffrir, endurer"
+o <ġe-rīman@compter> [verbe|I] "compter"
+o <ġe-sceaft@une création> [nom commun|fi.] "une création" d'où "un monde"
+o <ġe-scæp-hwīle@une heure fixée par le destin> [nom commun|f.] "temps, heure fixée par le destin" 
+  ⊲ <scyppan@faire> ＋ <hwīl@un espace de temps>
+o <ġe-scyppan@créer> [verbe|6.] "créer"
+o <ġesettan@établir> [verbe|I] "établir"
+o <ġe-sīð@un compagnon> [nom commun|m.] "compagnon"
+o <ġe-strēon@un trésor> [nom commun|n.] "un trésor, une richesse"
+o <ġe-þēon@prospérer> [verbe|I.] "prospérer"
+o <ġe-weald@un pouvoir> [nom commun|n.] "un pouvoir"
+o <ġe-weaxan@grandir> [verbe|7] "grandir"
+o <ġe-win(n)@un assaut> [nom commun|n.] "un assaut"
+o <ġe-wrecan@punir> [verbe|5] "punir, venger"
+o <ġewunian@demeurer avec> [verbe|II.] "demeurer avec, rester + acc."
+o <ġewyrċan@accomplir> [verbe|I] 
+  (1) "faire, accomplir" 
+  (1a) "construire", cf ▶ᴷ⁴ᵃBe0069 
+  (2) "s'efforcer de", cf e.g. ▶ᴷ⁴ᵃBe0020.
+o <ġifan@donner> [verbe|5] "donner"
+o <ġift@une dot> [nom commun|f.] "une dot"
+o <ġīgant@un géant> [nom commun|m.] "un géant"
+o <glæd@brillant> [adjectif] "brillant"
+o <gōd@bon> [adjectif] "bon"
+o <gōd@une bonté> [nom commun|n.] "bonté, libéralité"
+o <God@Dieu> [nom commun|m.] "Dieu"
+o <gombe@un tribut> [nom commun|w.f.] "tribut, rançon"
+o <grǣdiġ@cruel> [adjectif] "cruel"
+o <Grendel@Grendel> [nom propre|m.] "Grendel"
+o <grim(m)@cruel> [adjectif] "cruel"
+o <guma@un homme> [nom commun|wk. m.] "adulte, homme"
+o <gūð@une bataille> [nom commun|f.] "un bataille, une guerre"
+o <gūð-cræft@une puissance guerrière> [nom commun|m.] "une puissance guerrière" 
+  ⊲ <gūð@une bataille> ＋ <cræft@un puissance>
+o <gūð-rēow@féroce dans la bataille> [adjectif] "féroce dans la bataille" 
+  ⊲ <gūð@une bataille> ＋ <rēow@cruel>
+o <ġýldan@payer> [verbe|3] "payer"
+o <gylden@en or> [adjectif] "en or, doré"
+
+# ----- H -----
+o <Hālga@Hālga> [nom propre|wk. m.] Hālga
+o <hām@une maison> [nom commun|m.] "une maison, une demeure"
+o <hātan@ordonner> [verbe|7]  
+  (1) "nommer", cf e.g. ▶ᴷ⁴ᵃBe0102b 
+  (2) "ordonner", cf e.g. ▶ᴷ⁴ᵃBe0068b
+o <hæle, hæleð@un héros> [nom commun|mc.] "un homme, un héros, un guerrier"
+o <hǣlo@une prospérité> [nom commun|fīn.] "une prospérité, une chance"
+o <hēah@haut> [adjectif] "haut"; le neutre avoir un sens adverbial, cf. ▶ᴷ⁴ᵃBe0048
+o <heal@un hall> [nom commun|f.] "un hall"
+o <healdan@garder> [verbe|7] "garder"
+o <heal-ærn@un hall-maison> [nom commun|n.] "une maison qui est un hall" 
+  ⊲ <heal@un hall> ＋ <ærn@une maison>
+o <heal-reċed@un hall-bâtiment> [nom commun|n.] "un bâtiment qui est un hall" 
+  ⊲ <heal@un hall> ＋ <reċed@un bâtiment>
+o <heals-ġebedda@une personne qui partage la couche> [nom commun|wk. m. f.] "personne qui partage la couche" 
+  ⊲ ???
+o <hearpe@une harpe> [nom commun|wk.f.] "une harpe"
+o <heaðo@une bataille> [nom commun|] "une bataille" 
+  ;??? utilisé comme préfixe et jamais comme mot seul
+o <heaþo-ġeong@jeune au combat> [adjectif] "jeune au combat" 
+  ⊲ <heaðo@une bataille> ＋ <ġeong@jeune>
+o <Heaðo-Scilfing@Heaðo-Scilfing> [nom propre|m.] "Heaðo-Scilfing" 
+  ⊲ <heaðo@une bataille> ＋ <Scilfing, Scylfing@Scilfing>
+o <heaðo-wǣd@une armure> [nom commun|f.] "un vêtement de guerre, une armure" 
+  ⊲ <heaðo@une bataille> ＋ <wǣd@un vêtement>
+o <heaðo-wylm@un déferlement hostile> [nom commun|mi.] "une flamme hostile" 
+  ⊲ <heaðo@une bataille> ＋ <wylm@un déferlement>
+o <healf@médian> [adjectif] "médian, à moitié"
+o <Healf-Dene@Healf-Dene> [nom propre|mi.p.] "Healf-Dene, nom d'un peuple" 
+  ⊲ <healf@médian> ＋ <Dene@des Danois>
+o <Healf-dene@Healfdene> [nom propre|mi.] "Healfdene, roi des Danois" 
+  ⊲ <Healf-Dene@Healf-Dene>
+o <hel(l)@un enfer> [nom commun|fjō.] "un enfer"
+o <heofon@un ciel> [nom commun|m.] "un ciel"; 
+  le mot utilisé au pluriel a un sens singulier
+o <heoro@une épée> [nom commun|m. ou n.] "une épée", d'où "une armée" comme dans <Heoro-gār@Heorogār>
+o <Heoro-gār@Heorogār> [nom propre|m.] "Heorogār" 
+  ⊲ <heoro@une épée> ＋ <gār@une lance>
+o <Heorot@Heorot> [nom propre|m.] "Heorot", nom d'un hall. Le mot signifie le «cerf».
+o <here@une armée> [nom commun|mja.] "une armée"; 
+  a peut-être le sens de "guerre" dans <here-spēd@succès à la guerre>
+o <here-spēd@succès à la guerre> [nom commun|fi.] "succès à la guerre" 
+  ⊲ <here@une armée> ＋ <spēd@un succès>
+o <hete@une haine> [nom commun|mi.] "une haine, une hostilité"
+o <hild@une guerre> [nom commun|fjō.] "une guerre, une bataille"
+o <hilde-wǣpen@une arme de guerre> [nom commun|n.] "arme de guerre" 
+  ⊲ <hild@une guerre> ＋ <wǣpen@une arme>
+o <hlæst@une cargaison> [nom commun|m. (peut-être neutre)] "une cargaison"
+o <hlēoþrian@s'exclamer> [verbe|II] "parler, s'exclamer"
+o <hlī́fian@se dresser> [verbe|II] "se dresser"
+o <hlūd@bruyant> [adjectif]
+o <holm@une mer> [nom commun|m.] "une eau, une mer"
+o <horn@la corne> [nom commun|m.] 
+  (1) "une corne" 
+  (2) "un pignon" ▶ᴷ⁴ᵃFi01
+o <horn-ġēap@aux pignons bien espacés> [adjectif] "aux pignons bien espacés" 
+  ⊲ <horn@la corne> ＋ <ġēap@spacieux>
+o <hran@une baleine> m. "une baleine"
+o <hrḗmiġ@exultant> [adjectif] "exultant" 
+  construction : avec le datif ou avec le génitif, cf e.g. ▶ᴷ⁴ᵃBe0124a
+o <hrēþiġ@triomphant> [adjectif] "triomphant"
+o <hrinġ@un anneau> [nom commun|m.] "un anneau
+o <Hrinġ-Dene@des Danois aux anneaux> [nom propre|mp.] "Danois aux anneaux" 
+  ⊲ <hrinġ@un anneau> ＋ <Dene@des Danois>
+o <hrinġed@formé d'un anneau> [adjectif] "formé d'un anneau"
+o <hrinġed-stefna@bateau avec un anneau> [nom commun|wk. m.] "bateau à la proue orné d'un anneau" 
+  ⊲ <hrinġed@formé d'un anneau> ＋ <stef@une proue>
+o <hron-rād@une route aux baleines> [nom commun|f.] "route aux baleines" 
+  ⊲ <hran@une baleine> ＋ <rād@un raid>
+o <hrōðor@un avantage> [nom commun|n.] "un avantage"
+o <hrōr@agile> [adjectif] "agile, vigoureux, fort"
+o <Hrōð-gār@Hrōðgār> [nom propre|m.] "Hrōðgār" 
+  ⊲ <hrōðor@un avantage> ＋ <gār@une lance>
+o <hū@comment> [conjonction de subordination]  "comment"
+o <hūs@une maison> [nom commun|n.] "une maison"
+o <hū́ð@un pillage> [nom commun|f.] "un butin, un pillage"
+o <hwā@qui> [pronom interrogatif] : "qui ? quoi"
+o <hwæt@holà> [interjection] mot atone malgré la ponctuation; "holà"
+o <hwīl@un espace de temps> [nom commun|f.] "temps, espace de temps"
+o <hwyrfan@bouger> [verbe|I.] "bouger"
+o <hȳran@entendre> [verbe|I] 
+  (1) "entendre" 
+  (2) + datif "obéir à"
+o <hȳð@un port> [nom commun|f.] "le port"
+
+# ----- I -----
+o <in@dans> [préposition+adverbe] 
+  (I) préposition 
+  la préposition peut être postposée comme dans ▶ᴷ⁴ᵃBe0019b 
+  (I.1) + acc. : "dans" 
+  (I.2) + datif : "dans" 
+  (I.2.a) "parmi", cf e.g. ▶ᴷ⁴ᵃBe0107a 
+  (II) adverbe "à l'intérieur"
+o <innan@de l'intérieur> [adverbe] "depuis l'intérieur", "de l'intérieur"
+o <inne@à l'intérieur> [adverbe] "à l'intérieur"
+o <īsig@glacé> [adjectif] "glacé"
+
+# ----- L -----
+o <lāc@un cadeau> [nom commun|n.] "un cadeau"
+o <lāð@ennemi> [adjectif] "ennemi, haï"
+o <līġ@un feu> [nom commun|mi.] "un feu"
+o <land@un pays> [nom commun|n.] "pays"
+o <land-būend@un habitant de la terre> [nom commun|mc.] "un habitant de la terre"
+o <land-fruma@un seigneur du pays> [nom commun|wk. m.] "seigneur du pays" 
+  ⊲ <land@un pays> ＋ <fruma@un commencement>
+o <lāst@une trace> [nom commun|m.] "une trace"
+o <lǣtan@laisser> [verbe|7] "laisser, permettre"
+o <lēaf@une feuille> [nom commun|n.] "une feuille"
+o <lēan@une récompense> [nom commun|n.] "une récompense"
+o <lēas@privé de> [adjectif] "privé de + G."
+o <lēod@un homme> [nom commun|n.] "homme"
+o <lēod-cyning@un roi d'un peuple> [nom commun|m.] "roi d'un peuple" 
+  ⊲ <lēod@un homme> ＋ <cyning@un roi>
+o <lēof@cher> [adjectif] "cher, bien aimé"
+o <lēoht@une lumière> [nom commun|n.] "une lumière"
+o <lēoma@une lampe> [nom commun|wk.m.] "une lampe"
+o <līċe@de manière semblable à> [pas de catégorie grammaticale]
+  toujours utilisé comme suffixe pour créer des adverbes
+o <licgan@être couché> [verbe|5] "être couché"
+o <līf@une vie> [nom commun|n.] "la vie"
+o <lī́f-frēa@un seigneur de la vie> [nom commun|wk. m.] "seigneur de la vie, i.e. Dieu" 
+  ⊲ <līf@une vie> ＋ <frēa@un seigneur>
+o <lifiġan@vivre> [verbe|3] "vivre"
+o <lim@une branche> [nom commun|n.] "une branche"
+o <lof@une gloire> [nom commun|m.] "gloire"
+o <lof-dǣd@un acte digne de louanges> [nom commun|fi.] "acte digne de louanges" 
+  ⊲ <lof@une gloire> ＋ <dǣd@une action>
+o <long@long> [adjectif] "long"
+o <longe@longtemps> [adverbe] "longtemps"; comparatif "lenġ", cf e.g. ▶ᴷ⁴ᵃBe0083b
+o <long-sum@long> [adjectif] "long, qui dure longtemps" 
+  ⊲ <long@long> ＋ <sum@(suffixe)>
+o <lȳtel@petit> [adjectif] "petit"; comparatif "lǣssa" cf e.g. ▶ᴷ⁴ᵃBe0043a
+
+# ----- M -----
+o <māððum, māðm-@un trésor> [nom commun|m.] "une chose précieuse, un trésor"
+o <mǣġ@un parent> [nom commun|m.] "un parent"
+o <mǣġþ@une nation> [nom commun|f.] "nation, peuple"
+o <mago@un fils> [nom commun|mu.] "un fils"
+o <mago-driht@une bande de jeunes guerriers> [nom commun|fi.] "une bande de jeunes guerriers" 
+  ⊲ <mago@un fils> ＋ <ġe-dryht, ġe-driht@une troupe>
+o <mān@un crime> [nom commun|n.] "un crime"
+o <mǣre@célèbre> [adjectif|ja.] "célèbre"
+o <mæst@un mât> [nom commun|m.] "le mât"
+o <mearc@une limite> [nom commun|f.] "une limite, une frontière"
+o <mearc-stapa@un vagabond (errant) à la frontière> [nom commun|wk.m.] 
+  ⊲ <mearc@une limite> ＋ <steppan@marcher>
+o <meniġeo@une multitude> [nom commun|fīn.] "une multitude"
+o <medo, medu@un hydromel> [nom commun|mu.] "un hydromel"
+o <medo-ærn@une maison (où l'on boit) l'hydromel> [nom commun|n.] 
+  "une maison (où l'on boit) de l'hydromel" 
+  ⊲ <medo, medu@un hydromel> ＋ <ærn@une maison>
+o <meodo-setl@un banc à hydromel> [nom commun|n.] "banc (où l'on boit l') hydromel" 
+  ⊲ medu "le miel" ＋ setl n. "le siège"
+o <metod@Dieu> [nom commun|m.] "Dieu"
+o <miċel@grand> [adjectif] "grand"; comparatif "mǣra" ▶ˣᶠ³Be0069a
+o <mid@avec> [préposition] "avec + datif"
+o <midde@un milieu> [nom commun|wk. f.] "un milieu"
+o <middan-ġeard@une terre du milieu> [nom commun|m.] "une terre du milieu" 
+  ⊲ <midde@un milieu> ＋ <ġeard@un habitat>
+o <mihtiġ@puissant> [adjectif] "puissant"
+o <mōd@un esprit, un état d'esprit> [nom commun|n.] "un esprit, un état d'esprit"
+o <mōna@une lune> [nom commun|wk.m.] "la Lune"
+o <moniġ@nombreux> [adjectif] "nombreux"
+o <mon(n)@une personne> [nom commun|mc.] "personne, homme"
+o <mon-cyn(n)@yune race humaine> 
+  ⊲ <mon(n)@une personne> ＋ <cyn(n)@une race>
+o <mōr@une lande> [nom commun|m.] "une lande"
+o <morgen-swēġ@un son du matin> [nom commun|mi.] "son du matin" 
+  c'est-à-dire "lamentation du matin" en ▶ᴷ⁴ᵃBe0129
+o <morðor@un meutre> [nom commun|neutre] "un meurtre"
+o <morð-bealu@un massacre> [nom commun|n.wa.] "un massacre" 
+  ⊲ <morðor@un meutre> ＋ <bealo, bealu@agression>
+o <murnan@s'affliger> [verbe|3] "s'affliger"
+
+# ----- N -----
+o <nama@un nom> [nom commun|wk. m.] "un nom"
+o <nǣfre@jamais> [adverbe]
+o <næs@ne wæs> [pas de catégorie grammaticale] contraction pour ne + wæs
+o <ne@ne… pas…> [adverbe] adverbe négatif; 
+  placé immédiatement avant le verbe, cf. e.g. ▶ᴷ⁴ᵃBe0038
+o <nealles@pas du tout> [adverbe] "pas du tout"
+o <nēosan, nēosian@visiter> [verbe|I,II] "visiter, inspecter" 
+  se construit avec le génitif, cf ▶ᴷ⁴ᵃBe0115
+o <niht@une nuit> [nom commun|fc.] "une nuit"
+o <nīð@une hostilité> [nom commun|m.] "une hostilité"
+o <nō@aucunement> [adverbe]
+
+# ----- O -----
+o <of@de> [préposition] + datif "de, depuis"
+o <ofer@au delà de> [préposition] 
+  (1) + datif 
+  (2) + accusatif "au delà de"
+o <oft@souvent> [adverbe] "souvent"
+o <oftēon@priver qqn de qqc> [verbe|1 (& 2)] "priver + datif de la personne + G. de la chose
+o <on@dans> [préposition] 
+  I) préposition 
+  I.1) + datif "(sens temporel) dans" cf ▶ᴷ⁴ᵃBe0021b 
+  I.1.a) "sur", cf ▶ᴷ⁴ᵃBe0122b 
+  I.2) + accusatif, avec mouvement dans ▶ᴷ⁴ᵃBe0034-Be0035
+o <ond@et> [conjonction de coordination] "et"
+o <Onela@Onela> [nom propre|wk. m.] "Onela", nom d'un roi
+o <onfōn@recevoir> [verbe|7] "recevoir qqc (=au datif)"
+o <on-ġitan, on-ġytan@percevoir> [verbe|5] "percevoir"
+o <on innan@à l'intérieur> [adverbe] "à l'intérieur" 
+  ⊲ <on@dans> ＋ <innan@de l'intérieur>
+o <onsendan@envoyer> [verbe|I] "envoyer"
+o <orc-nēas@des monstres> [nom commun|m.p.] "des esprits malfaisants, des monstres"
+o <oð@jusqu'à> [préposition] + accusatif "jusqu'à"
+o <oð þæt@jusqu'à ce que> [locution conjonctive] 
+  (1) "jusqu'à ce que" 
+  (2) si bien que; ⊲ <oð@jusqu'à> ＋ <þæt_conj@que>
+o <on-wæcnan@éveiller, naître> [verbe|6+I.] 
+  (1) "éveiller" 
+  (2) "naître" cf ▶ᴷ⁴ᵃBe0056b
+
+# ----- P -----
+o <pronom personnel@je, tu, …> [pronom personnel]
+
+# ----- R -----
+o <rād@un raid> [nom commun|f.] "un raid"
+o <rǣdan@diriger> [verbe|7] 
+  (1) "donner un avis", cf <sele-rǣdend@conseiller d'un hall>.
+o <ræst@une couche> [nom commun|fjō(?).] "une couche, un lit"
+o <reċċan@narrer> [verbe|I] "raconter, narrer"
+o <reċed@un bâtiment> [nom commun|m. n.] "un bâtiment"
+o <rēor@sauvage> [adjectif] "sauvage"
+o <rēþe@cruel> [adjectif|ja.] "cruel"
+o <rēow@cruel> [adjectif] "cruel"
+
+# ----- S -----
+o <sang@un chant> m. "un chant"
+o <sælīġ@bienheureux> "fortuné, bienhereux"
+o <sceaft> [pas de classe grammaticale] cf <ġe-sceaft@une création>
+o <scearu@un partage> [nom commun|f.] "une coupure, un partage"
+o <scēat@une région> [nom commun|m.] "une région, la surface"
+o <sceáþa@un ennemi> [nom commun|wk.m.] : <celui qui fait du mal> 
+  (1) "ennemi" 
+  (2) "guerrier"
+o <scēwian@examiner> [verbe|II.] "examiner"
+o <Scede-land@Scedeland> [nom propre|n.] "(pays de) Scedeland" 
+  ⊲ "Scede" ＋ <land@un pays>
+o <scip@un bateau> [nom commun|n.] "le bateau"
+o <scop@un poète> [nom commun|m.] "un poète, un chanteur"
+o <sculan@devoir> [verbe|prp.] 
+  (1) "devoir" cf e.g. ▶ᴷ⁴ᵃBe0020a (cf Klaeber's Beowulf, p.114 à propos du vers 24) 
+  (2) "est sûr de, sera" cf e.g. ▶ᴷ⁴ᵃBe0024b (cf Klaeber's Beowulf, p.114 à propos du vers 24)
+o <Scýld@Scyld> [nom propre|m.] "Scyld", nom propre; ⊲ <scyld> m. "bouclier"
+o <Scyldingas@Scyldingas> [nom propre|m.p.] (dynastie suédoise) "Scyldingas"
+o <Scilfing, Scylfing@Scilfing> [nom propre|m.] "Scilfing"
+o <scyppan@faire> [verbe|6] "créer, faire"
+o <scyppen@un créateur> [nom commun|m.] "un créateur"
+o <se, sē@ce, le, qui, …> [déterminant+pronom relatif] 
+  (1) déterminant démonstratif 
+  (2) article défini; au génitif singulier peut avoir le sens de "en échange de quoi" 
+      cf e.g. ▶ᴷ⁴ᵃBe0114b 
+  (3) pronom relatif. 
+  (4) conjonction "þæt : cf <þæt_conj@que>
+o <sefa@une âme, un esprit> [nom commun|wk. m.] "une âme, un cœur, un esprit"
+o <seġn@une bannière> [nom commun|m. / n.] "une bannière"
+o <sele@un hall> [nom commun|mi.] "un hall"
+o <sele-rǣdend@conseiller d'un hall> [nom commun|mc.] (participe présent) "conseiller d'un hall" 
+  ⊲ <sele@un hall> ＋ <rǣdan@diriger>
+o <self@soi-même> [pronom réfléchi] "soi-même"
+o <sellan@donner> [verbe|I] "donner"
+o <sendan@envoyer> [verbe|I] "envoyer"
+o <siġe@une victoire> [nom commun|m.] "une victoire"
+o <siġe-hrēþiġ@triomphant d'une victoire> [adjectif] "triomphant de sa victoire" 
+  ⊲ <siġe@une victoire> ＋ <hrēþiġ@triomphant>
+o <sinċ@un trésor> [nom commun|n.] "un trésor"
+o <sittan@s'asseoir> [verbe|5] "s'asseoir"
+o <siððan@quand> [adverbe+conjonction de subordination] 
+  (1) adverbe 
+  (2) conjonction de subordination "quand, dès que" 
+  (2.1) "quand", c.f. e.g. ▶ᴷ⁴ᵃBe0115a 
+  (2.2) "après que", c.f. e.g. ▶ᴷ⁴ᵃBe0106a 
+o <slēan@frapper> [verbe|6.] 
+  (1) "frapper" 
+  (2) "tuer" cf e.g. ▶ᴷ⁴ᵃBe0108b
+o <sōna@aussitôt> [adverbe] "aussitôt"
+o <sorg@un souci> [nom commun|f.] "un souci"
+o <sorh@un souci> [nom commun|f.] "un souci, une peine"
+o <sōð@une vérité> [nom commun|n.] "une vérité"
+o <spēd@un succès> [nom commun|fi.] "un succès"
+o <springan@bondir> [verbe|3] "bondir, s'étendre"
+o <standan@se tenir> [verbe|6] "se tenir"
+o <stede@un endroit> [nom commun|mi.] "un endroit"
+o <stef@une proue> [nom commun|m.] "la proue"
+o <steppan@marcher> [verbe|6.] "marcher"
+o <strang@fort> [adjectif] "fort"
+o <sum@(suffixe)> [pas de catégorie grammaticale] suffixe formant des adjectifs
+o <sunne@un soleil> [nom commun|wk.f.] "le Soleil"
+o <swā@ainsi> [adverbe+conjonction] 
+  I) adverbe "ainsi" 
+  II) conjonction "ainsi que"
+o <swǣs@le sien, cher> [adjectif] "le sien, cher"
+o <swefan@dormir> [verbe|5.] "dormir"
+o <swēġ@un son> [nom commun|mi.] "un son"
+o <swēor@un beau-père> [nom commun|m.] "un beau-père"
+o <sweotol@clair> [adjectif] "clair"
+o <swīð@fort> [adjectif]
+o <swylċ@tel> [pronom démonstratif+pronom relatif] 
+  (1) pronom démonstratif 
+  (2) pronom relatif "tel que", cf e.g. ▶ᴷ⁴ᵃBe0072
+o <swylċe@de même> [adverbe|conjonction de subordination] 
+  (1) adverbe "de même", cf e.g. ▶ᴷ⁴ᵃBe0113a 
+  (2) conjonction de subordination "tel que"
+o <symbel@un festin> [nom commun|n.] "un festin"
+o <syððan ǣrest@sitôt que> [locution conjonctive] "sitôt que" ⊲ <siððan@quand> ＋ <ǣrest>
+
+# ----- T -----
+o <tēoġan@accomplir> [verbe II] "faire, créer" d'où "fournir, approvisionner en + D." cf e.g. ▶ᴷ⁴ᵃBe0043
+o <til@gentil> [adjectif] "bon, gentil"
+o <tō@à> [préposition+adverbe] 
+  (1) préposition; la préposition peut être postposée comme dans ▶ᴷ⁴ᵃBe0014a 
+  (1.1) "en tant que comme" comme dans ▶ᴷ⁴ᵃBe0095a 
+  (2) adverbe 
+  (2.1) "trop", devant un adjectif, cf e.g. ▶ᴷ⁴ᵃBe0133, ▶ᴷ⁴ᵃBe0137
+o <tūdor@un rejeton> [nom commun|n.] "un rejeton, un produit, un fruit"
+
+# ----- Þ/Ð -----
+# ----- th/TH ---
+o <þǣr@là, alors> : [adverbe] 
+  (1) "là" 
+  (2) "alors"
+o <þæt_conj@que> [conjonction de subordination] 
+  (1) "de sorte que + subjonctif" cf ▶ᴷ⁴ᵃBe0022a in ▶ᴷ⁴ᵃBe0020-Be0022 
+  (2) introduit une complétive, e.g. cf ▶ᴷ⁴ᵃBe0068a 
+  (3) "semi-explanatory", "dans la mesure où" cf e.g. ▶ᴷ⁴ᵃBe0087b-Be0089a
+o <þǣr inne@là, à l'intérieur> 
+  ⊲ <þǣr@là, alors> ＋ <inne@à l'intérieur>
+o <ðā@alors> [adverbe] "alors"
+o <ðā ġȳt@en outre> [adverbe] "en outre, en plus de quoi" ⊲ <ðā@alors> ＋ <ġȳt, ġīt@>
+o <ðearf> [nom commun|f.] "besoin, détresse, difficulté"
+o <þeġn@un guerrier> [nom commun|m.] "serviteur, guerrier"
+o <þeġn-sorg@un souci pour un guerrier> [nom commun|f.] "un souci pour un guerrier" 
+  ⊲ <þeġn@un guerrier> ＋ <sorg@un souci>
+o <þenden@quand> [conjonction de subordination] "quand"
+o <þēod@une nation> [nom commun|f.] "peuple, nation, troupe de guerriers"; en préfixe, a une valeur intensive comme dans <þēod-cyning@un grand roi>
+o <þēod-cyning@un grand roi> [nom commun|m.] : "un grand roi" 
+  ⊲ <þēod@une nation> ＋ <cyning@un roi>
+o <þēod-ġestrēon@un grand trésor> [nom commun|n.] "un grand trésor" 
+  ⊲ <þēod@une nation> ＋ <ġe-strēon@un trésor>
+o <þēoden@un roi> [nom commun|m.] "chef, roi"
+o <þēon@prospérer> [verbe|1] "prospérer"
+o <þes, þēs@ceci> [déterminant démonstratif] "ceci"
+o <þicgan@consommer> [verbe|5.] "recevoir, prendre, consommer (une nourriture ou une boisson)"
+o <þolian@souffrir> [verbe|II.] "souffrir"
+o <þonan@de là> [adverbe] 
+  (1) "de là" 
+  (2) "de lui", cf e.g. ▶ᴷ⁴ᵃBe0111a
+o <þonne@conj_subor> [conjonction de subordination] 
+  (1) "quand" 
+  (2) peut servir à compléter un comparatif, cf e.g. ▶ᴷ⁴ᵃBe0043-Be0046
+o <þrāg@un temps, une durée> [nom commun|f.] "un temps, une durée"
+o <ðrēat@une troupe> [nom commun|m.] "foule, troupe, compagnie"
+o <þrītiġ@trente> [déterminal numéral cardinal] 
+  peut être suivi d'un génitif partitif, cf e.g. ▶ᴷ⁴ᵃBe0123a
+o <þrym(m)@un pouvoir> [nom commun|mja.(?)] 
+  (1) "pouvoir, force" 
+  (2) "grandeur, gloire"
+o <ðrȳð-swȳð@puissant> [adjectif] "puissant" 
+  ⊲ <ðrȳð@des forces> ＋ <swīð@fort>
+o <þȳstru@une obscurité> [nom commun|fīn.] "une obscurité""
+
+# ----- U -----
+o <ūhta, ūhte@une aube> [nom commun|wk.m ou n.] "une aube"
+o <umbor@un enfant> [nom commun|n] "un enfant"
+o <umbor-wesende@étant un enfant> [adjectif] "étant un enfant" 
+  ⊲ <umbor@un enfant> ＋ <wesan@être>
+o <under@sous> [préposition] (1) + datif "sous"
+o <un-@préfixe négatif> [pas de catégorie grammaticale] préfixe négatif
+o <un-blīðe@sans joie> [adjectif|(i.)ja.] "privé de joie, triste" 
+  ⊲ <un-@préfixe négatif> ＋ <blīðe@joyeux>
+o <un-dyrne, un-derne@révélé> [adjectif ja.] "non caché, révélé, évident" 
+  ⊲ <un-@préfixe négatif> ＋ <dyrne@secret>
+o <un-hǣlo@un mal> [nom commun|fīn.] "un mal, une destruction" 
+  ⊲ <un-@préfixe négatif> ＋ <hǣlo@une prospérité>
+o <un-tȳdre@mauvaise engeance> [nom commun|mja.] "mauvais rejeton" 
+  ⊲ <un-@préfixe négatif> ＋ <tūdor@un rejeton>
+o <up@vers le haut> "vers le haut"
+o <ūt@dehors> [adverbe] "dehors (avec mouvement)"
+o <ūt-fūs@prêt à partir> [adjectif] "prêt à partir" 
+  ⊲ <ūt@dehors> ＋ <fūs@prêt à>
+
+# ----- W -----
+o <wæcnan@naître> [verbe|6 & 1] "naître"
+o <wǣd@un vêtement> [nom commun|f.] "un vêtement"
+o <wæl@un massacre> [nom commun|n.] "un massacre"
+o <wæl-fyllo@une abondance de victimes> [nom commun|fīn.] "un butin de massacre" 
+  ⊲ <wæl@un massacre> ＋ <ful(l)@plein>
+o <wæl-nīð@une sanglante hostilité> [nom commun|m.] "une sanglante hostilité" 
+  ⊲ <wæl@un massacre> ＋ <nīð@une hostilité>
+o <wǣpen@une arme> [nom commun|n.] "une arme"
+o <wǣr@un accord> [nom commun|f.] 
+  (1) "accord, traité" 
+  (2) "proctection"
+o <wæter@une eau> [nom commun|n.] "une eau"
+o <wealdan@diriger> [verbe|7] "contrôler, diriger"
+o <wealdend@un dirigeant> [nom commun|mc.] "dirigeant, Dieu"
+o <weardian@garder> [verbe|II.] "garder, surveiller"
+o <weaxan@grandir> [verbe|7] "grandir"
+o <weġ@un chemin> [nom commun|m.] "un chemin"
+o <weorc@un ouvrage> [nom commun|n.] "un ouvrage"
+o <weorðan@arriver> [verbe|3] 
+  (1) "survenir, arriver" 
+  (2) "devenir"
+o <weorð-mynd@un honneur> [nom commun|f.n.(m.)i.] "honneur, gloire" 
+  ⊲ <weorð> n. "prix, trésor" ＋ mynd. ???
+o <wer@un homme> [nom commun|m.] "un homme"
+o <werod@une troupe> [nom commun|n.] "une troupe"
+o <werġa@maudit> [adjectif|wk.adj] "maudit"
+o <wesan@être> [verbe|5] "être";
+o <wīċ@une résidence> [nom commun|n.] "une résidence, une habitation" 
+  le pluriel a un sens singulier, cf e.g. ▶ᴷ⁴ᵃBe0125b
+o <wīde@au loin> [adverbe] "au loin"
+o <wīġ@un combat> [nom commun|n.] "le combat, la guerre"
+o <wiht@une créature> [nom commun|fni.] 
+  (1) un être, une créature, cf e.g. ▶ᴷ⁴ᵃBe0120b
+o <wil@une volonté> [nom commun|n.] 
+  (1) "volonté, plaisir"; 
+  (2) préfixe "bon" e.g. in <wil-ġesīþ@un bon compagnon>.
+o <wil-ġesīþ@un bon compagnon> [nom commun|m.] "bon compagnon" 
+  ⊲ <wil@une volonté> ＋ <ġe-sīð@un compagnon>
+o <willan@vouloir> [verbe|anv.] "vouloir"
+o <wine@un ami> [nom commun|mi.] "un ami"
+o <wine-mǣġ@un ami et parent> [nom commun|m.] "un ami et un parent" ⊲ <wine@un ami> ＋ <mǣġ@un parent>
+o <ġe-wītan@partir> [verbe|I] "partir", 
+  avec un pronom réfléchi et suivi par le verbe de mouvement e.g. in ▶ᴷ⁴ᵃBe0026-Be0027
+o <winnan@se battre> [verbe|3.] "se battre, lutter" 
+  construction : lutter contre + wið, cf e.g. ▶ᴷ⁴ᵃBe0113b
+o <wist@un festin> [nom commun|fi.] "un festin, une abondance"
+o <wið@contre> [préposition] "contre" + datif
+o <wlite@une apparence> [nom commun|mi.] "une apparence"
+o <wlite-beorht@à l'apparence splendide> [adjectif] "beau" 
+  ⊲ <wlite@une apparence>  ＋ <beorht@resplendissant>
+o <wolcen@nuage> [nom commun|n.] "nuage"
+o <won-sceaft@une misère> [nom commun|fi.] "une misère" 
+  ⊲ <won(n)@sombre> ＋ <sceaft>
+o <won(n)@sombre> [adjectif]
+o <won-sælī@infortuné> [adjectif] 
+  ⊲ <won(n)@sombre> ＋ <sælīġ@bienheureux>
+o <wong@une plaine> [nom commun|m.] "une plaine, un champ, un terrain"
+o <wōp@une lamentation> [nom commun|m.] "une lamentation" 
+  sens pluriel du singulier, cf e.g. ▶ᴷ⁴ᵃBe0128
+o <word@un mot> [nom commun|n.] "mot"
+o <worold@un monde> [nom commun|f.] "le monde"
+o <worold-ār@un honneur mondial> [nom commun|f.] "honneur mondial" 
+  ⊲ <worold@un monde> ＋ <ār@un honneur>
+o <wuldor@une gloire> [nom commun|n.] "gloire"
+o <wylm@un déferlement> [nom commun|mi.] "déferlement, inondation"
+
+# ----- Y -----
+o <ylde@un ancêtre> [nom commun|m.] 
+  (1) "un ancêtre" 
+  (2) "un être humain", cf e.g. ▶ᴷ⁴ᵃBe0070a
+o <yldo@un âge> [nom commun|fīn.] "âge, vieil âge"
+o <ylfe@des elfs> [nom commun|mi.p.] "des elfs"
+o <ymb(e)@autour de, près de> [préposition] 
+  (1) + acc. "autour de, près de" 
+  (2) + acc. "après", cf e.g. ▶ᴷ⁴ᵃBe0135 
+o <ymb(e)-sittend@un peuple à l'entour> [nom commun|mc.p.] "peuples à l'entour" 
+  ⊲ <ymb(e)@autour de, près de> ＋ <sittan@s'asseoir>
+o <ȳð@une vague> [nom commun|fjō.] "une vague"
+
+# -----------------------------------------------------------------------------
+# ---------------------------------------- TEXT -------------------------------
+# -----------------------------------------------------------------------------
+
+:ᴷ⁴ᵃ    Be0001          ❰Hwæt, ᴺwḗ ᴳGār-déna | {gp}in ᴰġḗardágum{/gp}
+=                       Holà ! Des grands rois danois d'antan
+-                       Hwæt          : <hwæt@holà>
+-                       wḗ            : <pronom personnel@je, tu, …> ◖1P◗; unique occurence de wē dans Beowulf
+-                       Gārdéna       : <Gār-Dene@Danois à la lance> ◖G.pl.◗
+-                       in            : <in@dans>
+-                       ġḗardágum     : <ġēar-dagas@des années d'antan> ◖D.pl◗
+
+:ᴷ⁴ᵃ    Be0002          ᴳþḗodcynínga | ᴬþrým ᵛġefrū́non,
+=                       nous avons entendu la gloire.
+-                       þḗod-cynínga  : <þēod-cyning@un grand roi> ◖G.pl.◗
+-                       þrým          : <þrym(m)@un pouvoir> ◖A.sg◗
+-                       ġefrū́non      : <ġe-friġnan@apprendre> ◖prétérit.1P◗
+
+:ᴷ⁴ᵃ    Be0003          ❰hū {N}ðā ǽþelíngas{/N} | ᴬéllen ᵛfrémedon.
+=                       comment ces nobles ont accompli des actions de renom.
+-                       hū            : <hū@comment>
+-                       ðā            : <se, sē@ce, le, qui, …> ◖N.pl.masc◗
+-                       ǽþelíngas     : <æþeling@un noble> ◖N.pl◗
+-                       éllen         : <ellen@un courage> ◖A.sg◗
+-                       frémedon      : <fremman@accomplir> ◖prétérit.3P◗
+
+:ᴷ⁴ᵃ    Be0004          ❰Oft {N}Scýld Scḗfing{/N} | ᴳsceáþena ᴰþrḗatum,
+=                       Maintes fois Scyld Scēfing priva des hordes d'ennemis,
+-                       Oft           : <oft@souvent>
+-                       Scýld         : <Scýld@Scyld> ◖N.sg◗
+-                       Scḗfing       : <Scēfing> m. ◖N.sg◗ "appelation du roi Scýld"
+-                       sceáþena      : <sceáþa@un ennemi> ◖G.pl◗ 
+                                à propos de sc-e-áþena et du -e- qui ne porte pas l'accent, confer <e glide>
+-                       þrḗatum       : <ðrēat@une troupe> ◖D.pl◗
+
+:ᴷ⁴ᵃ    Be0005         {D}mónegum mǣ́ġþum{/D} | ᴳméodosètla ᵛoftḗah,
+=                      de nombreux peuples, de leurs bancs à hydromel.
+-                       mónegum       : <moniġ@nombreux> ◖D.pl.f.◗
+-                       mǣ́ġþum        : <mǣġþ@une nation> ◖D.pl◗
+-                       méodosètla    : <meodo-setl@un banc à hydromel> ◖G.pl◗
+-                       oftḗah        : <oftēon@priver qqn de qqc> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0006         ❰ᵛéġsode ᴺéorl❲as❳, | ❰syððan ǣ́rest ᵛwéarð
+:ᴷ⁴'ᵃ   Be0006         ❰ᵛéġsode ᴺéorlas,   | ❰syððan ǣ́rest ᵛwéarð
+:ˣᶠ¹    Be0006         ❰ᵛéġsode ᴺéorl,     | ❰syððan ǣ́rest ᵛwéarð
+=ᴷ⁴ᵃ⁺ᴷ⁴'ᵃ              Il terrifiait les guerriers, sitôt qu'il fut
+=ˣᶠ¹                   Le guerrier était terrifiant, sitôt qu'il fut
+-                       éġsode        : <eġsian@terrifier> ◖prétérit.3S◗
+-ˣᶠ¹                    éorl          : <eorl@un guerrier> ◖N.sg◗
+-ᴷ⁴ᵃ                    éorl❲as❳      : <eorl@un guerrier> ◖A.pl◗
+-ᴷ⁴'ᵃ                   éorlas        : <eorl@un guerrier> ◖A.pl◗
+-                       syððan ǣ́rest  : <syððan ǣrest@sitôt que>
+-                       wéarð         : <weorðan@arriver> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0007         ᴺfḗasceàft ᵛfúnden. | ❰ᴺHē ᴳþæs ᴬfrṓfre ᵛġebā́d:
+=                      trouvé, misérable. En échange de quoi il reçut consolation sa vie durant:
+-                       fḗasceàft     : <fēa-sceaft@pauvre> ◖N.sg.masc◗ 
+                                        à propos de fḗasc-e- et du -e- qui ne porte pas l'accent, 
+                                        confer <e glide>
+-                       fúnden        : <findan@trouver> ◖participe.passé◗
+-                       Hē            : <pronom personnel@je, tu, …> ◖3S.N.masc◗
+-                       þæs           : <se, sē@ce, le, qui, …> ◖G.sg.neutre◗
+                                        <sens particulier de þæs quand il est au G.sg.neutre>
+-                       frṓfre        : <frōfor@une consolation> ◖A.sg◗
+-                       ġebā́d        : <ġebīdan@expérimenter> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0008         ❰ᵛwḗox {gp}under ᴰwólcnum{/gp}, | ❰ᴰwéorðmỳndum þā́h,
+=                      il grandit sous les nuages, il prospéra [add]grâce à des honneurs,
+-                       wḗox         : <weaxan@grandir> ◖prétérit.3S◗
+-                       under        : <under@sous>
+-                       wólcnum      : <wolcen@nuage> ◖D.pl◗ 
+                                       à propos de "under wolcum", cf <cheville>
+-                       wéorðmỳndum  : <weorð-mynd@un honneur> {D.pl}
+-                       þā́h          : <þēon@prospérer> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0009         ❰oð þæt ᴰhim ᴺǣ́ġhwylċ | þ̣ạ̄ṛạ ᴳýmbsíttèndra
+:ᴷ⁴'ᵃ   Be0009         ❰oð þæt ᴰhim ᴺǣ́ġhwylċ | ᴳýmbsíttèndra
+=                      jusqu'à ce que chacun de ceux qui vivaient
+-                       oð þæt       : <oð þæt@jusqu'à ce que>
+-                       him          : <pronom personnel@je, tu, …> ◖3S.D.masc◗
+-                       ǣ́ġhwylċ      : <ǣġ-hwylċ@chacun> ◖N.sg.masc◗
+-ᴷ⁴ᵃ                    þ̣ạ̄ṛạ         : <se, sē@ce, le, qui, …> ◖G.pl.masculin◗
+-                       ýmbsíttèndra : <ymb(e)-sittend@un peuple à l'entour> ◖G.pl◗
+
+:ᴷ⁴ᵃ    Be0010         {gp}ofer ᴬhrónrā́de{/gp} | ᵛⁱhȳ́ran ᵛscólde,
+=                      au delà de la route aux baleines dussent lui obéir,
+-                       ofer         : <ofer@au delà de>
+-                       hrónrā́de     : <hron-rād@une route aux baleines> ◖A.sg◗
+-                       hȳ́ran        : <hȳran@entendre> ◖infinitif◗
+-                       scólde       : <sculan@devoir> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0011         ❰ᴬgómban ᵛⁱġýldan. | ❰ᴺÞæt ᵛwæs {N}gṓd cýning{/N}.
+=                      lui verser un tribut. Ce fut un bon roi !
+-                       gómban       : <gombe@un tribut> ◖A.sg◗
+-                       ġýldan       : <ġýldan@payer> ◖infinitif◗
+-                       Þæt          : <se, sē@ce, le, qui, …> ◖N.sg.neutre◗
+-                       wæs          : <wesan@être> ◖prétérit.3S◗
+-                       gṓd          : <gōd@bon> ◖strong.N.sg.masc◗
+-                       cýning       : <cyning@un roi> ◖N.sg◗
+
+:ᴷ⁴ᵃ    Be0012         ❰ᴰÐǣm ᴺéafera ᵛwǽs | ǽfter ᵛcénned
+=                      Après lui naquit son héritier
+-                       Ðǣm          : <se, sē@ce, le, qui, …> ◖D.sg.masculin◗
+-                       éafera       : <eafora, eafera@un descendant> ◖N.sg◗
+-                       wǽs          : <wesan@être> ◖prétérit.3S◗
+-                       ǽfter        : <æfter@après> ici, a plutôt le sens de "venant après lui"
+-                       cenned       : <cennan@donner naissance> ◖participe.passé◗
+
+:ᴷ⁴ᵃ    Be0013         ᴺġeóng {gp}in ᴰġeárdum{/gp}, | ❰þone ᴺGód ᵛsénde
+=                      un jeune homme à la cour que Dieu envoya
+-                       ġeóng          : <ġeong@jeune> ◖strong.N.sg.masc◗ 
+                                         à propos du -e-, cf <e glide>
+-                       in             : <in@dans>
+-                       ġeárdum        : <ġeard@un habitat> ◖D.pl◗
+-                       þone           : <se, sē@ce, le, qui, …> ◖A.masc.sing◗
+-                       Gód            : <God@Dieu> ◖N.sg◗
+-                       sénde          : <sendan@envoyer> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0014         {gp}ᴰfólce tō{/gp} ᴰfrṓfre; | ❰ᴬfýrenðeàrfe ᵛonġeát -
+=                      en réconfort à son peuple; il perçut leur extrême détresse,
+-                       fólce          : <folc@un peuple> ◖D.sg◗
+-                       tō             : <tō@à>
+-                       frṓfre         : <frōfor@une consolation> ◖D.sg◗
+                                         ??? d'après K4 mais pourquoi n'est-ce pas un A.sg
+-                       fýrenðeàrfe    : <fyren-ðearf@une terrible détresse> ◖A.sg◗
+-                       onġeát         : <on-ġitan, on-ġytan@percevoir> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0015         ❰þæt ᴺhīe ǣ́r ᵛdrúgon | ᴺáldor❲l❳ḗase
+:ᴷ⁴'ᵃ   Be0015         ❰þæt ᴺhīe ǣ́r ᵛdrúgon | ᴺáldorlḗase
+=                      ce qu'ils avaient enduré, privés de leur seigneur,
+-                       þæt            : <se, sē@ce, le, qui, …> ◖A.neutre.pluriel◗
+-                       hīe            : <pronom personnel@je, tu, …> ◖3P.N.masc◗
+-                       ǣr             : <ǣr@auparavant>
+-                       drúgon         : <drēogan@supporter> ◖prétérit.3P◗
+-ᴷ⁴ᵃ                    áldor❲l❳ḗase   : <ealdor-lēas@sans chef> ◖strong.N.pluriel.masc◗
+-ᴷ⁴'ᵃ                   áldorlḗase     : <ealdor-lēas@sans chef> ◖strong.N.pluriel.masc◗
+
+:ᴷ⁴ᵃ    Be0016         {A}lánge hwī́le{/A}. | ❰ᴰHim ᴳþæs ᴺlī́ffréa͡,
+=                      longtemps durant. En échange de quoi, le seigneur de la vie,
+-                       lánge          : <long@long> ◖strong.A.sg.féminin◗
+-                       hwī́le          : <hwīl@un espace de temps> ◖A.sg◗ <accusatif de durée>
+-                       Him            : <pronom personnel@je, tu, …> ◖3P.D.masc◗
+-                       þæs            : <se, sē@ce, le, qui, …> ◖G.sg.neutre◗ 
+                                         <sens particulier de þæs quand il est au G.sg.neutre>
+-                       lī́ffréa͡       : <lī́f-frēa@un seigneur de la vie> ◖N.sg◗
+
+:ᴷ⁴ᵃ    Be0017         ᴳwúldres ᴺwéaldend | ᴬwóroldā̀re ᵛforġeáf:
+=                      le maître des richesses, leur accorda d'être partout honoré,
+-                       wúldres        : <wuldor@une gloire> ◖G.sg◗
+-                       wéaldend       : <wealdend@un dirigeant> ◖N.sg◗
+-                       wóroldā̀re      : <worold-ār@un honneur mondial> ◖A.sg◗
+-                       forġeáf        : <for-ġifan@accorder> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0018         ❰ᴺBḗow ᵛwæs ᴺbrḗme | - ❰ᴺblǣ́d wī́de ᵛspràng -
+=                      Beow fut célèbre, sa gloire s'étendit loin,
+-                       Bḗow           : <Bēow@Bēow> ◖N.sg◗
+-                       wæs            : <wesan@être> ◖prétérit.3S◗
+-                       brḗme          : <brēme@célèbre> ◖strong.N.sg.masc◗
+-                       blǣ́d           : <blǣd@le pouvoir> ◖N.sg◗
+-                       wī́de           : <wīde@au loin>
+-                       spràng         : <springan@bondir> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0019         ᴳScýldes ᴺéafera | {gp}ᴰScédelàndum ín{/gp}.
+=                      lui le descendant de Scyld au pays des Scedeland.
+-                       Scýldes        : <Scýld@Scyld> ◖N.sg◗
+-                       éafera         : <eafora, eafera@un descendant> ◖N.sg◗
+-                       Scédelàndum    : <Scede-land@Scedeland> ◖D.pl◗
+-                       in             : <in@dans>
+
+:ᴷ⁴ᵃ    Be0020         ❰Swā ᵛsceal ᴺġe❲óng❳ ᴺgúma | ᴰgṓde ᵛⁱġewýrċean,
+:ᴷ⁴'ᵃ   Be0020         ❰Swā ᵛsceal ᴺġeóng ᴺgúma | ᴰgṓde ᵛⁱġewýrċean,
+=                      Ainsi le jeune homme doit-il s'efforcer grâce à sa libéralité,
+-                       Swā            : <swā@ainsi>
+-                       sceal          : <sculan@devoir> ◖présent.3S◗
+-ᴷ⁴ᵃ                    ġe❲óng❳        : <ġe❲óng❳@jeune> ◖strong.N.sg◗
+-ᴷ⁴'ᵃ                   ġeóng          : <ġeong@jeune> ◖strong.N.sg◗
+-                       gúma           : <guma@un homme> ◖N.sg◗
+-                       gṓde           : <gōd@une bonté> ◖D.sg◗
+-                       ġewýrċean      : <ġewyrċan@accomplir> ◖infinitif◗ 
+                                 A propos du -e- que l'on lit dans l'infinitif ġewýrċean, cf <e glide>
+
+:ᴷ⁴ᵃ    Be0021         ᴰfrómum ᴰféohġìftum | {gp}on ᴳfǽder ᴰ❲béa❳rme{/gp},
+:ᴷ⁴'ᵃ   Be0021         ᴰfrómum ᴰféohġìftum | {gp}on ᴳfǽder ᴰbéarme{/gp},
+=                      grâce à de splendides et coûteux cadeaux, {add}tant qu'il est{/add} dans le giron de son père,
+-                       frómum         : <from@brave> ◖strong.D.pl.féminin◗
+-                       féohġìftum     : <feoh-ġift@un coûteux cadeau> ◖D.pluriel◗
+-                       on             : <on@dans>
+-                       fǽder          : <fæder@un père> ◖G.sg◗
+-ᴷ⁴ᵃ                    ❲béa❳rme       : <bearm@une étreinte> ◖D.sg◗
+-ᴷ⁴'ᵃ                   béarme         : <bearm@une étreinte> ◖D.sg◗
+
+:ᴷ⁴ᵃ    Be0022         ❰þæt ᴬhine on ᴰýlde | éft ᵛġewúniġen
+=                      de faire en sorte que, une fois âgés, demeurent à leur tour {add}avec lui{/add}
+-                       þæt            : <þæt_conj@que>
+-                       hine           : <pronom personnel@je, tu, …> ◖3S.masculin.accusatif◗
+-                       on             : <on@dans>
+-                       ýlde           : <yldo@un âge> ◖D.sg◗
+-                       eft            : <eft@en retour>
+-                       ġewúniġen      : <ġewunian@demeurer avec> ◖subjonctif.présent.3P◗
+
+:ᴷ⁴ᵃ    Be0023         ᴺwílġesī́þas, | ❰þonne ᴺwī́g ᵛcúme,
+=                      de proches compagnons quand la guerre survient,
+-                       wílġesī́þas    : <wil-ġesīþ@un bon compagnon> ◖N.pl◗
+-                       þonne         : <þonne@conj_subor>
+-                       wī́g           : <wīġ@un combat> ◖N.sg◗
+-                       cúme          : <cuman@venir> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0024         ᴺlḗode ᵛġelǣ́sten; | ❰ᴰlófdǣ̀dum ᵛsceál
+=                      que des hommes le servent; c'est grâce à des actes dignes de louange qu'un homme est sûr,
+-                       lḗode         : <lēod@un homme> ◖N.pl◗
+-                       ġelǣ́ sten     : <gelǣstan> ◖subjonctif.présent.3P◗
+-                       lófdǣ̀ dum     : <lof-dǣd@un acte digne de louanges> ◖D.pl◗
+-                       sceál         : <sculan@devoir> ◖présent.3S◗ 
+                                        Pour le sens "est sûr", voir l'article dans Beowulf's Klaeber, sub uerbō. 
+                                        à propos de -e- qui ne porte pas l'accent, confer <e glide>
+
+:ᴷ⁴ᵃ    Be0025         {gp}in ᴰmǣ́ġþa ᴰġehwǣ́re{/gp} | ᴺmán ᵛⁱġeþéo͡n.
+:ˣᶠ¹    Be0025         {gp}in ᴰmǣ́ġþa ᴰġehwǣ́m{/gp} | ᴺmán ᵛⁱġeþéo͡n.
+=                      au sein de chaque peuple, de prospérer.
+-                       in            : <in@dans>
+-                       mǣ́ġþa         : <mǣġþ@une nation> ◖D.pl◗
+-ᴷ⁴ᵃ                    ġehwǣ́re       : <ġehwā@chaque> ◖D.pl.masculin◗ 
+                                        le manuscript a le féminin (tardif) ġehwǣ́re. 
+                                        Cf <Be0025 ġehwǣ́re/ġehwǣ́m>
+-ˣᶠ¹                    ġehwǣ́m        : <ġehwā@chaque> ◖D.pl.masculin◗ 
+                                        le manuscript a le féminin (tardif) ġehwǣ́re. 
+                                        Cf <Be0025 ġehwǣ́re/ġehwǣ́m>
+-                       mán           : <mon(n)@une personne> ◖N.sing◗
+-                       ġeþéo͡n       : <ġe-þēon@prospérer> ◖infinitif◗
+
+:ᴷ⁴ᵃ    Be0026         ❰ᴰHim ðā ᴺScýld ᵛġewā́t | {gp}tō ᴰġescǽphwī́le{/gp}
+=                      Alors Scyld s'en alla quand arriva son heure,
+-                       Him          : <pronom personnel@je, tu, …> ◖3S.D.masc◗
+-                       ðā           : <ðā@alors>
+-                       Scýld        : <Scýld@Scyld> ◖N.sg◗
+-                       ġewā́t        : <ġe-wītan@partir> ◖prétérit.3S◗
+-                       tō           : <tō@à>
+-                       ġescǽphwī́le  : <ġe-scæp-hwīle@une heure fixée par le destin> ◖D.sg◗
+
+:ᴷ⁴ᵃ    Be0027         ᴺfélahrṑr ᵛⁱfḗran | {gp}on ᴳfrḗan ᴰwǣ́re{/gp}.
+=                      lui le très vigoureux; il partit sous la protection du Seigneur.
+-                       félahrṑr     : <fela-hrōr@très vigoureux> ◖strong.N.sg.masculin◗
+-                       fḗran        : <fēran@aller> ◖infinitif◗
+-                       on           : <on@dans>
+-                       frḗan        : <frēa@un seigneur> ◖G.sg◗
+-                       wǣ́re         : <wǣr@un accord> ◖D.sg◗
+
+:ᴷ⁴ᵃ    Be0028         ❰ᴺhī ᴬhyne þā ᵛætbǣ́ron | {gp}tō ᴳbrímes ᴰfároðe{/gp},
+=                      Ils l'emportèrent alors jusqu'aux flots de la mer,
+-                       hī           : <pronom personnel@je, tu, …> ◖3P.N.masc◗
+-                       hyne         : <pronom personnel@je, tu, …> ◖3S.A.masc◗
+-                       þā           : <ðā@alors>
+-                       ætbǣ́ron      : <æt-beran@emporter> ◖prétérit.3S◗
+-                       tō           : <tō@à>
+-                       brímes       : <brim@une mer> ◖G.sg◗
+-                       fároðe       : <faroð@un courant> ◖D.sg◗
+
+:ᴷ⁴ᵃ    Be0029         ᴺswǣ́se ᴺġesī́þas, | ❰swā ᴺhē sélfa ᵛbǽd,
+=                      ses chers compagnons, comme il l'avait lui-même demandé
+-                       swǣ́se        : <swǣs@le sien, cher> ◖strong.N.pl.masculin◗
+-                       ġesī́þas      : <ġe-sīð@un compagnon> ◖N.pl.masculin◗
+-                       swā          : <swā@ainsi>
+-                       hē           : <pronom personnel@je, tu, …> ◖3S.N.masculin◗
+-                       sélfa        : <self@soi-même> ◖weak.N.pl.masculin◗
+-                       bǽd          : <biddan@demander> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0030         ❰þenden ᴰwórdum ᵛwḗold. | ❰ᴺWíne ᴳScýldìnga,
+=                      quand de ses mots il régnait. L'ami des Scyldingas,
+-                       þenden       : <þenden@quand>
+-                       wórdum       : <word@un mot>
+-                       wḗold        : <wealdan@diriger> ◖prétérit.3S◗
+-                       Wíne         : <wine@un ami> ◖N.sg◗
+-                       Scýldìnga    : <Scyldingas@Scyldingas> ◖G.pl◗
+
+:ᴷ⁴ᵃ    Be0031         ᴺlḗof ᴺlándfrùma | lánge ᵛā́hte -
+=                      le bien-aimé prince de ce pays détint longtemps -
+-                       lḗof         : <lēof@cher> ◖strong.N.masculin.sg◗
+-                       lándfrùma    : <land-fruma@un seigneur du pays> ◖N.sg◗
+-                       lánge        : <longe@longtemps>
+-                       ā́hte         : <āgan@posséder> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0032         ❰Þǣr {gp}æt ᴰhȳ́ðe{/gp} ᵛstṓd | ᴺhrínġedstéfna
+=                      - là dans un port il reposait, bateau à la proue orné d'un d'anneau,
+-                       Þǣr           : <þǣr@là, alors>
+-                       æt            : <æt@près de>
+-                       hȳ́ðe          : <hȳð@un port> ◖D.sg◗
+-                       stṓd          : <standan@se tenir> ◖prétérit.3S◗
+-                       hrínġedstéfna : <hrinġed-stefna@bateau avec un anneau>
+
+:ᴷ⁴ᵃ    Be0033         ᴺī́sig ond ᴺū́tfū̀s - | ᴳǽþelinges ᴬfǽr;
+=                      couvert de glace et prêt à partir - le navire d'un prince;
+-                       ī́sig          : <īsig@glacé> ◖N.sg.neutre◗
+-                       ond           : <ond@et>
+-                       ū́tfū̀s         : <ūt-fūs@prêt à partir> ◖strong.N.sg.neutre◗
+-                       ǽþelinges     : <æþeling@un noble> ◖G.sg◗
+-                       fǽr           : <fær@un vaisseau> ◖N.sg◗
+
+:ᴷ⁴ᵃ    Be0034         ❰ᵛālḗdon þā́ | ᴬlḗofne ᴬþḗoden,
+=                      ils allongèrent alors leur roi bien aimé,
+-                       ālḗdon        : <ālecgan@allonger> ◖prétérit.3P◗
+-                       þā́            : <ðā@alors>
+-                       lḗofne        : <lēof@cher> ◖strong.A.sg.masculin◗
+-                       þḗoden        : <þēoden@un roi> ◖A.sg◗
+
+:ᴷ⁴ᵃ    Be0035         ᴳbḗaga ᴺbrýttan | {gp}on béarm ᴳscípes{/gp},
+=                      le dispensateur de bijoux, au sein du bateau,
+-                       bḗaga         : <bēag, bēah@un anneau> ◖G.pl◗
+-                       brýttan       : <brytta@le dispensateur> ◖A.sg◗
+-                       on            : <on@dans>
+-                       béarm         : <bearm@une étreinte> ◖A.sg◗
+-                       scípes        : <scip@un bateau> ◖G.sg◗
+
+:ᴷ⁴ᵃ    Be0036         ᴬmǣ́rne {gp}be ᴰmǽste{/gp}. | ❰Þǣr ᵛwæs ᴳmā́dma ᴺféla,
+=                      le célèbre [add]roi, près du mât. Il y avait là maints trésors
+-                       mǣ́rne         : <mǣre@célèbre> ◖strong.N.sg.masc◗
+-                       be            : <be, bī>
+-                       mǽste         : <mæst@un mât> ◖D.sg◗
+-                       Þǣr           : <þǣr@là, alors>
+-                       wæs           : <wesan@être> ◖prétérit.3S◗ ×forme_impersonnelle
+-                       mā́dma         : <māððum, māðm-@un trésor> ◖G.pl◗
+-                       féla          : <fela@un grand nombre de>
+
+:ᴷ⁴ᵃ    Be0037         {gp}of ᴰféorwégum{/gp} | ᴳfrǽtwa ᵛġelǣ́ded.
+=                      venus de loins, [add]maintes armes ornées [add]qui avaient été apportées.
+-                       of            : <of@de>
+-                       féorwégum     : <feor-weġ@un lointain> ◖D.pl◗
+-                       frǽtwa        : <frætwe@armes ornées> ◖G.pl◗
+-                       ġelǣ́ded       : <lǣdan@apporter> ◖participe.passé◗
+
+:ᴷ⁴ᵃ    Be0038         ❰Ne ᵛhȳrde ᴺiċ cȳ́mlícor | ᴺċḗol ᵛⁱġeġýrwan
+=                      Je n'ai pas entendu [add]dire qu'un bateau ait été équipé plus splendidement
+-                       Ne            : <ne@ne… pas…>
+-                       hȳrde         : <hȳran@entendre> ◖prétérit.1S◗
+-                       iċ            : <pronom personnel@je, tu, …> ◖1S.N◗
+-                       cȳ́mlícor      : <cȳm-līċe@splendidement> ◖comparatif◗
+-                       ċḗol          : <ċēol@un bateau> ◖N.sg◗
+-                       ġeġýrwan      : <ġe-ġyrwan@équiper> ◖infinitif◗ 
+                                        sur la traduction, cf <sens de l'infinitif>
+
+:ᴷ⁴ᵃ    Be0039         ᴰhíldewǣ́pnum | ond ᴰhéaðowǣ́dum,
+=                      en armes de guerre, en vêtements pour les batailles,
+-                       híldewǣ́pnum   : <hilde-wǣpen@une arme de guerre> ◖D.pl◗
+-                       ond           : <ond@et>
+-                       héaðowǣ́dum    : <heaðo-wǣd@une armure> ◖D.pl◗
+
+:ᴷ⁴ᵃ    Be0040         ᴰbíllum ond ᴰbýrnum; | ❰ᴰhim {gp}on ᴰbéarme{/gp} ᵛlǽġ
+=                      en épées et en cottes de mailles; sur ses genoux reposaient
+-                       bíllum        : <bi(l)@une épée> {D.pl.}
+-                       ond           : <ond@et>
+-                       býrnum        : <byrne@une cotte de mailles> {D.pl.}
+-                       him           : <pronom personnel@je, tu, …> ◖3S.D.masc◗
+-                       on            : <on@dans>
+-                       béarme        : <bearm@une étreinte> ◖D.sg◗
+-                       lǽġ           : <licgan@être couché> ◖prétérit.3P◗ ×forme_impersonnelle
+
+:ᴷ⁴ᵃ    Be0041         ᴳmā́dma ᴺmǽniġo, | ❰ᴺþā {gp}ᴰhim míd{/gp} ᵛscóldon
+=                      un grand nombre de trésors qui avec lui devait
+-                       mā́dma         : <māððum, māðm-@un trésor> ◖G.pl◗
+-                       mǽniġo        : <meniġeo@une multitude> ◖N.sg◗
+-                       þā            : <se, sē@ce, le, qui, …> ◖N.pl◗
+-                       him           : <pronom personnel@je, tu, …> ◖3S.D.masc◗
+-                       mid           : <mid@avec>
+-                       scoldon       : <sculan@devoir> ◖prétérit.3P◗
+
+:ᴷ⁴ᵃ    Be0042         {gp}on ᴳflṓdes ᴬǣ́ht{/gp} | féor ᵛⁱġewī́tan.
+=                      partir au loin pour [add]devenir[/add] la propriété des flots.
+-                       on            : <on@dans>
+-                       flṓdes        : <flōd@un flot> ◖G.sg◗
+-                       ǣ́ht           : <ǣht@une possession> ◖A.sg◗
+-                       féor          : <feor, feorr@loin>
+-                       ġewī́tan       : <ġe-wītan@partir> ◖infinitif◗◗
+
+:ᴷ⁴ᵃ    Be0043         ❰Nalæs ᴺhī ᴬhine ᴰlǣ́ssan | ᴰlā́cum ᵛtḗodan,
+=                      Ils le pourvurent en cadeaux,
+-                       Nalæs         : <nealles@pas du tout>
+-                       hī            : <pronom personnel@je, tu, …> ◖3P.N.masc◗
+-                       hine          : <pronom personnel@je, tu, …> ◖3S.masculin.accusatif◗
+-                       lǣ́ssan        : <lȳtel@petit> ◖weak.comparatif.D.pl.neutre◗
+-                       lā́cum         : <lāc@un cadeau> ◖D.pl◗
+-                       tḗodan        : <tēoġan@accomplir> ◖prétérit.3P◗
+                                        ce verbe se construit avec le datif.
+
+:ᴷ⁴ᵃ    Be0044         ᴰþḗodġestrḗonum, | ❰þonne ᴺþā́ ᵛdýdon
+=                      en grands trésors, qui n'étaient nullement inférieurs à ce que donnèrent ceux-là
+-                       þḗodġestrḗonum: <þēod-ġestrēon@un grand trésor> ◖D.pl◗
+-                       dýdon         : <dōn@faire> ◖prétérit.3P◗
+-                       þonne         : <þonne@conj_subor>
+                                        à construire ici comme seconde partie du comparatif lǣ́ssan … þonne
+-                       þā́            : <se, sē@ce, le, qui, …> ◖N.pl◗, ici un masculin.
+
+:ᴷ⁴ᵃ    Be0045         þe ᴬhine {gp}æt ᴰfrúmsceáfte{/gp} | fórð ᵛonséndon
+=                      qui, à l'aube de sa vie, l'avaient envoyé au loin
+-                       þe            : <þe,þē@que> a pour antécédent le þā́  du vers Be0044.
+-                       hine          : <pronom personnel@je, tu, …> ◖3S.masculin.accusatif◗
+-                       ǽt            : <æt@près de>
+-                       frumsceáfte   : <frum-sceaft@une origine> ◖D.sg◗ 
+                                        à propos de -e- qui ne porte pas l'accent, confer <e glide>
+-                       fórð          : <forð@en avant>
+-                       onséndon      : <onsendan@envoyer> ◖prétérit.3P◗ "envoyer"
+
+:ᴷ⁴ᵃ    Be0046         ᴬǣ́nne {gp}ofer ᴬȳ́ðe{/gp} | ᴬúmbọrwésènde.
+:ᴷ⁴'ᵃ   Be0046         ᴬǣ́nne {gp}ofer ᴬȳ́ðe{/gp} | ᴬúmbrwésènde.
+=                      seul sur les vagues, quand il était enfant.
+-                       ǣ́nne          : <ān@un> ◖A.sg.masculin.strong◗
+-                       ofer          : <ofer@au delà de>
+-                       ȳ́ðe           : <ȳð@une vague> ◖A.sg◗
+-ᴷ⁴ᵃ                    úmbọrwésènde  : <umbor-wesende@étant un enfant> ◖strong.A.sg.masculin◗ 
+                                        On attendait plutôt la forme úmbọrwésèndne,
+                                        cf <non accord entre un adjectif et le mot qu'il qualifie>
+-ᴷ⁴'ᵃ                   úmbrwésènde   : <umbor-wesende@étant un enfant> ◖strong.A.sg.masculin◗ 
+                                        On attendait plutôt la forme úmbọrwésèndne,
+                                        cf <non accord entre un adjectif et le mot qu'il qualifie>
+
+:ᴷ⁴ᵃ    Be0047         ❰Þā ġȳt ᴺhīe ᴰhim ᵛāsétton | ᴬséġen ᴬgý❲l❳dènne
+:ᴷ⁴'ᵃ   Be0047         ❰Þā ġȳt ᴺhīe ᴰhim ᵛāsétton | ᴬséġen ᴬgýldènne
+=                      Ils placèrent en outre sur lui sa bannière dorée
+-                       Þā ġȳt        : <ðā ġȳt@en outre>
+-                       hīe           : <pronom personnel@je, tu, …> ◖3P.pl.masc◗
+-                       him           : <pronom personnel@je, tu, …> ◖3S.D.masc◗
+-                       āsétton       : <āsettan@placer> ◖prétérit.3P◗
+-                       séġen         : <seġn@une bannière> ◖A.sg◗
+                                        ici le mot semble être masculin (le texte n'est pas tout à fait sûr)
+-ᴷ⁴ᵃ                    gý❲l❳dènne    : <gylden@en or> ◖strong.A.sg.masculin◗
+-ᴷ⁴'ᵃ                   gýldènne      : <gylden@en or> ◖strong.A.sg.masculin◗
+
+:ᴷ⁴ᵃ    Be0048         ᴺhḗah {gp}ofer ᴬhḗafod{/gp}, | ❰ᵛlēton ᴬhólm ᵛⁱbéran,
+=                      en hauteur, sur sa tête; ils laissèrent la mer le porter,
+-                       hḗah          : <hēah@haut> ◖strong.A.sg.neutre◗
+                                        on attendrait plutôt ici hḗahne, A.sg.masculin, mais le sens adverbial semble
+                                        prévaloir : cf <non accord entre un adjectif et le mot qu'il qualifie>.
+-                       ofer          : <ofer@au delà de>
+-                       hḗafod        : <hēafod@une tête> ◖A.sg◗
+-                       lēton         : <lǣtan@laisser> ◖prétérit.3P◗
+-                       hólm          : <holm@une mer> ◖A.sg◗
+-                       béran         : <beran@porter> ◖infinitif◗; le complément de béran, hine, est sous-entendu 
+                                        (même remarque au vers suivant)
+
+:ᴷ⁴ᵃ    Be0049         ❰ᵛġḗafon {gp}on gā́rsècg{/gp}; | ❰him ᵛwæs ᴺġeṓmor ᴺséfa,
+=                      , ils le donnèrent à l'océan; leur cœur était triste,
+-                       ġḗafon        : <ġifan@donner> ◖prétérit.3P◗; le complément de ġḗafon, hine,
+                                        est sous-entendu (même remarque au vers précédent)
+-                       on            : <on@dans>
+-                       gā́rsècg       : <gārsecg@un océan> ◖A.sg◗
+-                       him           : <pronom personnel@je, tu, …> ◖3P.D.masc◗
+-                       wæs           : <wesan@être> ◖prétérit.3S◗
+-                       ġḗomor        : <ġeōmor@triste> ◖strong.N.sg.masc◗
+-                       séfa          : <sefa@une âme, un esprit> ◖N.sg◗
+
+:ᴷ⁴ᵃ    Be0050         ᴺmúrnènde ᴺmṓd. | ❰ᴺMén ne ᵛcúnnon
+=                      l'esprit affligé. Les hommes ne peuvent
+-                       murnende      : <murnan@s'affliger> ◖participe.présent.N.pl.neutre◗
+-                       mōd           : <mōd@un esprit, un état d'esprit>
+-                       Men           : <mon(n)@une personne> ◖N.pluriel◗
+-                       ne            : <ne@ne… pas…>
+-                       cúnnon        : <cunnan@savoir> ◖présent.3P◗
+
+:ᴷ⁴ᵃ    Be0051         ᵛⁱsécgan {gp}tō sṓðe{/gp}, | ᴺsélerǣ́dèn❲d❳e,
+:ᴷ⁴'ᵃ   Be0051         ᵛⁱsécgan {gp}tō sṓðe{/gp}, | ᴺsélerǣ́dènde,
+=                      dire en vérité, conseillers d'un hall,
+-                       sécgan        : <secgan@dire> ◖infinitif◗
+-                       tō            : <tō@à>
+-                       sṓðe          : <sōð@une vérité> ◖D.sing◗
+-ᴷ⁴ᵃ                    sélerǣ́dèn❲d❳e : <sele-rǣdend@conseiller d'un hall> ◖N.pluriel◗
+-ᴷ⁴'ᵃ                   sélerǣ́dènde   : <sele-rǣdend@conseiller d'un hall> ◖N.pluriel◗
+
+:ᴷ⁴ᵃ    Be0052         ᴺhǽleð {gp}under ᴰhéofenum{/gp}, | ❰ᴺhwā ᴰþǣm ᴰhlǽste ᵛonfḗng.
+=                      héros sous les cieux, qui reçut cette cargaison.
+-                       hǽleð         : <hæle, hæleð@un héros> ◖N.pluriel◗
+-                       under         : <under@sous>
+-                       héofenum      : <heofon@un ciel> ◖D.pluriel◗ A propos de "under heofenum", cf <cheville>
+-                       hwā           : <hwā@qui> ◖N.singulier.masculin◗
+-                       þǣm           : <se, sē@ce, le, qui, …> ◖D.sg.masculin◗
+                                        si hlæst est un mot neutre, peut aussi bien être au D.sg.neutre
+-                       hlǽste        : <hlæst@une cargaison> ◖D.singulier◗
+-                       onfḗng        : <onfōn@recevoir> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0053         ❰Ðā ᵛwæs {gp}on ᴰbúrgum{/gp} | ᴺBḗow ᴳScýldìnga,
+=                      Alors, dans la place forte, Beowulf des Scyldings fut
+-                       Ðā            : <ðā@alors>
+-                       wæs           : <wesan@être> ◖prétérit.3S◗
+-                       on            : <on@dans>
+-                       búrgum        : <burh@une place forte> ◖datif.pluriel◗
+-                       Bēow          : <Bēow@Bēow> ◖N.sg◗; le manuscrit a "Beowulf".
+-                       Scyldinga     : <Scyldingas@Scyldingas> ◖G.pl◗
+
+:ᴷ⁴ᵃ    Be0054         ᴺlḗof ᴺlḗodcỳning, | {gp}ᴬlónge ᴬþrā́ge{/gp}
+=                      le bien aimé roi de son peuple, pendant longtemps.
+-                       lḗof          : <lēof@cher> ◖strong.N.masculin.sg◗
+-                       lḗodcỳning    : <lēod-cyning@un roi d'un peuple> ◖strong.N.masculin.sg◗
+-                       lónge         : <long@long> ◖strong.A.féminin.singulier◗
+-                       þrā́ge         : <þrāg@un temps, une durée> ◖A.singulier◗
+
+:ᴷ⁴ᵃ    Be0055         ᴰfólcum ᴺġefrǣ́ġe | - ❰ᴺfǽder èllor ᵛhwéarf,
+=                      [add]roi fameux entre les peuples - son peuple était parti ailleurs,
+-                       fólcum        : <folc@un peuple> ◖D.pluriel◗
+-                       ġefrǣ́ġe       : <ġefrǣġe@renommé> ◖strong.N.sing.masculin◗
+-                       fǽder         : <fæder@un père> ◖N.sg◗
+-                       èllor         : <ellor@vers un autre lieu>
+-                       hwéarf        : <hweorfan@partir> ◖prétérit.3S◗
+-                       fǽder èllor hwéarf : litote pour "mourut"
+
+:ᴷ⁴ᵃ    Be0056         ᴺáldor of ᴰéarde - | ❰oþ þæt ᴰhim éft ᵛonwṓc
+=                      le seigneur de la contrée - jusqu'à ce qu'à son tour lui naquit
+-                       áldor         : <ealdor, aldor@un seigneur> ◖N.sg◗
+-                       of            : <of@de>
+-                       éarde         : <eard@une contrée> ◖D.sg◗
+-                       oþ þæt        : <oð þæt@jusqu'à ce que>
+-                       him           : <pronom personnel@je, tu, …> ◖3S.D.masc◗
+-                       éft           : <eft@en retour>
+-                       onwṓc         : <on-wæcnan@éveiller, naître> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0057         ᴺhḗah ᴺHéalfdène; | ❰hḗold ❰þenden lífde
+=                      le grand Healfdene; il régna tant qu'il vécut,
+-                       hḗah          : <hēah@haut> ◖strong.N.sg.masc◗
+-                       Héalfdène     : <Healf-dene@Healfdene> ◖N.sg◗
+-                       hḗold         : <healdan@garder> ◖prétérit.3S◗
+-                       þenden        : <þenden@quand>
+-                       lífde         : <lifiġan@vivre> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0058         ᴺgámol ond ᴺgū́ðrḕouw, | ᴬglǽde ᴬScýldìngas.
+=                      âgé et féroce dans les batailles, sur les glorieux Scyldingas.
+-                       gámol         : <gamol@âgé> ◖strong.N.sg.masculin◗
+-                       gū́ðrḕouw      : <gūð-rēow@féroce dans la bataille> ◖strong.N.sg.masculin◗
+-                       ond           : <ond@et>
+-                       glǽde         : <glæd@brillant> ◖strong.A.pl.masculin◗
+-                       Scýldìngas    : <Scyldingas@Scyldingas> ◖A.pl◗
+
+:ᴷ⁴ᵃ    Be0059         ❰ᴰÐǣm ᴺfḗower ᴺbéarn | ᴺfórðġerī́med
+=                      Quatre enfants, en tout, lui
+-                       Ðǣm           : <se, sē@ce, le, qui, …> ◖D.sg.masculin◗
+-                       fḗower        : <fēower@quatre> ◖N.◗
+-                       béarn         : <bearn@un enfant> ◖N.pluriel◗
+-                       fórðġerī́med   : <forð-ġerīmed@compté en tout> ◖N.pluriel.neutre◗
+
+:ᴷ⁴ᵃ    Be0060         {gp}in ᴬwórold{/gp} ᵛwṓcun, | ᴳwéoroda ᴰrǽswa❲n❳,
+:ᴷ⁴'ᵃ   Be0060         {gp}in ᴬwórold{/gp} ᵛwṓcun, | ᴳwéoroda ᴰrǽswan,
+=                      vinrent au monde, [add]lui qui était à la tête des troupes :
+-                       in            : <in@dans>
+-                       wórold        : <worold@un monde> ◖A.singulier◗
+-                       wṓcun         : <wæcnan@naître> ◖prétérit.3P◗
+-                       wéoroda       : <werod@une troupe> ◖G.pluriel◗
+-ᴷ⁴ᵃ                    rǽswa❲n❳      : <ræswa@un conseiller, un prince> ◖D.singulier◗
+-ᴷ⁴'ᵃ                   rǽswan        : <ræswa@un conseiller, un prince> ◖D.singulier◗
+
+:ᴷ⁴ᵃ    Be0061         ᴺHéorogār, ond ᴺHrṓðgār | ond ᴺHā́lga ᴺtíl;
+=                      Heorogār, Hrōðgār et le gentil Hālga;
+-                       Héorogār      : <Heoro-gār@Heorogār> ◖N.sing.◗
+-                       ond           : <ond@et>
+-                       Hrṓðgār       : <Hrōð-gār@Hrōðgār> ◖N.sing.◗
+-                       ond           : <ond@et>
+-                       Hā́lga         : <Hālga@Hālga> ◖N.sing.◗
+-                       tíl           : <til@gentil> ◖strong.N.sing.masc◗
+
+:ᴷ⁴ᵃ    Be0062         ❰ᵛhȳrde ᴺiċ þæt ❲…❳ [v]❲wæs❳ [G]❲On❳elan ᴺcwēn,
+:ᴷ⁴'ᵃ   Be0062         ❰ᵛhȳrde ᴺiċ þæt ❲…❳ [v]wæs [G]Onelan ᴺcwēn,
+=                      j'ai entendu que … était l'épouse d'Onelan,
+-                       hȳrde         : <hȳran@entendre> ◖prétérit.1S◗
+-                       iċ            : <pronom personnel@je, tu, …> ◖1S.N◗
+-ᴷ⁴ᵃ                    ❲wæs❳         : <wesan@être> ◖prétérit.3S◗
+-ᴷ⁴'ᵃ                   wæs           : <wesan@être> ◖prétérit.3S◗
+-ᴷ⁴ᵃ                    ❲On❳elan      : <Onela@Onela> ◖G.sg◗
+-ᴷ⁴'ᵃ                   Onelan        : <Onela@Onela> ◖G.sg◗
+-                       þæt           : <þæt_conj@que>
+-                       cwēn          : <cwēn@une reine> ◖N.sing◗
+
+:ᴷ⁴ᵃ    Be0063         ᴳHéaðo-Scílfìngas | héalsġebédda.
+=                      qu'elle partageait la couche du Heaðo-Scilfing.
+-                       Héaðo-Scílfìngas : <Heaðo-Scilfing@Heaðo-Scilfing>
+-                       héalsġebédda  : <heals-ġebedda@une personne qui partage la couche>
+                                        ◖weak.N.sing.féminin◗
+
+:ᴷ⁴ᵃ    Be0064         ❰Þā ᵛwæs ᴰHrṓðgā́re | ᴺhérespḕd ᵛġýfen,
+=                      C'est à Hrōðgār qu'échut le succès avec ses troupes,
+-                       Þā            : <ðā@alors>
+-                       wæs           : <wesan@être> ◖prétérit.3S◗
+-                       Hrōðgāre      : <Hrōð-gār@Hrōðgār> ◖D.sg◗
+-                       herespēd      : <here-spēd@succès à la guerre> ◖N.sg◗
+-                       ġýfen         : <ġifan@donner> ◖participe.passé◗
+
+:ᴷ⁴ᵃ    Be0065         ᴳwī́ġes ᴺwéorðmỳnd, | ❰þæt ᴰhim ᴳhis ᴺwínemā́gas
+=                      la gloire au combat, si bien que ses parents et amis lui
+-                       wīġes         : <wīġ@un combat> ◖G.sg◗
+-                       wéorðmỳnd     : <weorð-mynd@un honneur> ◖N.sg◗
+-                       þæt           : <þæt_conj@que>
+-                       him           : <pronom personnel@je, tu, …> ◖3S.D.masc◗
+-                       his           : <pronom personnel@je, tu, …> ◖3S.G.masc◗
+-                       wínemā́gas     : <wine-mǣġ@un ami et parent> ◖N.pl◗
+
+:ᴷ⁴ᵃ    Be0066         ġeórne ᵛhȳ́rdon, | ❰oðð þæt ᴺsēo ᴺġeógoð ᵛġewḗox,
+=                      obéissaient volontiers jusqu'à ce que grandisse un groupe de jeunes [add]nobles,
+-                       ġeórne        : <ġeorne@volontiers> 
+                                        à propos de -e- qui ne porte pas l'accent, confer <e glide>
+-                       hȳ́rdon        : <hȳran@entendre> ◖prétérit.3P◗
+-                       oðð þæt       : <oð þæt@jusqu'à ce que>
+-                       sēo           : <se, sē@ce, le, qui, …> ◖N.sg.féminin◗
+-                       ġeógoð        : <ġeogoð@une jeunesse> ◖N.sg◗
+-                       ġewḗox        : <ġe-weaxan@grandir> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0067         ᴺmágodrìht ᴺmíċel. | ❰ᴰHim {gp}on ᴬmṓd{/gp} ᵛbëárn
+=                      une grande troupe de jeunes [add]guerriers. Une idée surgit dans son esprit
+-                       mágodrìht     : <mago-driht@une bande de jeunes guerriers> ◖N.sg◗
+-                       míċel         : <miċel@grand> ◖strong.N.sg.féminin◗
+-                       Him           : <pronom personnel@je, tu, …> ◖3S.D.masc◗
+-                       on            : <on@dans>
+-                       mṓd           : <mōd@un esprit, un état d'esprit> ◖A.sg◗
+-                       bëárn         : <be-irnan@courir> ◖prétérit.3S◗ ×forme_impersonnelle
+
+:ᴷ⁴ᵃ    Be0068         ❰þæt ᴬhéalréċed | ᵛⁱhā́tan ᵛwólde,
+=                      il voulut ordonner que les hommes construisent un bâtiment, un hall,
+-                       þæt           : <þæt_conj@que>
+-                       héalréċed     : <heal-reċed@un hall-bâtiment> ◖A.sg◗
+-                       hā́tan         : <hātan@ordonner> ◖infinitif.présent◗
+-                       wólde         : <willan@vouloir> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0069         ᴬmédoæ̀rn ᴬmíċel | ᴺmén ᵛⁱġewýrċean,
+:ˣᶠ¹    Be0069         ᴬmédoæ̀rn ᴬmíċel | ᴺmén ᵛⁱġewýrċean,
+:ˣᶠ³    Be0069         ᴬmédoæ̀rn ᴬmā́re  | ᴺmén ᵛⁱġewýrċean,
+=                      un manoir {add}où boire{/add} l'hydromel, plus grand
+-                       médoæ̀rn       : <medo-ærn@une maison (où l'on boit) l'hydromel> ◖A.sg◗
+-ᴷ⁴ᵃ                    míċel         : <miċel@grand> ◖strong.A.sg.neutre◗
+                                        idée de comparaison sous-entendue; cf Klaeber's Beowulf, p.118
+-ˣᶠ³                    mā́re          : <miċel@grand> ◖comparatif.weak.A.sg.neutre◗
+                                        sur cette émendation, cf Klaeber's Beowulf, p.118
+-                       mén           : <mon(n)@une personne> ◖N.pl.◗
+-                       ġewýrċean     : <ġewyrċan@accomplir> ◖infinitif◗
+
+:ᴷ⁴ᵃ    Be0070         ❰þon❲n❳e ᴳýldo ᴺbéarn | ǣ́fre ᵛġefrū́non,
+:ᴷ⁴'ᵃ   Be0070         ❰þonne ᴳýldo ᴺbéarn | ǣ́fre ᵛġefrū́non,
+:ˣᶠ¹⁺ˣᶠ² Be0070        ❰þone  ᴳýldo ᴺbéarn | ǣ́fre ᵛġefrū́non,
+=ᴷ⁴ᵃ⁺ᴷ⁴'ᵃ              que [add]tout que ce que les fils des hommes auraient jamais entendu
+=ˣᶠ¹                   dont les fils des hommes devraient entendre [add]parler à jamais
+=ˣᶠ²                   dont jamais {add}jusque là{/add} les fils des hommes n'avaient entendu parler
+**                      L'expression ýldo béarn fait partie des latinismes empruntés par le vieil anglais. 
+                        Confer <expressions et mots latins empruntés par le vieil anglais>
+-ᴷ⁴ᵃ                    þon❲n❳e       : <þonne@conj_subor> conjonction complétant míċel
+                                        avec une idée de comparaison sous-entendue
+-ᴷ⁴'ᵃ                   þonne         : <þonne@conj_subor> conjonction complétant míċel
+                                        avec une idée de comparaison sous-entendue
+-ˣᶠ¹⁺ˣᶠ²                þone          : <se, sē@ce, le, qui, …> ◖A.masc.sing◗ renvoie à "héalréċed" (ᴷ⁴ᵃBe0068)
+-                       ýldo          : <ylde@un ancêtre> ◖G.pl.◗ La forme attendue est "ylda".
+-                       béarn         : <bearn@un enfant> ◖N.pl.◗
+-                       ǣ́fre          : <ǣfre@n'importe quand>
+-ᴷ⁴ᵃ                    ġefrū́non      : <ġe-friġnan@apprendre> ◖prétérit.3P◗
+-ˣᶠ¹                    ġefrū́non      : <ġe-friġnan@apprendre> ◖subjonctif.prétérit.3P◗
+-ˣᶠ²                    ġefrū́non      : <ġe-friġnan@apprendre> ◖indicatif.prétérit.3P◗
+                                        sur cette interprétation du texte confer Klaeber's Beowulf, 
+                                        p. 118 et Niles, Beowulf and Lejre, p.223
+
+
+:ᴷ⁴ᵃ    Be0071         ond þǣr on ínnan | ᴬéall ᵛⁱġedǣ́lan
+=                      et là, de distribuer en ses murs tout
+-                       ond           : <ond@et>
+-                       þǣr           : <þǣr@là, alors>
+-                       on ínnan      : <on innan@à l'intérieur>
+-                       éall          : <eal(l)@tout> ◖strong.A.singulier.neutre◗
+-                       ġedǣ́lan       : <ġedǣlan@distribuer> ◖infinitif◗
+
+:ᴷ⁴ᵃ    Be0072         ᴰġeóngum ond ᴰéaldum | ❰ᴬswylċ ᴰhim Gód ᵛséalde,
+=                      - aux jeunes comme aux vieux - ce que Dieu lui avait donné
+-                       ġeóngum       : <ġeong@jeune> ◖D.pl.◗
+-                       ond           : <ond@et>
+-                       éaldum        : <eald@vieux> ◖strong.D.pl.masculin◗
+-                       swylċ         : <swylċ@tel> ◖A.sg.neutre◗
+-                       him           : <pronom personnel@je, tu, …> ◖3S.D.masc◗
+-                       Gód           : <God@Dieu> ◖N.sg◗
+-                       séalde        : <sellan@donner> ◖prétérit.3S◗◗
+
+:ᴷ⁴ᵃ    Be0073         {gp}būton ᴰfólcscáre | ond ᴰféorum ᴳgúmena{/gp}.
+=                      à l'exception de la terre de son peuple et des vies de ses hommes.
+-                       būton         : <būton@sauf>
+-                       fólcscáre     : <folc-scaru@un partage du peuple> ◖D.sg◗
+-                       ond           : <ond@et>
+-                       féorum        : <feorh@une vie> ◖D.pl◗
+-                       gúmena        : <guma@un homme> ◖G.pl◗
+
+:ᴷ⁴ᵃ    Be0074         ❰Ðā ᴺiċ wī́de ᵛġefrǽġn | ᴬwéorc ᵛⁱġebánnan
+=                      J'ai entendu qu'il ordonna alors {add}la construction d'un{/add} ouvrage
+-                       Ðā            : <ðā@alors>
+-                       iċ            : <pronom personnel@je, tu, …> ◖1S.N◗
+-                       wī́de          : <wīde@au loin> wī́de ne porte pas sur ġefrǽġn :
+                                        <objet de ġefrǽġn modifié par un adverbe>
+-                       ġefrǽġn       : <ġe-friġnan@apprendre> ◖prétérit.1S◗
+-                       wéorc         : <weorc@un ouvrage> ◖A.sg◗
+-                       ġebánnan      : <ġebánnan@ordonner> ◖infinitif◗◗
+
+:ᴷ⁴ᵃ    Be0075         ᴰmániġre ᴰmǣ́ġþe | {gp}ġeond ᴬþisne ᴬmíddanġeárd{/gp},
+=                      à maints peuples, loin dans toute l'étendue de cette terre du milieu,
+-                       mániġre       : <moniġ@nombreux> ◖strong.D.sg.féminin◗
+                                        ??? xyz todo Quelle est le sens de ce singulier ???
+-                       mǣ́ġþe         : <mǣġþ@une nation> ◖D.sg◗
+-                       ġeond         : <ġeond@à travers>
+-                       þisne         : <þes, þēs@ceci> ◖A.sg.masculin◗
+-                       míddanġeárd   : <middan-ġeard@une terre du milieu> ◖A.sg◗
+
+:ᴷ⁴ᵃ    Be0076         ᴬfólcstède ᵛⁱfrǽtwan. | ❰ᴰHim {gp}on fýrste{/gp} ᵛġelómp
+=                      de décorer cette demeure pour son peuple. Il se trouva que, pour lui, au jour dit,
+-                       fólcstède     : <folc-stede@une demeure pour le peuple> ◖A.sg◗
+-                       frǽtwan       : <frætwan@décorer> ◖infinitif◗
+-                       Him           : <pronom personnel@je, tu, …> ◖3S.D.masc◗
+-                       on            : <on@dans>
+-                       fýrste        : <fyrst@un espace de temps> ◖D.sg◗
+                                        on fýrste:"in due time" (Klaeber's Beowulf p. 119, note sur le vers 76)
+-                       ġelómp        : <ġe-limpan@advenir> ◖prétérit.3S◗ ×forme_impersonnelle
+
+:ᴷ⁴ᵃ    Be0077         ǣ́dre {gp}mid ᴰýldum{/gp}, | ❰þæt ᴺhit ᵛwearð ᴺéal ᴺġeáro,
+=                      le [add]bâtiment fut complètement achevé, en vitesse, parmi les hommes,
+-                       ǣ́dre          : <ǣdre@rapidement>
+-                       mid           : <mid@avec>
+-                       ýldum         : <ylde@un ancêtre> ◖D.pl◗ cf <mid yldum>
+-                       þæt           : <þæt_conj@que>
+-                       hit           : <pronom personnel@je, tu, …> ◖3S.N.neutre◗
+-                       wearð         : <weorðan@arriver> ◖prétérit.3S◗
+-                       éal           : <eal(l)@tout> ◖strong.N.singulier.neutre◗
+-                       ġeáro         : <ġearo, ġearu@prêt> ◖strong.N.singulier.neutre◗ 
+                                        à propos de -e- qui ne porte pas l'accent, confer <e glide>
+
+:ᴷ⁴ᵃ    Be0078         ᴺhéalæ̀rna ᴺmǣ́st; | ❰ᵛscōp ᴰhim ᴬHéort ᴬnáman,
+=                      le plus grand de tous les manoirs dotés d'un hall; 
+                        pour lui, il créa le nom de «Heorot»,
+-                       héalæ̀rna      : <heal-ærn@un hall-maison> ◖N.sg◗
+-                       mǣ́st          : <miċel@grand> ◖superlatif.N.sg.neutre◗
+-                       scōp          : <scyppan@faire> ◖prétérit.3S◗
+-                       him           : <pronom personnel@je, tu, …> ◖3S.D.neutre◗
+-                       Héort         : <Heorot@Heorot> ◖A.sg◗
+-                       náman         : <nama@un nom> ◖A.sg◗
+
+:ᴷ⁴ᵃ    Be0079         ❰ᴺsē þe ᴳhis ᴳwórdes ᴺġewéald | wī́de ᵛhǽfde.
+=                      lui dont le pouvoir du verbe s'étendait loin.
+-                       sē            : <se, sē@ce, le, qui, …> ◖N.sg.masculin◗
+-                       þe            : <þe,þē@que> a pour antécédent sē, lui-même sujet de scōp du vers 78.
+                                        Sur la construction, cf
+                                        <la relative contient le sujet de la phrase et suit son prédicat>
+-                       his           : <pronom personnel@je, tu, …> ◖3S.G.neutre◗
+-                       wórdes        : <word@un mot>
+-                       ġewéald       : <ġe-weald@un pouvoir> ◖N.sg◗
+-                       wī́de          : <wīde@au loin>
+-                       hǽfde         : <habban@avoir> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0080         ᴺHē ᴬbḗot ne ᵛālḗh: | ᴬbḗagas ᵛdǣ́lde,
+=                      Il ne manqua pas à sa promesse: il distribua des anneaux,
+-                       Hē            : <pronom personnel@je, tu, …> ◖3S.N.masc◗
+-                       bḗot          : <bēot@une promesse> ◖A.sg◗
+-                       ne            : <ne@ne… pas…>
+-                       ālḗh          : <ā-lēogan@manquer à sa promesse> ◖prétérit.3S◗
+-                       bḗagas        : <bēag, bēah@un anneau> ◖A.pl◗
+-                       dǣ́lde         : <dælan@distribuer> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0081         ᴬsínċ {gp}æt ᴰsýmle{/gp}. | ❰ᴺSéle ᵛhlī́fàde
+=                      un trésor lors du festin. Le hall se dressait
+-                       sínċ          : <sinċ@un trésor> ◖A.sg.◗
+-                       æt            : <æt@près de>
+-                       sýmle         : <symbel@un festin> ◖D.sg.◗
+-                       Séle          : <sele@un hall> ◖N.sg.◗
+-                       hlī́fàde       : <hlī́fian@se dresser> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0082         ᴺhḗah ond ᴺhórnġēap; | ❰ᴳhéaðowỳlma ᵛbā́d,
+=                      haut avec ses pignons bien espacés; il attendait un déferlement néfaste,
+-                       hḗah          : <hēah@haut> ◖strong.N.sg.masculin◗
+-                       ond           : <ond@et>
+-                       hórnġēap      : <horn-ġēap@aux pignons bien espacés> ◖N.sg.masculin◗
+-                       héaðowỳlma    : <heaðo-wylm@un déferlement hostile> ◖G.pl◗
+-                       bā́d           : <bīdan@attendre> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0083         ᴳlā́ðan ᴳlī́ġes - | ❰ne ᵛwæs ᴺhit lénġe þā ġḗn
+=                      le feu haï - il ne s'en fallait pas beaucoup désormais
+-                       lā́ðan         : <lāð@ennemi> ◖weak.G.sg.masculin◗ xyz todo pourquoi weak ???
+-                       lī́ġes         : <līġ@un feu> ◖G.sg◗
+-                       ne            : <ne@ne… pas…>
+-                       wæs           : <wesan@être> ◖prétérit.3S◗ ×forme_impersonnelle
+-                       hit           : <pronom personnel@je, tu, …> ◖3S.N.neutre◗
+-                       lénġe         : <longe@longtemps> ◖comparatif◗
+-                       þā            : <ðā@alors>
+-                       ġḗn           : <ġēn@encore, davantage>
+
+:ᴷ⁴ᵃ    Be0084         ❰þæt ᴺse ᴺ❲é❳cghéte | ᴰā́þumswḗ❲or❳an
+:ᴷ⁴'ᵃ   Be0084         ❰þæt ᴺse ᴺécghéte | ᴰā́þumswḗoran
+=                      pour que le conflit à couteaux tirés entre le gendre et le beau-père
+-                       þæt           : <þæt_conj@que>
+-                       se            : <se, sē@ce, le, qui, …> ◖N.sg.masculin◗
+-ᴷ⁴ᵃ                    ❲é❳cghéte     : <ecg-hete@un conflit à couteaux tirés> ◖N.sg◗
+-ᴷ⁴'ᵃ                   écghéte       : <ecg-hete@un conflit à couteaux tirés> ◖N.sg◗
+-ᴷ⁴ᵃ                    ā́þumswḗ❲or❳an : <āþum-swēoras@un gendre et un beau-père> ◖D.pl◗
+                                        Le manuscript a "aþum swerian", à savoir "āþum-swerian",
+                                        les "prêteurs de serments"; il s'agit peut-être d'un jeu de mots.
+-ᴷ⁴'ᵃ                   ā́þumswḗoran   : <āþum-swēoras@un gendre et un beau-père> ◖D.pl◗
+                                        Le manuscript a "aþum swerian", à savoir "āþum-swerian",
+                                        les "prêteurs de serments"; il s'agit peut-être d'un jeu de mots.
+
+:ᴷ⁴ᵃ    Be0085         {gp}æfter ᴰwǽlnī́ðe{/gp} | ᵛⁱwǽcnan ᵛscólde.
+=                      ne doive naître suite à un sanglante haine {add}entre les deux{/add}.
+-                       æfter         : <æfter@après>
+-                       wǽlnī́ðe       : <wæl-nīð@une sanglante hostilité> ◖D.sg◗
+-                       wǽcnan        : <wæcnan@naître> ◖infinitif◗
+-                       scólde        : <sculan@devoir> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0086         ❰Ðā ᴺse ᴺéllengǣ́st | éarfoðlī́ċe
+=                      Alors le puissant démon, pendant longtemps
+-                       Ðā            : <ðā@alors>
+-                       se            : <se, sē@ce, le, qui, …> ◖N.sg.masculin◗
+-                       éllengǣ́st     : <ellen-gǣst@un puissant démon> ◖N.sg.◗
+-                       éarfoðlī́ċe    : <earfoð-līċe@avec peine>
+
+:ᴷ⁴ᵃ    Be0087         ᴬþrā́ge ġeþólode, | ❰ᴺsē þe {gp}in ᴰþȳ́strum{/gp} ᵛbā́d,
+=                      endura de douloureux {gp}moments{/gp}, lui qui attendait dans les ténèbres
+-                       þrā́ge         : <þrāg@un temps, une durée> ◖A.singulier◗
+-                       ġeþólode      : <ġe-þolian@souffrir> ◖prétérit.3S◗
+-                       sē            : <se, sē@ce, le, qui, …> ◖N.sg.masculin◗
+-                       þe            : <þe,þē@que>, a pour antécédent "se" du vers 86.
+-                       in            : <in@dans>
+-                       þȳ́strum       : <þȳstru@une obscurité> ◖D.pl◗
+-                       bā́d           : <bīdan@attendre> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0088         ❰þæt ᴺhē ᴳdṓgora ᴰġehwā́m | drḗam ᵛġehȳ́rde
+=                      dans la mesure où il entendait chaque jour une joie
+-                       þæt           : <þæt_conj@que> þæt "semi-explanatory"
+-                       hē            : <pronom personnel@je, tu, …> ◖3S.N.masculin◗
+-                       dṓgora        : <dōgor@un jour> ◖G.pl◗
+-                       ġehwā́m        : <ġehwā@chaque> ◖D.sg.neutre◗
+-                       drḗam         : <drēam@une réjouissance> ◖A.sg◗
+-                       ġehȳ́rde       : <ġe-hȳdan@entendre> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0089         ᴬhlū́dne {gp}in ᴰhéalle{/gp}. | ❰Þǣr ᵛwæs ᴳhéarpan ᴺswḗġ,
+=                      bruyante dans le hall. Il y avait là le son d'une lyre,
+-                       hlū́dne        : <hlūd@bruyant> ◖strong.A.sg.masc◗
+-                       in            : <in@dans>
+-                       héalle        : <heal@un hall> ◖D.sg◗
+-                       Þǣr           : <þǣr@là, alors>
+-                       wæs           : <wesan@être> ◖prétérit.3S◗ ×forme_impersonnelle
+-                       héarpan       : <hearpe@une harpe> ◖G.sg◗
+-                       swḗġ          : <swēġ@un son> ◖N.sg◗
+
+:ᴷ⁴ᵃ    Be0090         ᴺswútol ᴺsáng ᴳscòpes. | ❰ᵛSǽgde ᴺsē þe ᵛcū́þe
+=                      le chant clair d'un poète. Il parla, lui qui savait
+-                       swútol        : <sweotol@clair> ◖N.sg.masculin◗
+-                       sáng          : <sang@un chant> ◖N.sg◗
+-                       scòpes        : <scop@un poète> ◖G.sg◗
+-                       Sǽgde         : <secgan@dire> ◖prétérit.3S◗
+-                       sē            : <se, sē@ce, le, qui, …> ◖N.sg.masculin◗
+-                       þe            : <þe,þē@que>, a pour antécédent le "sē" précédent.
+-                       cū́þe          : <cunnan@savoir> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0091         ᴬfrúmscèaft ᴳfī́ra | féorran ᵛréċċan,
+=                      raconter depuis loin dans le temps le début des hommes,
+-                       frúmscèaft    : <frum-sceaft@une origine> ◖A.sg◗
+-                       fī́ra          : <fīras@un peuple> ◖G.pl◗
+-                       féorran       : <feorran@depuis fort longtemps>
+-                       réċċan        : <reċċan@narrer> ◖infinitif◗
+
+:ᴷ⁴ᵃ    Be0092         ❰[v]cwæð þæt [N]se [N]ǽlmíhtịga | [A]éorðan wórh❲te❳,
+:ᴷ⁴'ᵃ   Be0092         ❰[v]cwæð þæt [N]se [N]ǽlmíhtga  | [A]éorðan wórhte,
+=                      il dit que le tout puissant créa la terre,
+-                       cwæð          : <cweðan@parler> ◖prétérit.3S◗
+-                       þæt           : <þæt_conj@que>
+-                       se            : <se, sē@ce, le, qui, …> ◖N.sg.masculin◗
+-ᴷ⁴ᵃ                    ǽlmíhtịga     : <æl-mihtiġ@tout puissant> ◖weak.N.sg.masculin◗
+-ᴷ⁴'ᵃ                   ǽlmíhtga      : <æl-mihtiġ@tout puissant> ◖weak.N.sg.masculin◗
+-                       éorðan        : <eorðe@une terre> ◖A.sg◗
+-ᴷ⁴ᵃ                    wórh❲te❳      : <wyrċan@fabriquer> ◖prétérit.3S◗
+-ᴷ⁴'ᵃ                   wórhte        : <wyrċan@fabriquer> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0093         [A]wlítebèorhtne [A]wáng, | ❰swā [N]wǽter bebū́geð,
+=                      une plaine à l'apparence magnifique, 
+                        {add}s'étendant{/add} aussi {add}loin{/add} que la mer l'entourant,
+-                       wlítebèorhtne : <wlite-beorht@à l'apparence splendide> ◖strong.A.sg.masculin◗
+-                       wáng          : <wong@une plaine> ◖A.sg◗
+-                       swā           : <swā@ainsi>
+-                       wǽter         : <wæter@une eau> ◖N.sg◗
+-                       bebū́geð       : <be-būgan@entourer> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0094         ❰[v]ġesétte [N]síġehrḕþiġ | [A]súnnan and [A]mṓnan,
+=                      le victorieux, le triomphant, disposa le Soleil et la Lune,
+-                       ġesétte       : <ġesettan@établir> ◖prétérit.3S◗
+-                       síġehrḕþiġ    : <siġe-hrēþiġ@triomphant d'une victoire> ◖N.sg◗
+-                       súnnan        : <sunne@un soleil> ◖A.sg◗
+-                       and           : <ond@et>
+-                       mṓnan         : <mōna@une lune> ◖A.sg◗
+
+:ᴷ⁴ᵃ    Be0095         [A]lḗoman {gp}tō [D]lḗohte{/gp} | [D]lándbū́èndum;
+=                      - lampes [add]servant de lumière pour les habitants de la terre -
+-                       lḗoman        : <lēoma@une lampe> ◖A.pl◗
+-                       tō            : <tō@à>
+-                       lḗohte        : <lēoht@une lumière> ◖D.sg◗
+-                       lándbū́èndum   : <land-būend@un habitant de la terre> ◖D.pl◗
+
+:ᴷ⁴ᵃ    Be0096         ond ❰[v]ġefrǽtwáde | [G]fóldan [A]scḗatas
+=                      et il embellit la surface de la terre
+-                       ond           : <ond@et>
+-                       ġefrǽtwáde    : <ġe-frætwian@décorer> ◖prétérit.3S◗
+-                       fóldan        : <folde@un sol> ◖G.sg◗
+-                       scḗatas       : <scēat@une région> ◖A.pl◗
+
+:ᴷ⁴ᵃ    Be0097         [D]léomum and [D]lḗafum, | ❰[A]lī́f ḗac [v]ġesceṓp
+=                      au moyen de branches et de feuilles; de plus il créa la vie
+-                       léomum        : <lim@une branche> ◖D.pl◗
+-                       and           : <ond@et>
+-                       lḗafum        : <lēaf@une feuille> ◖D.pl◗
+-                       lī́f           : <līf@une vie> ◖A.sg◗
+-                       ēac           : <ēac@de plus>
+-                       ġesceṓp       : <ġe-scyppan@créer> ◖prétérit.3S◗ 
+                                        A propos du -e- dans -sce- qui ne porte pas l'accent, cf <e glide>.
+
+:ᴷ⁴ᵃ    Be0098         [G]cýnna [D]ġehwýlcum | [G]þāra ❰ðe [N]cwíce [v]hwýrfaþ.
+=                      pour chacune des races des créatures qui {add}y{/add} vivent, douées de mouvement.
+-                       cýnna         : <cyn(n)@une race> ◖G.pl◗
+-                       ġehwýlcum     : <ġehwā@chaque> ◖D.pl.neutre◗
+-                       þāra          : <se, sē@ce, le, qui, …> ◖G.pl.masculin◗
+-                       ðe            : <þe,þē@que> 
+                                        Le relatif a pour antécédent "cýnna … þāra".
+-                       cwíce         : <cwico@vivant> ◖N.pluriel.neutre◗
+-                       hwýrfaþ       : <hwyrfan@bouger> ◖présent.3P◗
+
+:ᴷ⁴ᵃ    Be0099         ❰Swā [N]ðā [N]dríhtgúman | [D]drḗamum [v]lífdon
+=                      Ainsi les guerriers vivaient-ils au milieu des réjouissances
+-                       Swā           : <swā@ainsi>
+-                       ðā            : <se, sē@ce, le, qui, …> ◖N.pl.masc◗
+-                       dríhtgúman    : <dryht-guma@un serviteur> ◖N.pl◗
+-                       lífdon        : <lifiġan@vivre> ◖prétérit.3P◗
+-                       drḗamum       : <drēam@une réjouissance> ◖D.pl◗
+
+:ᴷ⁴ᵃ    Be0100         ḗadiġlī́ċe, | ❰oð ðæt [N]ā́n [v]ongán
+=                      heureux, jusqu'à ce qu'une certaine [add]créature
+-                       ḗadiġlī́ċe     : <ēadiġ-līċe@joyeusement>
+-                       oð ðæt        : <oð þæt@jusqu'à ce que>
+-                       ā́n            : <ān@un> ◖strong.N.sg.masculin◗
+-                       ongán         : <on-ġinnan@commencer> ◖prétérit.3S◗ xyz abc
+
+:ᴷ⁴ᵃ    Be0101         [A]fýrene [vi]fré❲m❳man | [N]fḗond {gp}on [D]hélle{/gp};
+:ᴷ⁴'ᵃ   Be0101         [A]fýrene [vi]frémman | [N]fḗond {gp}on [D]hélle{/gp};
+=                      ne commence à exercer sa violence, un suppôt de l'enfer.
+-                       fýrene        : <fyren, firen@une souffrance> ◖A.sg◗
+-ᴷ⁴ᵃ                    fré❲m❳man     : <fremman@accomplir> ◖infinitif◗
+-ᴷ⁴'ᵃ                   frémman       : <fremman@accomplir> ◖infinitif◗
+-                       fḗond         : <fēond@un ennemi> ◖N.sg◗
+-                       on            : <on@dans>
+-                       hélle         : <hel(l)@un enfer> ◖D.sg◗
+
+:ᴷ⁴ᵃ    Be0102         ❰wæs [N]se [N]grímma [N]gǣ́st | [N]Gréndel [v]hā́ten,
+=                      cette cruelle créature se nommait Grendel,
+-                       wæs           : <wesan@être> ◖prétérit.3S◗
+-                       se            : <se, sē@ce, le, qui, …> ◖N.sg.masculin◗
+-                       grímma        : <grim(m)@cruel> ◖weak.N.sg.masculin◗
+-                       gǣ́st          : <gāst, gǣst@un démon> ◖N.sg◗
+-                       Gréndel       : <Grendel@Grendel> ◖N.sg◗
+-                       hā́ten         : <hātan@ordonner> ◖participe.passé◗
+
+:ᴷ⁴ᵃ    Be0103         [N]mǣ́re [N]méarcstàpa, | [N]sē þe [A]mṓras [v]hḗold,
+=                      notoire vagabond des confins {add}du pays{/add}, lui qui régnait sur les landes,
+-                       mǣ́re          : <mǣre@célèbre> ◖strong.N.sg.masculin◗
+-                       méarcstàpa    : <mearc-stapa@un vagabond (errant) à la frontière> ◖N.sg◗
+-                       sē            : <se, sē@ce, le, qui, …> ◖N.sg.masculin◗
+-                       þe            : <þe,þē@que> a pour antécédent "se"
+-                       mṓras         : <mōr@une lande> ◖A.pl◗
+-                       hḗold         : <healdan@garder> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0104         [A]fén ond [A]fǽsten; | [G]fī́fẹlcỳnnes [A]éard
+:ᴷ⁴'ᵃ   Be0104         [A]fén ond [A]fǽsten; | [G]fī́flcỳnnes [A]éard
+=                      sur le marais {add}qui lui tenait lieu de{/add}place-forte, le pays de la race des monstres,
+-                       fén           : <fen(n)@un marais> ◖A.sg◗
+-                       ond           : <ond@et>
+-                       fǽsten        : <fæsten@une place-forte> ◖A.sg◗ 
+                                        "fén ond fǽsten" est traduit ici en l'interprétant comme un hendiadys,
+                                        ~ "la place-forte qu'est le marais", cf Klaeber's Beowulf, p. 122
+-ᴷ⁴ᵃ                    fī́fẹlcỳnnes   : <fīfel-cyn(n)@une race de monstres> ◖G.sg◗
+-ᴷ⁴'ᵃ                   fī́flcỳnnes    : <fīfel-cyn(n)@une race de monstres> ◖G.sg◗
+-                       éard          : <eard@une contrée> ◖A.sg◗
+
+:ᴷ⁴ᵃ    Be0105         ❰[N]wónsǣ̀lī [N]wér | [v]wéardode [A]hwī́le,
+=                      l'homme à la mauvaise fortune montait la garde depuis longtemps,
+-                       wónsǣ̀lī       : <won-sælī@infortuné> ◖strong.A.sg.masculin◗
+-                       wér           : <wer@un homme> ◖A.sg◗
+-                       wéardode      : <weardian@garder> ◖prétérit.3S◗
+-                       hwī́le         : <hwīl@un espace de temps> ◖A.sg◗ <accusatif de durée>
+
+:ᴷ⁴ᵃ    Be0106         ❰siþðan [D]him [N]scýppen | {v}forscrífen hǽfde{/v}
+=                      après que le créateur l'eut condamné
+-                       siþðan        : <siððan@quand>
+-                       him           : <pronom personnel@je, tu, …> ◖3S.D.masc◗
+-                       scýppen       : <scyppen@un créateur> ◖N.sg◗
+-                       forscrífen    : <for-scrīfan@condamner> ◖participe.passé◗
+-                       hǽfde         : <habban@avoir> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0107         {gp}in [G]Cā́ines [D]cýnne{/gp} | - ❰[A]þone [A]cwéalm [v]ġewrǽc
+=                      parmi la race de Caïn - ce crime fut puni par
+-                       in            : <in@dans>
+-                       Cā́ines        : <Cāin@Caïn> ◖G.sg◗
+-                       cýnne         : <cyn(n)@une race> ◖D.sg◗
+-                       þone          : <se, sē@ce, le, qui, …> ◖A.masc.sing◗
+-                       cwéalm        : <cwealm@un crime> ◖A.sg◗
+-                       ġewrǽc        : <ġe-wrecan@punir> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0108         [N]ḗċe [N]dríhten, | ❰[G]þæs þe [N]hē [A]Ā́bel [v]slṓg;
+=                      le Seigneur éternel parce qu'il avait tué Abel.
+-                       ḗċe           : <ēċe@éternel> ◖N.sg.masculin◗
+-                       dríhten       : <dryhten@un seigneur> ◖N.sg◗
+-                       þæs           : <se, sē@ce, le, qui, …> ◖G.sg.neutre◗
+                                        <sens particulier de þæs quand il est au G.sg.neutre>
+-                       þe            : <þe,þē@que>
+-                       hē            : <pronom personnel@je, tu, …> ◖3S.N.masculin◗
+-                       Ā́bel          : <Ābel@Abel> ◖A.sg◗
+-                       slṓg          : <slēan@frapper> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0109         ❰Ne [v]ġeféah [N]hē [G]þǣre [G]fǣ́hðe, | ❰ac [N]hē [A]hine féor [v]forwrǽc,
+=                      Ce meurtre ne lui causa nulle joie : Dieu le bannit loin,
+-                       Ne            : <ne@ne… pas…>
+-                       ġeféah        : <ġe-fēon@se réjouir> ◖prétérit.3S◗
+-                       hē            : <pronom personnel@je, tu, …> ◖3S.N.masculin◗
+-                       þǣre          : <se, sē@ce, le, qui, …> ◖G.sg.féminin◗ 
+                                        ġe-fēon peut se construire avec le génitif ou le datif/instrumental, 
+                                        þǣere peut donc être un datif.
+-                       fǣ́hðe         : <fǣhð(o)@une hostilité> ◖G.sg◗ 
+                                        ġe-fēon peut se construire avec le génitif ou le datif/instrumental, 
+                                        fǣ́hðe peut donc être un datif.
+-                       ac            : <ac@ne pas...mais>
+-                       hē            : <pronom personnel@je, tu, …> ◖3S.N.masculin◗
+-                       hine          : <pronom personnel@je, tu, …> ◖3S.A.masculin◗
+-                       féor          : <feor, feorr@loin>
+-                       forwrǽc       : <for-wrecan@bannir> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0110         [N]métod {gp}for {D}þȳ mā́ne{/D}{/gp} | {gp}máncỳnne frám{/gp}.
+=                      - pour ce crime - de la race humaine.
+-                       métod         : <metod@Dieu> ◖N.sg◗
+-                       for           : <for@pour>
+-                       þȳ            : <þes, þēs@ceci> ◖D.sg.neutre◗
+-                       mā́ne          : <mān@un crime> ◖D.sg◗
+-                       máncỳnne      : <mon-cyn(n)@yune race humaine> ◖D.sg◗
+-                       frám          : <fram, from@de>
+
+:ᴷ⁴ᵃ    Be0111         ❰Ðanon [N]úntȳ́dras | [N]éalle onwṓcon,
+=                      C'est de lui que tous les rejetons malfaisants naquirent,
+-                       Ðanon         : <þonan@de là>
+-                       úntȳ́dras      : <un-tȳdre@mauvaise engeance> ◖N.pl◗
+-                       éalle         : <eal(l)@tout> ◖N.pl.masculin◗
+-                       onwṓcon       : <on-wæcnan@éveiller, naître> ◖prétérit.3P◗
+
+:ᴷ⁴ᵃ    Be0112         [N]éotenas ond [N]ýlfe | ond [N]órcnéa͡s,
+:ˣᶠ¹    Be0112         [N]éotenas ond [N]ýlfe | ond [N]órcnḗa͡s,
+=                      les géants, les elfs et les monstres
+-                       éotenas       : <eoten@un géant> ◖N.pl◗
+-                       ond           : <ond@et>
+-                       ýlfe          : <ylfe@des elfs> ◖N.pl◗
+-                       ond           : <ond@et>
+-ᴷ⁴ᵃ                    órcnéa͡s      : <orc-nēas@des monstres> ◖N.pl◗
+-ˣᶠ¹                    órcnḗa͡s      : <orc-nēas@des monstres> ◖N.pl◗
+
+:ᴷ⁴ᵃ    Be0113         swylċe [N]ġī́g❲á❳ntas, | ❰þā {gp}wið Góde{/gp} [v]wúnnon
+:ᴷ⁴'ᵃ   Be0113         swylċe ġī́gántas, | þā wið Góde wúnnon
+=                      ainsi que les géants qui contre Dieu luttèrent
+-                       swylċe        : <swylċe@de même>
+-ᴷ⁴ᵃ                    ġī́g❲á❳ntas    : <ġīgant@un géant> ◖N.pl◗
+-ᴷ⁴'ᵃ                   ġī́gántas      : <ġīgant@un géant> ◖N.pl◗
+-                       þā            : <se, sē@ce, le, qui, …> ◖N.pl◗
+-                       wið           : <wið@contre>
+-                       Góde          : <God@Dieu> ◖D.sg◗
+-                       wúnnon        : <winnan@se battre> ◖prétérit.3P◗
+
+:ᴷ⁴ᵃ    Be0114         [D]lánge [D]þrā́ge; | ❰[N]hē [D]him [G]ðæs [A]lḗan [v]forġeáld.
+=                      pendant longtemps. Il les paya en retour {add}en leur offrant une{/add} récompense.
+-                       lánge         : <long@long> ◖strong.A.sg.féminin◗
+-                       þrā́ge         : <þrāg@un temps, une durée> ◖A.singulier◗
+-                       hē            : <pronom personnel@je, tu, …> ◖3S.N.masculin◗
+-                       him           : <pronom personnel@je, tu, …> ◖3P.D.masc◗
+-                       ðæs           : <se, sē@ce, le, qui, …> ◖G.sg.neutre◗  
+                                        <sens particulier de þæs quand il est au G.sg.neutre>
+-                       lḗan          : <lēan@une récompense> ◖A.singulier◗
+-                       forġeáld      : <for-ġifan@accorder> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0115         ❰Ġewāt ðā́  nḗosian, | ❰syþðan níht becṓm,
+=                      Il partit alors inspecter, quand la nuit fut venue,
+-                       Ġewāt         : <ġe-wītan@partir> ◖prétérit.3S◗
+-                       ðā́            : <ðā@alors>
+-                       nḗosian       : <nēosan, nēosian@visiter> ◖infinitif◗
+-                       syþðan        : <siððan@quand>
+-                       níht          : <niht@une nuit> ◖N.sg◗
+-                       becṓm         : <be-cuman@venir> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0116         [G]hḗa͡n [G]hū́ses, | ❰hū [A]hit [N]Hrínġ-Déne
+=                      la haute demeure, {add}pour voir{/add} comment les Danois porteurs d'anneaux s'y
+-                       hḗa͡n         : <hēah@haut> ◖G.sg.neutre◗
+-                       hū́ses         : <hūs@une maison> ◖G.sg◗
+-                       hū            : <hū@comment>
+-                       hit           : <pronom personnel@je, tu, …> ◖3S.A.neutre◗ Le pronom renvoie à "hḗa͡n hū́ses"
+-                       Hrínġ-Déne    : <Hrinġ-Dene@des Danois aux anneaux> ◖N.pl◗
+
+:ᴷ⁴ᵃ    Be0117         {gp}æfter [D]bḗorþéġe{/gp} | [v]ġebū́n [v]hǽfdon.
+=                      étaient établis, après {add}le banquet au cours duquel ils avaient{/add} bu la bière.
+-                       æfter         : <æfter@après>
+-                       bḗorþéġe      : <bēor-þegu@le fait de consommer de la bière> ◖D.sg◗
+-                       ġebū́n         : <ġe-būan@prendre possession de> ◖participe.passé◗
+-                       hǽfdon        : <habban@avoir> ◖prétérit.3P◗ 
+                                        Il pourrait s'agir d'un subjonctif : 
+                                        cf Klaeber's Beowulf, p. 391, sub uerbō "habban"
+
+:ᴷ⁴ᵃ    Be0118         ❰[v]Fand þā ðǣr ínne | [G]ǽþelìnga [A]ġedríht
+=                      Alors il trouva là, à l'intérieur, une troupe de nobles
+-                       Fand          : <findan@trouver> ◖prétérit.3S◗
+-                       þā            : <ðā@alors>
+-                       ðǣr ínne      : <þǣr inne@là, à l'intérieur>
+-                       ǽþelìnga      : <æþeling@un noble> ◖G.pl◗
+-                       ġedríht       : <ġe-dryht, ġe-driht@une troupe> ◖A.sg◗
+
+:ᴷ⁴ᵃ    Be0119         [v]swéfan {gp}æfter [D]sýmble{gp}; | ❰[A]sórge ne [v]cū́ðon,
+=                      qui dormaient après le banquet; ils ne connaissaient pas la peine,
+-                       swéfan        : <swefan@dormir> ◖infinitif◗
+-                       æfter         : <æfter@après>
+-                       sýmble        : <symbel@un festin>
+-                       sórge         : <sorh@un souci> ◖A.sg◗
+-                       ne            : <ne@ne… pas…>
+-                       cū́ðon         : <cunnan@savoir> ◖prétérit.3P◗
+
+:ᴷ⁴ᵃ    Be0120         [A]wónsceaft [G]wéra. | ❰[N]Wíht [G]unhǣ́lo,
+=                      misère des hommes. L'être de malfaisance
+-                       wónsceaft     : <won-sceaft@une misère> ◖A.sg◗
+-                       wéra          : <wer@un homme> ◖G.pl◗
+-                       Wíht          : <wiht@une créature> ◖N.sg.◗
+-                       unhǣ́lo        : <un-hǣlo@un mal> ◖G.sg.◗
+
+:ᴷ⁴ᵃ    Be0121         grím ond grǣ́diġ, | ġeáro sṑna wǽs,
+=                      méchant et cruel, fut aussitôt prêt,
+-                       grím          : <grim(m)@cruel> ◖strong.N.sg.féminin◗
+-                       ond           : <ond@et>
+-                       grǣ́diġ        : <grǣdiġ@cruel> ◖strong.N.sg.féminin◗
+-                       ġeáro         : <ġearo, ġearu@prêt> ◖strong.N.singulier.neutre◗ 
+                                        à propos de -e- qui ne porte pas l'accent, confer <e glide>
+-                       sṑna          : <sōna@aussitôt>
+-                       wǽs           : <wesan@être> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0122         [N]rḗoc ond [N]rḗþe, | ond {gp}on [D]rǽste{/gp} [v]ġenám
+=                      sauvage et féroce, et sur leur couche il s'empara
+-                       rḗoc          : <rēor@sauvage> ◖strong.N.sg.féminin◗
+-                       ond           : <ond@et>
+-                       rḗþe          : <rēþe@cruel> ◖strong.N.sg.féminin◗
+-                       ond           : <ond@et>
+-                       on            : <on@dans>
+-                       rǽste         : <ræst@une couche> ◖D.sg◗
+-                       ġenám         : <ġe-niman@s'emparer> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0123         [A]þrī́tig [G]þéġna; | ❰þánon èft [v]ġewā́t
+=                      de trente guerriers. De là il repartit,
+-                       þrī́tiġ       : <þrītiġ@trente> ◖A.sg◗
+-                       þéġna        : <þeġn@un guerrier> ◖G.pl◗
+-                       þánon        : <þonan@de là>
+-                       èft          : <eft@en retour>
+-                       ġewā́t        : <ġe-wītan@partir> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0124         [D]hū́ðe [G]hrḗmiġ | {gp}tō hā́m{gp} fáran,
+=                      exultant à cause de son butin : il se rendit à [add]sa demeure,
+-                       hū́ðe          : <hū́ð@un pillage> ◖D.sg◗ 
+                                        il pourrait s'agir d'un génitif (Klaeber's Beowulf, p.400 sub uerbō "hū́ð")
+-                       hrḗmiġ        : <hrḗmiġ@exultant> ◖N.sg◗
+-                       tō            : <tō@à>
+-                       hā́m           : <hām@une maison> ◖D.sg◗
+-                       fáran         : <faran@aller> ◖infinitif◗◗
+
+:ᴷ⁴ᵃ    Be0125         {gp}mid [D]þǣre [D]wǽlfýlle{/gp} | [G]wī́ca [v]nḗosan.
+=                      avec les morts du massacre, [add]pour inspecter [add]son repère.
+-                       mid           : <mid@avec>
+-                       þǣre          : <se, sē@ce, le, qui, …> ◖D.sg.masculin◗
+-                       wǽlfýlle      : <wæl-fyllo@une abondance de victimes> ◖D.sg◗
+-                       wī́ca          : <wīċ@une résidence> ◖G.pl◗
+-                       nḗosan        : <nēosan, nēosian@visiter> ◖infinitif◗
+
+:ᴷ⁴ᵃ    Be0126         ❰Ðā wæs {gp}on [D]ū́htan{/gp} | {gp}mid [D]ǣ́rdǽġe{/gp}
+=                      Alors à l'aube, au point du jour,
+-                       Ðā            : <ðā@alors>
+-                       wæs            : <wesan@être> ◖prétérit.3S◗
+-                       on             : <on@dans>
+-                       ū́htan         : <ūhta, ūhte@une aube> ◖D.sg◗
+-                       mid            : <mid@avec>
+-                       ǣ́rdǽġe        : <ǣr-dæġ@un point du jour> ◖D.sg◗
+
+:ᴷ⁴ᵃ    Be0127         [G]Gréndles [N]gū́ðcræ̀ft | [D]gúmum [N]undýrne;
+=                      la puissance guerrière de Grendel fut révélé aux hommes;
+-                       Gréndles         : <Grendel@Grendel> ◖G.sg◗
+-                       gū́ðcræ̀ft       : <gūð-cræft@une puissance guerrière> ◖N.sg◗
+-                       gúmum            : <guma@un homme> ◖D.pl◗
+-                       undýrne          : <un-dyrne, un-derne@révélé> ◖N.sg.masculin◗◗
+
+:ᴷ⁴ᵃ    Be0128         ❰þā [v]wæs {gp}æfter [D]wíste{/gp} | [N]wṓp ùp [v]āháfen,
+=                      alors, après le festin, de grandes lamentations montèrent haut
+-                       þā               : <ðā@alors>
+-                       þā               : <se, sē@ce, le, qui, …> ◖N.pl◗
+-                       wæs              : <wesan@être> ◖prétérit.3S◗
+-                       æfter            : <æfter@après>
+-                       wíste            : <wist@un festin> ◖D.sg◗
+-                       wṓp              : <wōp@une lamentation> ◖N.sg◗
+-                       ùp               : <up@vers le haut>
+-                       āháfen           : <ā-hebban@monter> ◖participe.passé◗
+
+:ᴷ⁴ᵃ    Be0129         [N]míċel [N]mórgenswḕġ. | ❰[N]Mǣ́re [N]þḗoden,
+=                      en ce matin{add}-là{/add}. L'illustre prince,
+-                       míċel            : <miċel@grand> ◖strong.N.sg.masculin◗
+-                       mórgenswḕġ       : <morgen-swēġ@un son du matin> ◖N.sg◗
+-                       Mǣ́re            : <mǣre@célèbre> ◖strong.N.sg.masculin◗
+-                       þḗoden           : <þēoden@un roi> ◖N.sg◗
+
+:ᴷ⁴ᵃ    Be0130         [N]ǽþeling ǣ́rgṑd, | únblī̀ðe sǽt,
+=                      ce noble {add}dont{/add} le temps {add}avait prouvé{/add} la valeur, s'assit, malheureux;
+-                       ǽþeling          : <æþeling@un noble> ◖N.sg◗
+-                       ǣ́rgṑd           : <ǣr-gōd@bon comme autrefois> ◖strong.N.sg.masculin◗
+-                       únblī̀ðe         : <un-blīðe@sans joie> ◖strong.N.sg.masculin◗
+-                       sǽt              : <sittan@s'asseoir> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0131         ❰[v]þólode [N]ðrȳ́ðswȳ̀ð, | [A]þéġnsòrge [v]drḗah,
+=                      il endura, lui le puissant, pour [add]ses guerriers de la souffrance,
+-                       þólode           : <þolian@souffrir> ◖prétérit.3S◗
+-                       ðrȳ́ðswȳ̀ð       : <ðrȳð-swȳð@puissant> ◖strong.N.sg.masculin◗
+-                       þéġnsòrge        : <þeġn-sorg@un souci pour un guerrier> ◖A.sg◗
+-                       drḗah            : <drēogan@supporter> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0132         ❰syðþan [N]hīe {G}þæs lā́ðan{/G} | [A]lā́st [v]scḗawèdon,
+=                      après qu'ils eurent examiné la trace de leur ennemi
+-                       syðþan           : <siððan@quand>
+-                       hīe              : <pronom personnel@je, tu, …> ◖3P.N.masc◗
+-                       þæs              : <se, sē@ce, le, qui, …> ◖G.sg.masculin◗
+-                       lā́ðan           : <lāð@ennemi> ◖weak.G.sg.masculin◗ xyz todo pourquoi weak ???
+-                       lā́st            : <lāst@une trace> ◖A.sg◗
+-                       scḗawèdon        : <scēwian@examiner> ◖prétérit.3P◗
+
+:ᴷ⁴ᵃ    Be0133         [G]wérġan [G]gā́stes; | ❰[v]wæs [N]þæt [N]ġewín tō [N]stráng,
+=                      du maudit démon; cet assaut avait été trop dur,
+-                       wérġan           : <werġa@maudit> ◖weak.G.sg.masculin◗
+-                       gā́stes          : <gāst, gǣst@un démon> ◖G.sg◗
+-                       wæs              : <wesan@être> ◖prétérit.3S◗
+-                       þæt              : <se, sē@ce, le, qui, …> ◖N.sg.neutre◗
+-                       ġewín            : <ġe-win(n)@un assaut> ◖N.sg◗
+-                       tō               : <tō@à>
+-                       stráng           : <strang@fort> ◖strong.N.sg.neutre◗
+
+:ᴷ⁴ᵃ    Be0134         lā́ð ond lóngsùm. | ❰Næs hit léngra fýrst,
+=                      haïssable et éreintant. Un temps plus long ne fut pas [add]nécessaire
+-                       lā́ð             : <lāð@ennemi> ◖strong.N.sg.neutre◗
+-                       ond              : <ond@et>
+-                       lóngsùm          : <long-sum@long> ◖strong.N.sg.neutre◗
+-                       Næs              : <næs@ne wæs>
+-                       ne               : <ne@ne… pas…>
+-                       wæs              : <wesan@être> ◖prétérit.3S◗
+-                       hit              : <pronom personnel@je, tu, …> ◖3S.N.neutre◗
+-                       léngra           : <long@long> ◖comparatif.N.sg◗
+-                       fýrst            : <fyrst@un espace de temps> ◖N.sg.masculin◗
+
+:ᴷ⁴ᵃ    Be0135         ❰ac {gp}ýmb [A]āne [A]níht{/gp} | éft [v]ġefrémede
+=                      et la nuit d'après il revint commettre
+-                       ac               : <ac@ne pas...mais>
+-                       ýmb              : <ymb(e)@autour de, près de>
+-                       āne              : <ān@un> ◖A.sg.féminin◗
+-                       níht             : <niht@une nuit> ◖A.sg◗
+-                       éft              : <eft@en retour>
+-                       ġefrémede        : <ġe-fremman@accomplir> ◖prétérit.3S◗
+
+:ᴷ⁴ᵃ    Be0136         [A]mórðbèala [v]mā́re | ond nō méarn fóre
+=                      un massacre [add]encore plus grand et n'en conçut aucun regret
+-                       mórðbèala        : <morð-bealu@un massacre> ◖A.sg◗
+-                       mā́re            : <miċel@grand> ◖comparatif.weak.A.sg.neutre◗
+-                       ond              : <ond@et>
+-                       nō               : <nō@aucunement>
+-                       méarn            : <murnan@s'affliger> ◖prétérit.3S◗
+-                       fóre             : <fore@pour ça>
+
+:ᴷ⁴ᵃ    Be0137         fǣ́hðe ond fýrene; | wæs tō fǽst on þā́m.
+=                      pour cette tuerie et ce crime : il était trop attaché à ce [add]manoir !
+-                       fǣ́hðe           : <fǣhð(o)@une hostilité> ◖D.sg◗
+-                       ond              : <ond@et>
+-                       fýrene           : <fyren, firen@une souffrance> ◖D.sg◗
+-                       wæs              : <wesan@être> ◖prétérit.3S◗
+-                       tō               : <tō@à>
+-                       fǽst             : <fæst@attaché> ◖N.sg◗
+-                       on               : <on@dans>
+-                       þā́m             : <se, sē@ce, le, qui, …> ◖D.sg◗
+
+
+
+
+
+
+
+# à propos de 164 cf Kendall.193
+
+# todo : générer un texte ᴷ⁴ᵃ⁻ (et son vocabulaire) à partir de ᴷ⁴ᵃ (ou de ᴷ⁴'ᵃ) sans les signes diacritiques
+
+# http://bosworth.ff.cuni.cz/
+# https://www.heorot.dk/beo-rede-f1.html
+# https://books.google.fr/books?id=9Ks8nj3BGEQC&pg=PA36&lpg=PA36&dq=him+on+fyrste+gelomp&source=bl&ots=MPqkBkfVm6&sig=ACfU3U0br8_s0F5SOaf9YO8bxGZBocHNTA&hl=fr&sa=X&ved=2ahUKEwi_1LmGqLvnAhWHEBQKHSKUBxcQ6AEwA3oECAcQAQ#v=onepage&q=him%20on%20fyrste%20gelomp&f=false
+# https://en.wikisource.org/wiki/Page:Beowulf_(Wyatt).djvu/28
+# http://www.oldenglishaerobics.net/beo.php?section=00#w0000018
+
+
+# þ̣ạ̄ṛạ
+# Ā́
+# Ġ
+# æ  a  e  i  o  u  y
+#
+# æ̈  ä  ë  ï  ö  ü  ÿ
+#
+# æ̣  ạ  ẹ  ị  ọ  ụ  ỵ
+#
+# ǣ  ā  ē  ī  ō  ū  ȳ
+#
+# ǽ  á  é  í  ó  ú  ý
+#
+# æ̀  à  è  ì  ò  ù  ỳ
+#
+# ǣ́  ā́  ḗ  ī́  ṓ  ū́  ȳ́
+#
+# ǣ̀  ā̀  ḕ  ī̀  ṑ  ū̀  ȳ̀
+#
+# ġþðċ
+
+# éa͡,
+
+# Á É Í Ó Ú Ý
+#           Ỳ
+
+++ finn.mus
