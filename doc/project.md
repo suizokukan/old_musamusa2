@@ -34,6 +34,7 @@ I] journal de bord
     (a) noter dans code conventions: * all classes have an improved_str() method using rich attributes
     (b) vérifier dans tous les modules utilisant pimydoc que le caractère spécial (0x...) est bien
         celui annoncé.
+    (c) préciser dans le TODO de musamusa_atext qu'un objet AnnotatedText doit être json'able (?)
 
 II] les étapes
 --------------
@@ -46,7 +47,6 @@ II] les étapes
     un fichier à part pour décrire ce(s) format(s) !
   - python3.8 > python3.9 partout
   - poetry
-  - [[musamusa;format=default;format version=2]]
   - --checkenv > cmd__checkenv()
     éviter la multiplication des .sh
   - nom des levels : de 0 à F (un seul caractère)
@@ -64,11 +64,11 @@ III] les modules
 -  musamusa_errors      | 0.8     |     -     | 10/10        | MusaMusaErrors-like objects
 -  musamusa_romannumbers| 0.0.8   |   6 /   6 | 10/10        | 156 <-> CLVI
 -  musamusa_textref     | 0.1.2   |  27 /  27 | 10/10        | "Beowulf.3a" ⊂ "Beowulf.3"
--  musamusa_etr         | 0.1.2   |  29 /  29 | 10/10        | Easy-To-Read text format file
--  musamusa_astring     | 0.0.6   |  66 /  66 | 10/10        | ("DRN.II.1", "{Ab}mari magno{/Ab}") -> AnnotatedText
+-  musamusa_etr         | 0.1.3   |  29 /  29 | 10/10        | Easy-To-Read text format file
+-  musamusa_atext       | 0.0.7   |  66 /  66 | 10/10        | ("DRN.II.1", "{Ab}mari magno{/Ab}") -> AnnotatedText
 +  musamusa_mustext     |         |           |              | ": DRN.II.1 {Ab}mari magno{/Ab}" <-> MusText
    =================================================================================================================
-   7 modules                        128 / 128 
+   7 modules prévus                 128 / 128 
    
 - if no logging, + if logging
 
