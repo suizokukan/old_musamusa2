@@ -3,6 +3,7 @@
 =============
 I] journal de bord
 II] les étapes
+III] les modules
 
 -------------------------------------------------------------------------------    
 
@@ -28,6 +29,12 @@ I] journal de bord
         
     Dès que ceci sera fait je pourrai passer au module musamusa_mustext.
 
+2021.05.01
+    Les 6 premiers modules sont prêts; je vais pouvoir passer au module musamusa_mustext.
+    (a) noter dans code conventions: * all classes have an improved_str() method using rich attributes
+    (b) vérifier dans tous les modules utilisant pimydoc que le caractère spécial (0x...) est bien
+        celui annoncé.
+
 II] les étapes
 --------------
 [stade 0] reprendre la base de code existante en la nettoyant:
@@ -49,7 +56,21 @@ II] les étapes
 - supprimer ce fichier, remettre à 0 zéro l'historique du projet, dépôt public
 
 
+III] les modules
 
+   module name          | version | tests     | code quality | description
+   ----------------------------------------------------------------------------------------------------------------
+-  musamusa_fal         | 0.0.4   |     -     | 10/10        | FileAndLine storage
+-  musamusa_errors      | 0.8     |     -     | 10/10        | MusaMusaErrors-like objects
+-  musamusa_romannumbers| 0.0.8   |   6 /   6 | 10/10        | 156 <-> CLVI
+-  musamusa_textref     | 0.1.2   |  27 /  27 | 10/10        | "Beowulf.3a" ⊂ "Beowulf.3"
+-  musamusa_etr         | 0.1.2   |  29 /  29 | 10/10        | Easy-To-Read text format file
+-  musamusa_astring     | 0.0.6   |  66 /  66 | 10/10        | ("DRN.II.1", "{Ab}mari magno{/Ab}") -> AnnotatedText
++  musamusa_mustext     |         |           |              | ": DRN.II.1 {Ab}mari magno{/Ab}" <-> MusText
+   =================================================================================================================
+   7 modules                        128 / 128 
+   
+- if no logging, + if logging
 
 *******************************************************************************
 # Qu'est-ce qui est commun aux projets musamusa*:
