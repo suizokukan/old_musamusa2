@@ -9,14 +9,27 @@ III] les modules
 
 I] journal de bord
 ------------------
+2021.05.02
+à faire:
+    (1) bug dans _atext; si on ajoute les chaînes Beo.1.a, Beo.1.b, Beo.2.a et Beo.2.b avec TextRefDefaultClass,
+       l'ordre ne sera pas le bon. Si on utilise la classe TextRefOEVerses, l'ordre est bon.
+    (2) Si l'on ajoute Beo.2.c à un AnnotedText utilisant TextRefOEVerses le message d'erreur obtenu
+       est peu clair parce qu'il faudrait un processus de validation acceptant dans les regex a-z et 
+       interdisant ensuite autre chose que a-b.
+    (3) noter dans code conventions: * all classes have an improved_str() method using rich attributes
+    (3') vérifier dans tous les modules utilisant pimydoc que le caractère spécial (0x...) est bien
+         celui annoncé.
+    (4) vérifier dans tous les README.md que tous les liens fonctionnent; ceci n'est pas vrai pour au moins
+        un module.
+    (5) préciser dans le TODO de musamusa_atext qu'un objet AnnotatedText doit être json'able (?)
 
-2021.02.21
-    Je reprends le projet à 0.
-    Le but premier est d'avoir une version en ligne capable de convertir un .mus
-    en console et en un fichier .html . Le reste est secondaire.
-    Dans un premier temps, sortir un version 0.0.1 basée sur du solide : poetry, rich,
-    logging.ini correct, documentation du .mus parfaite
-    
+2021.05.01
+    Les 6 premiers modules sont prêts; je vais pouvoir passer au module musamusa_mustext.
+    (a) noter dans code conventions: * all classes have an improved_str() method using rich attributes
+    (b) vérifier dans tous les modules utilisant pimydoc que le caractère spécial (0x...) est bien
+        celui annoncé.
+    (c) préciser dans le TODO de musamusa_atext qu'un objet AnnotatedText doit être json'able (?)
+
 2021.04.29
     Les progrès sont encourageants: les modules musamusa_fal, musamusa_errors, 
     musamusa_romanumbers, musamusa_etr, musamusa_textref sont fonctionnels.
@@ -29,12 +42,12 @@ I] journal de bord
         
     Dès que ceci sera fait je pourrai passer au module musamusa_mustext.
 
-2021.05.01
-    Les 6 premiers modules sont prêts; je vais pouvoir passer au module musamusa_mustext.
-    (a) noter dans code conventions: * all classes have an improved_str() method using rich attributes
-    (b) vérifier dans tous les modules utilisant pimydoc que le caractère spécial (0x...) est bien
-        celui annoncé.
-    (c) préciser dans le TODO de musamusa_atext qu'un objet AnnotatedText doit être json'able (?)
+2021.02.21
+    Je reprends le projet à 0.
+    Le but premier est d'avoir une version en ligne capable de convertir un .mus
+    en console et en un fichier .html . Le reste est secondaire.
+    Dans un premier temps, sortir un version 0.0.1 basée sur du solide : poetry, rich,
+    logging.ini correct, documentation du .mus parfaite        
 
 II] les étapes
 --------------
@@ -64,7 +77,7 @@ III] les modules
 -  musamusa_errors      | 0.8     |     -     | 10/10        | MusaMusaErrors-like objects
 -  musamusa_romannumbers| 0.0.8   |   6 /   6 | 10/10        | 156 <-> CLVI
 -  musamusa_textref     | 0.1.2   |  27 /  27 | 10/10        | "Beowulf.3a" ⊂ "Beowulf.3"
--  musamusa_etr         | 0.1.3   |  29 /  29 | 10/10        | Easy-To-Read text format file
+-  musamusa_etr         | 0.1.5   |  29 /  29 | 10/10        | Easy-To-Read text format file
 -  musamusa_atext       | 0.0.7   |  66 /  66 | 10/10        | ("DRN.II.1", "{Ab}mari magno{/Ab}") -> AnnotatedText
 +  musamusa_mustext     |         |           |              | ": DRN.II.1 {Ab}mari magno{/Ab}" <-> MusText
    =================================================================================================================
