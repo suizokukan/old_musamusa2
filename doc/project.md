@@ -5,10 +5,31 @@ I] journal de bord
 II] les étapes
 III] les modules
 
--------------------------------------------------------------------------------    
+-------------------------------------------------------------------------------
 
 I] journal de bord
 ------------------
+2021.08.02
+Je viens de réussir pour la première fois à import/exporter un objet AnnotatedText en utilisant la
+library Iaswn. Ca marche !
+
+à faire:
+    (1) bug dans _atext; si on ajoute les chaînes Beo.1.a, Beo.1.b, Beo.2.a et Beo.2.b avec TextRefDefaultClass,
+       l'ordre ne sera pas le bon. Si on utilise la classe TextRefOEVerses, l'ordre est bon.
+    (2) Si l'on ajoute Beo.2.c à un AnnotedText utilisant TextRefOEVerses le message d'erreur obtenu
+       est peu clair parce qu'il faudrait un processus de validation acceptant dans les regex a-z et 
+       interdisant ensuite autre chose que a-b.
+    (3) noter dans code conventions: * all classes have an improved_str() method using rich attributes
+    (3') vérifier dans tous les modules utilisant pimydoc que le caractère spécial (0x...) est bien
+         celui annoncé.
+    (4) vérifier dans tous les README.md que tous les liens fonctionnent; ceci n'est pas vrai pour au moins
+        un module.
+    (5) Iaswn : optimiser .l si la liste est vide.
+    (6) Iaswn : ce serait bien de pouvoir encoder n'import quel objet, pas seulement un class object.
+    (7) Iaswn : Que faire pour les \\\\\ qui apparaissent ?
+    (8) Iaswn : crypter + zipper.
+    (9) AnnotatedText(README.md) : pas de mention de JSON
+
 2021.05.02
 à faire:
     (1) bug dans _atext; si on ajoute les chaînes Beo.1.a, Beo.1.b, Beo.2.a et Beo.2.b avec TextRefDefaultClass,
@@ -73,17 +94,18 @@ III] les modules
 
    module name          | version | tests     | code quality | description
    ----------------------------------------------------------------------------------------------------------------
--  musamusa_fal         | 0.0.4   |     -     | 10/10        | FileAndLine storage
--  musamusa_errors      | 0.8     |     -     | 10/10        | MusaMusaErrors-like objects
--  musamusa_romannumbers| 0.0.8   |   6 /   6 | 10/10        | 156 <-> CLVI
--  musamusa_textref     | 0.1.2   |  27 /  27 | 10/10        | "Beowulf.3a" ⊂ "Beowulf.3"
--  musamusa_etr         | 0.1.5   |  29 /  29 | 10/10        | Easy-To-Read text format file
--  musamusa_atext       | 0.0.7   |  66 /  66 | 10/10        | ("DRN.II.1", "{Ab}mari magno{/Ab}") -> AnnotatedText
+-¹ musamusa_fal         | 0.1.4   |   1 /   1 | 10/10        | FileAndLine storage
+-¹ musamusa_errors      | 0.9.4   |   5 /   5 | 10/10        | MusaMusaErrors-like objects
+-  musamusa_romannumbers| 0.1.2   |   6 /   6 | 10/10        | 156 <-> CLVI
+-¹ musamusa_textref     | 0.2.1   |  37 /  37 | 10/10        | "Beowulf.3a" ⊂ "Beowulf.3"
+-  musamusa_etr         | 0.1.2   |  29 /  29 | 10/10        | Easy-To-Read text format file
+-¹ musamusa_atext       | 0.1.4   |  70 /  70 | 10/10        | ("DRN.II.1", "{Ab}mari magno{/Ab}") -> AnnotatedText
 +  musamusa_mustext     |         |           |              | ": DRN.II.1 {Ab}mari magno{/Ab}" <-> MusText
    =================================================================================================================
-   7 modules prévus                 128 / 128 
+   7 modules prévus                 148 / 148 
    
-- if no logging, + if logging
+- : if no logging, + if logging
+¹ : jsonable through Iaswn library
 
 *******************************************************************************
 # Qu'est-ce qui est commun aux projets musamusa*:
