@@ -9,6 +9,21 @@ III] les modules
 
 I] journal de bord
 ------------------
+2021.08.09
+-atext semble prêt, j'attaque maintenant la suite de MusTextFile.
+
+à faire:
+    (1) noter dans code conventions: * all classes have an improved_str() method using rich attributes
+    (1') vérifier dans tous les modules utilisant pimydoc que le caractère spécial (0x...) est bien
+         celui annoncé.
+    (2) vérifier dans tous les README.md que tous les liens fonctionnent; ceci n'est pas vrai pour au moins
+        un module.
+    (3) Iaswn : Que faire pour les \\\\\ qui apparaissent ?
+    (4) Iaswn : README.md
+    (5) AnnotatedText(README.md) : pas de mention de JSON
+    (6) rich obligatoire pour les modules musamusa-* (donc pas pour Iaswn); modifier en conséquence
+        les .improved_str() et les example.py
+
 2021.08.08
 J'ai bien améliorer Iaswn et les modules qui en dépendent en utilisent la dernière version. Objectif: bug (1) et (2) avant de poursuivre MusText (qui sera renommé MusTextFile).
 
